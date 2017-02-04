@@ -1,0 +1,1045 @@
+Pokemon;Nature;Item;Move 1;Move 2;Move 3;Move 4;EV Placement;;;;;
+Abomasnow;Impish;Leftovers;Frost Breath;Icy Wind;Leech Seed;Ingrain;HP;;Def;;SpD;
+;Lonely;Miracle Seed;Wood Hammer;Brick Break;Double Team;Blizzard;HP;Atk;;SpA;;
+;Quiet;Focus Sash;Blizzard;Sheer Cold;Focus Blast;Ice Shard;HP;;;SpA;;
+;Quiet;Abomasite;Blizzard;Focus Blast;Protect;Ice Shard;HP;;;SpA;;
+Absol;Careful;Sitrus Berry;Payback;Mean Look;Double Team;Baton Pass;HP;;Def;;SpD;
+;Adamant;Chople Berry;Sucker Punch;Magic Coat;Psycho Cut;Taunt;HP;Atk;;;;
+;Jolly;Focus Sash;Night Slash;Zen Headbutt;Sucker Punch;Play Rough;;Atk;;;;Spd
+;Jolly;Absolite;Sucker Punch;Megahorn;Play Rough;Stone Edge;;Atk;;;;Spd
+Accelgor;Hasty;Focus Sash;Encore;Bug Buzz;Giga Drain;Me First;;;;SpA;;Spd
+;Modest;Weakness Policy;Energy Ball;Sludge Bomb;Bug Buzz;Endure;;;;SpA;;Spd
+;Timid;Focus Sash;U-turn;Bug Buzz;Focus Blast;Final Gambit;HP;;;;;Spd
+;Timid;Focus Sash;Bug Buzz;Encore;Focus Blast;Protect;;;;SpA;;Spd
+Aerodactyl;Jolly;Choice Scarf;Rock Slide;;;;;Atk;;;;Spd
+;Naive;Passho Berry;Crunch;Rock Slide;Roost;Sky Drop;;Atk;;;;Spd
+;Adamant;Aerodactylite;Sky Drop;Iron Head;Fire Fang;Thunder Fang;HP;Atk;;;;
+;Jolly;Choice Band;Stone Edge;Aerial Ace;Earthquake;Crunch;;Atk;;;;Spd
+Aggron;Impish;Focus Sash;Protect;Roar;Stealth Rock;Metal Burst;HP;;;;SpD;
+;Quiet;King's Rock;Surf;Flash Cannon;Focus Blast;Round;;;Def;SpA;;
+;Adamant;Aggronite;Heavy Slam;Dragon Rush;Thunder Wave;Stone Edge;HP;Atk;;;;
+;Brave;Shuca Berry;Metal Burst;Taunt;Earthquake;Shadow Claw;;Atk;;;SpD;
+Alakazam;Timid;Twisted Spoon;Energy Ball;Psychic;Telekinesis;Guard Split;;;;SpA;;Spd
+;Timid;Focus Sash;Psych Up;Encore;Protect;Psychic;;;;SpA;;Spd
+;Timid;Alakazite;Psychic;Focus Blast;Shadow Ball;Grass Knot;;;;SpA;;Spd
+;Timid;Choice Specs;Psychic;Focus Blast;Dazzling Gleam;Trick;;;;SpA;;Spd
+Altaria;Calm;Sitrus Berry;Flamethrower;Cotton Guard;Dragon Pulse;Roost;HP;;;;SpD;
+;Lonely;Snowball;Dragon Claw;Pluck;Steel Wing;Dragon Dance;;Atk;;;;Spd
+;Jolly;Altarianite;Dragon Dance;Dragon Rush;Giga Impact;Earthquake;;Atk;;;;Spd
+;Calm;Wide Lens;Cotton Guard;Sing;Moonblast;Dream Eater;HP;;;;SpD;
+Ambipom;Naive;King's Rock;Fake Out;Fling;Thief;U-turn;;Atk;;;;Spd
+;Timid;Focus Sash;Grass Knot;Thunderbolt;Nasty Plot;Counter;;;;SpA;;Spd
+;Jolly;Life Orb;Fake Out;Double Hit;Payback;Brick Break;;Atk;;;;Spd
+;Jolly;King's Rock;Fling;Taunt;Return;Payback;;Atk;;;;Spd
+Amoonguss;Calm;Petaya Berry;Energy Ball;Venoshock;Toxic;Confide;;;;SpA;SpD;
+;Bold;Bright Powder;Double Team;Giga Drain;Toxic;Swagger;;;Def;;SpD;
+;Relaxed;Rocky Helmet;Rage Powder;Spore;Giga Drain;Sludge Bomb;HP;;Def;;;
+;Calm;Black Sludge;Giga Drain;Spore;Clear Smog;Synthesis;HP;;;;SpD;
+Ampharos;Mild;Shuca Berry;Power Gem;Thunder Wave;Discharge;Charge Beam;HP;;;SpA;SpD;
+;Brave;Lum Berry;Brick Break;Thunder Punch;Screech;Odor Sleuth;HP;Atk;Def;;;
+;Modest;Chesto Berry;Thunder Wave;Charge Beam;Hyper Beam;Rest;HP;;;SpA;;
+;Quiet;Ampharosite;Thunder;Focus Blast;Dragon Pulse;Confuse Ray;HP;;;SpA;;
+Araquanid;Relaxed;Bright Powder;Double Team;Toxic;Stockpile;Aqua Ring;HP;;Def;;;
+;Relaxed;Sitrus Berry;Mirror Coat;Leech Life;Blizzard;Scald;HP;;Def;;;
+;Impish;Leftovers;Lunge;Liquidation;Crunch;Stockpile;HP;;Def;;;
+;Careful;Leftovers;Lunge;Liquidation;Poison Jab;Protect;HP;;;;SpD;
+Arcanine;Modest;Firium Z;Flamethrower;Solar Beam;Burn Up;Sunny Day;;;;SpA;;Spd
+;Naughty;Weakness Policy;Extreme Speed;Crunch;Overheat;Roar;;Atk;;;;Spd
+;Timid;White Herb;Overheat;Sunny Day;Solar Beam;Extreme Speed;;;;SpA;;Spd
+;Jolly;Fightinium Z;Close Combat;Flare Blitz;Crunch;Extreme Speed;;Atk;;;;Spd
+Archeops;Jolly;Sitrus Berry;Quick Attack;Acrobatics;Crunch;U-turn;;Atk;;;;Spd
+;Mild;Enigma Berry;Earthquake;Earth Power;Endeavor;Ancient Power;;;;SpA;;Spd
+;Jolly;Choice Band;Aerial Ace;Earthquake;Head Smash;U-turn;;Atk;;;;Spd
+;Jolly;Sitrus Berry;Rock Slide;Earthquake;Aerial Ace;Protect;;Atk;;;;Spd
+Armaldo;Brave;Chesto Berry;X-Scissor;Rock Blast;Rest;Curse;HP;;;;SpD;
+;Hasty;Razor Fang;Rock Slide;Earthquake;X-Scissor;Rock Polish;HP;;;;;Spd
+;Adamant;Life Orb;X-Scissor;Rock Slide;Earthquake;Iron Defense;HP;;;;SpD;
+;Adamant;Choice Band;Cross Poison;Stone Edge;Earthquake;X-Scissor;HP;Atk;;;;
+Aromatisse;Calm;Lax Incense;Charm;Sweet Kiss;Attract;Draining Kiss;HP;;;;SpD;
+;Calm;Assault Vest;Round;Psychic;Energy Ball;Dazzling Gleam;;;;SpA;SpD;
+;Modest;Expert Belt;Flash Cannon;Thunder;Psyshock;Moonblast;;;;SpA;SpD;
+;Sassy;Leftovers;Aromatic Mist;Dazzling Gleam;Heal Pulse;Trick Room;HP;;;;SpD;
+Articuno;Modest;Icy Rock;Hail;Blizzard;Fly;Roost;HP;;;SpA;;
+;Bold;Lum Berry;Sheer Cold;Mind Reader;Ice Shard;Ice Beam;HP;;;;SpD;
+;Jolly;Charti Berry;Frost Breath;Reflect;Steel Wing;U-turn;;Atk;;;;Spd
+;Modest;Leftovers;Tailwind;Blizzard;Sky Drop;Protect;;;;SpA;;Spd
+Audino;Bold;Leftovers;Heal Pulse;Toxic;Thunder Wave;Draining Kiss;HP;;Def;;;
+;Modest;Choice Specs;Hyper Voice;Thunder;Blizzard;Fire Blast;;;Def;SpA;;
+;Bold;Audinite;Flamethrower;Healing Wish;Calm Mind;Draining Kiss;;;Def;SpA;;
+;Modest;Firium Z;Yawn;Hyper Voice;Trick Room;Fire Blast;;;Def;SpA;;
+Aurorus;Calm;Sitrus Berry;Substitute;Thunder Wave;Round;Thunderbolt;HP;;;;SpD;
+;Calm;Leftovers;Ancient Power;Hail;Sandstorm;Freeze-Dry;HP;;;;SpD;
+;Adamant;Expert Belt;Giga Impact;Earthquake;Stone Edge;Frost Breath;;Atk;;;SpD;
+;Modest;Life Orb;Hyper Beam;Flash Cannon;Thunder;Psychic;;;;SpA;SpD;
+Avalugg;Relaxed;Leftovers;Avalanche;Confide;Protect;Toxic;HP;;Def;;;
+;Careful;Apicot Berry;Rest;Curse;Frost Breath;Skull Bash;;;Def;;SpD;
+;Bold;Icy Rock;Hail;Blizzard;Recover;Flash Cannon;;;Def;;SpD;
+;Brave;Iron Ball;Stone Edge;Avalanche;Gyro Ball;Earthquake;;Atk;Def;;;
+Azelf;Adamant;Weakness Policy;Explosion;Payback;Acrobatics;Rest;HP;Atk;;;;
+;Naive;Electrium Z;Charge Beam;Extrasensory;Thunder Wave;Grass Knot;;;;SpA;;Spd
+;Timid;Focus Sash;Nasty Plot;Psyshock;Energy Ball;Thunderbolt;;;;SpA;;Spd
+;Timid;Expert Belt;Psychic;Fire Blast;Thunder;Shadow Ball;;;;SpA;;Spd
+Banette;Adamant;Muscle Band;Knock Off;Shadow Claw;Curse;Pursuit;HP;Atk;;;;
+;Modest;Fairium Z;Dazzling Gleam;Snatch;Dark Pulse;Ominous Wind;HP;;;SpA;;
+;Adamant;Banettite;Gunk Shot;Shadow Sneak;Will-O-Wisp;Destiny Bond;HP;Atk;;;;
+;Impish;Banettite;Shadow Claw;Will-O-Wisp;Sucker Punch;Gunk Shot;HP;;Def;;;
+Barbaracle;Adamant;Bright Powder;Stone Edge;Razor Shell;Shell Smash;Double Team;;Atk;;;;Spd
+;Modest;Wise Glasses;Ancient Power;Blizzard;Surf;Focus Blast;;;Def;SpA;;
+;Adamant;Expert Belt;Dragon Claw;Earthquake;X-Scissor;Night Slash;;Atk;Def;;;
+;Adamant;Razor Claw;Stone Edge;Razor Shell;Cross Chop;Shadow Claw;;Atk;Def;;;
+Bastiodon;Careful;Enigma Berry;Iron Head;Taunt;Wide Guard;Metal Burst;HP;Atk;;;;
+;Bold;Chesto Berry;Round;Rest;Ancient Power;Iron Defense;;;Def;SpA;;
+;Careful;Leftovers;Stone Edge;Fissure;Double Team;Iron Defense;HP;;;;SpD;
+;Brave;Sitrus Berry;Metal Burst;Rock Slide;Wide Guard;Curse;HP;Atk;;;;
+Beartic;Brave;Sitrus Berry;Shadow Claw;Stone Edge;Avalanche;Bulk Up;;Atk;;;SpD;
+;Rash;Lax Incense;Hail;Icy Wind;Grass Knot;Blizzard;HP;;;SpA;;
+;Adamant;Sitrus Berry;Swords Dance;Avalanche;Rock Slide;Brick Break;;Atk;Def;;;
+;Jolly;Icium Z;Icy Wind;Icicle Crash;Rock Slide;Brick Break;;Atk;;;;Spd
+Beedrill;Adamant;Expert Belt;Poison Jab;Pursuit;Fell Stinger;Toxic;;Atk;;;;Spd
+;Calm;Occa Berry;Infestation;Protect;Attract;Toxic;HP;;;;SpD;
+;Jolly;Beedrillite;Poison Jab;U-turn;Brick Break;X-Scissor;;Atk;;;;Spd
+;Adamant;Beedrillite;Poison Jab;Pin Missile;Brick Break;Protect;;Atk;;;;Spd
+Bewear;Sassy;Persim Berry;Thrash;Brutal Swing;Low Sweep;Wide Guard;;Atk;;;SpD;
+;Careful;Chesto Berry;Bulk Up;Rest;Force Palm;Payback;HP;;;;SpD;
+;Brave;Quick Claw;Hammer Arm;Ice Punch;Thunder Punch;Swords Dance;HP;Atk;;;;
+;Adamant;Normalium Z;Giga Impact;Hammer Arm;Payback;Earthquake;HP;Atk;;;;
+Bisharp;Lax;Sitrus Berry;Night Slash;Metal Claw;Taunt;Metal Burst;HP;;Def;;;
+;Adamant;Chople Berry;Aerial Ace;Low Sweep;Iron Head;Scary Face;HP;Atk;;;;
+;Jolly;Chople Berry;Iron Head;Night Slash;Low Sweep;Sucker Punch;;Atk;;;;Spd
+;Adamant;Focus Sash;Taunt;Sucker Punch;Metal Burst;Iron Head;HP;Atk;;;;
+Blastoise;Quiet;Zoom Lens;Aqua Ring;Rock Slide;Aqua Tail;Iron Defense;HP;;Def;;SpD;
+;Quiet;Blastoisinite;Water Pulse;Aura Sphere;Dark Pulse;Dragon Pulse;HP;;;SpA;;
+;Adamant;Leftovers;Fake Out;Earthquake;Aqua Tail;Rock Slide;HP;Atk;;;;
+;Modest;Custap Berry;Yawn;Hydro Pump;Blizzard;Dark Pulse;HP;;;SpA;;
+Blaziken;Naughty;Salac Berry;High Jump Kick;Counter;Flamethrower;Will-O-Wisp;HP;;Def;;;Spd
+;Adamant;Salac Berry;Blaze Kick;Flame Charge;Endure;Reversal;HP;Atk;;;;Spd
+;Jolly;Choice Band;Flare Blitz;Shadow Claw;High Jump Kick;Earthquake;;Atk;;;;Spd
+;Adamant;Blazikenite;Night Slash;Flare Blitz;Stone Edge;Brave Bird;;Atk;;;;Spd
+Blissey;Calm;Leftovers;Attract;Round;Heal Pulse;Aromatherapy;;;Def;;SpD;
+;Modest;Custap Berry;Charge Beam;Shadow Ball;Grass Knot;Thunder Wave;;;Def;SpA;;
+;Bold;Leftovers;Thunderbolt;Ice Beam;Counter;Calm Mind;HP;;Def;;;
+;Bold;Chople Berry;Toxic;Minimize;Mud Bomb;Soft-Boiled;;;Def;;SpD;
+Bouffalant;Adamant;Silk Scarf;Head Charge;Pursuit;Scary Face;Aerial Ace;HP;Atk;;;;
+;Brave;Chople Berry;Pursuit;Revenge;Head Charge;Swagger;HP;Atk;;;;
+;Adamant;Sitrus Berry;Swords Dance;Earthquake;Head Charge;Payback;HP;Atk;;;;
+;Adamant;Life Orb;Earthquake;Head Charge;Payback;Protect;HP;Atk;;;;
+Braviary;Adamant;King's Rock;Rock Slide;Air Slash;Tailwind;Sky Drop;;Atk;Def;;SpD;
+;Naughty;Persim Berry;Thrash;Bulk Up;Superpower;U-turn;;Atk;;;;Spd
+;Adamant;Choice Scarf;Brave Bird;Return;U-turn;Rock Slide;;Atk;;;;Spd
+;Adamant;Wacan Berry;Brave Bird;Tailwind;Superpower;Giga Impact;;Atk;;;;Spd
+Breloom;Brave;Fightinium Z;Fake Tears;Helping Hand;Mach Punch;Stun Spore;HP;Atk;;;;
+;Jolly;Toxic Orb;Substitute;Seed Bomb;Wake-Up Slap;Spore;;Atk;;;;Spd
+;Jolly;Focus Sash;Spore;Focus Punch;Rock Slide;Seed Bomb;;Atk;;;;Spd
+;Careful;Toxic Orb;Protect;Leech Seed;Substitute;Focus Punch;HP;;Def;;SpD;
+Bronzong;Impish;Sitrus Berry;Hypnosis;Rain Dance;Gyro Ball;Trick Room;HP;;Def;;SpD;
+;Quiet;Damp Rock;Rain Dance;Light Screen;Charge Beam;Grass Knot;HP;;;SpA;;
+;Adamant;Quick Claw;Rock Slide;Gyro Ball;Earthquake;Explosion;HP;Atk;;;;
+;Brave;Steelium Z;Safeguard;Rock Slide;Gyro Ball;Trick Room;HP;Atk;;;;
+Bruxish;Modest;Wacan Berry;Psychic;Scald;Blizzard;Disable;HP;;;SpA;;
+;Brave;Normalium Z;Aqua Jet;Screech;Confide;Facade;HP;Atk;;;;
+;Jolly;Waterium Z;Psychic Fangs;Aqua Jet;Ice Fang;Rain Dance;;Atk;;;;Spd
+;Adamant;Expert Belt;Psychic Fangs;Ice Fang;Aqua Jet;Crunch;HP;Atk;;;;
+Camerupt;Lonely;Passho Berry;Yawn;Flamethrower;Earthquake;Stone Edge;HP;Atk;;;;
+;Timid;Firium Z;Sunny Day;Solar Beam;Eruption;Flash Cannon;HP;;;;;Spd
+;Quiet;Cameruptite;Earth Power;Ancient Power;Fire Blast;Will-O-Wisp;HP;;;SpA;;
+;Quiet;Cameruptite;Earth Power;Heat Wave;Flash Cannon;Protect;HP;;;SpA;;
+Carbink;Calm;Light Clay;Reflect;Light Screen;Safeguard;Dazzling Gleam;;;Def;;SpD;
+;Bold;Smooth Rock;Toxic;Protect;Sandstorm;Power Gem;;;Def;;SpD;
+;Quiet;Iron Ball;Trick Room;Gyro Ball;Dazzling Gleam;Power Gem;;;;SpA;SpD;
+;Quiet;Scope Lens;Explosion;Psychic;Moonblast;Power Gem;;Atk;;SpA;;
+Carracosta;Naughty;Sitrus Berry;Aqua Tail;Rock Slide;Shell Smash;Iron Defense;HP;Atk;;;;
+;Rash;Wide Lens;Rock Slide;Swagger;Blizzard;Hydro Pump;HP;;;SpA;;
+;Adamant;Damp Rock;Rain Dance;Waterfall;Rock Slide;Earthquake;;Atk;;;;Spd
+;Adamant;Weakness Policy;Waterfall;Rock Slide;Aqua Jet;Earthquake;;Atk;;;;Spd
+Chandelure;Modest;Spell Tag;Flamethrower;Confuse Ray;Will-O-Wisp;Hex;HP;;;SpA;;Spd
+;Timid;Chesto Berry;Energy Ball;Rest;Heat Wave;Will-O-Wisp;HP;;;;;Spd
+;Modest;White Herb;Overheat;Shadow Ball;Protect;Will-O-Wisp;HP;;;SpA;;
+;Bold;Leftovers;Calm Mind;Will-O-Wisp;Shadow Ball;Heat Wave;HP;;;;SpD;
+Charizard;Careful;Salac Berry;Dragon Claw;Fire Fang;Belly Drum;Shadow Claw;HP;;;;SpD;Spd
+;Adamant;Charti Berry;Dragon Claw;Shadow Claw;Rock Slide;Dragon Dance;;Atk;;;;Spd
+;Timid;Charizardite Y;Heat Wave;Solar Beam;Air Slash;Focus Blast;;;;SpA;;Spd
+;Jolly;Charizardite X;Dragon Rush;Flare Blitz;Dragon Dance;Rock Slide;;Atk;;;;Spd
+Chesnaught;Adamant;Leftovers;Taunt;Spiky Shield;Feint;Wood Hammer;;Atk;Def;;;
+;Adamant;Expert Belt;Dragon Claw;Seed Bomb;Earthquake;Brick Break;;Atk;Def;;;
+;Modest;Life Orb;Focus Blast;Energy Ball;Sludge Bomb;Round;;;Def;SpA;;
+;Adamant;White Herb;Wood Hammer;Hammer Arm;Earthquake;Stone Edge;;Atk;Def;;;
+Clawitzer;Calm;Bright Powder;Heal Pulse;Muddy Water;Double Team;Confide;;;Def;;SpD;
+;Modest;Petaya Berry;Flash Cannon;Scald;Sludge Wave;Round;;;;SpA;SpD;
+;Jolly;Focus Sash;Crabhammer;Return;U-turn;Flail;;Atk;;;;Spd
+;Modest;Choice Specs;Water Pulse;Dark Pulse;Dragon Pulse;Aura Sphere;;;;SpA;;Spd
+Cobalion;Bold;Chesto Berry;Focus Blast;Flash Cannon;Calm Mind;Rest;HP;;;;SpD;
+;Brave;Maranga Berry;Metal Burst;Sacred Sword;Quick Attack;Iron Head;HP;Atk;;;;
+;Jolly;Lax Incense;Swagger;Substitute;Psych Up;Iron Head;;Atk;;;;Spd
+;Jolly;Life Orb;Iron Head;Close Combat;Quick Guard;Protect;;Atk;;;;Spd
+Cofagrigus;Sassy;Chesto Berry;Night Shade;Will-O-Wisp;Mean Look;Rest;HP;;;;SpD;
+;Quiet;Spell Tag;Shadow Ball;Energy Ball;Will-O-Wisp;Nasty Plot;HP;;;SpA;;
+;Quiet;Maranga Berry;Will-O-Wisp;Shadow Ball;Destiny Bond;Trick Room;HP;;;SpA;;
+;Bold;Leftovers;Will-O-Wisp;Toxic;Hex;Calm Mind;HP;;;;SpD;
+Comfey;Modest;Petaya Berry;Energy Ball;Flower Shield;Dazzling Gleam;Endure;HP;;;SpA;;
+;Adamant;Muscle Band;U-turn;Play Rough;Petal Dance;Acrobatics;;Atk;;;;Spd
+;Timid;Grassium Z;Dazzling Gleam;Petal Blizzard;Grassy Terrain;Floral Healing;;;;SpA;;Spd
+;Calm;Big Root;Draining Kiss;Calm Mind;Sweet Kiss;Leech Seed;HP;;;;SpD;
+Conkeldurr;Bold;Black Belt;Rock Slide;Force Palm;Smelling Salts;Bulk Up;HP;;Def;;SpD;
+;Brave;Iron Ball;Mach Punch;Hammer Arm;Bulk Up;Fling;;Atk;;;SpD;
+;Adamant;Sitrus Berry;Bulk Up;Drain Punch;Payback;Stone Edge;;Atk;;;SpD;
+;Brave;Iron Ball;Fling;Rock Slide;Superpower;Mach Punch;;Atk;;;SpD;
+Crabominable;Adamant;Expert Belt;Superpower;Ice Punch;Payback;Rock Slide;;Atk;;;SpD;
+;Relaxed;Chesto Berry;Rest;Iron Defense;Ice Hammer;Dynamic Punch;HP;;Def;;;
+;Careful;Sitrus Berry;Close Combat;Ice Hammer;Stone Edge;Earthquake;HP;Atk;;;;
+;Impish;Weakness Policy;Close Combat;Ice Hammer;Rock Slide;Protect;;Atk;Def;;;
+Cradily;Bold;Tanga Berry;Round;Gastro Acid;Stockpile;Swallow;;;Def;;SpD;
+;Brave;Quick Claw;Confuse Ray;Energy Ball;Stone Edge;Earthquake;HP;Atk;;SpA;;
+;Relaxed;Leftovers;Sandstorm;Toxic;Protect;Earthquake;HP;;Def;;;
+;Sassy;Big Root;Stockpile;Protect;Ingrain;Giga Drain;HP;;Def;;;
+Cresselia;Bold;Chesto Berry;Calm Mind;Psychic;Shadow Ball;Rest;HP;;Def;;;
+;Bold;Leftovers;Double Team;Moonlight;Toxic;Protect;HP;;;;SpD;
+;Bold;Lum Berry;Future Sight;Moonlight;Double Team;Swagger;HP;;;;SpD;
+;Quiet;Iron Ball;Psychic;Shadow Ball;Moonblast;Trick Room;;;Def;SpA;;
+Crobat;Jolly;Charti Berry;Cross Poison;X-Scissor;Hypnosis;U-turn;;Atk;;;;Spd
+;Timid;Sharp Beak;Air Slash;Shadow Ball;Confuse Ray;Nasty Plot;;;;SpA;;Spd
+;Jolly;Razor Claw;Cross Poison;Brave Bird;Zen Headbutt;X-Scissor;;Atk;;;;Spd
+;Jolly;Wide Lens;Hypnosis;Aerial Ace;Cross Poison;Taunt;;Atk;;;;Spd
+Darmanitan;Naive;Firium Z;Fire Punch;Psychic;Protect;Will-O-Wisp;HP;;;;;Spd
+;Calm;Luminous Moss;Psychic;Flamethrower;Round;Confide;HP;;;;SpD;
+;Sassy;Assault Vest;Psychic;Earthquake;Flare Blitz;Overheat;;;Def;;SpD;
+;Impish;Choice Scarf;Flare Blitz;Stone Edge;U-turn;Superpower;;Atk;;;;Spd
+Decidueye;Naive;Flyinium Z;Brave Bird;Feather Dance;Ominous Wind;Defog;HP;Atk;;;;Spd
+;Calm;Sitrus Berry;Curse;Confuse Ray;Roost;Energy Ball;HP;;;;SpD;
+;Adamant;Life Orb;Spirit Shackle;Leaf Blade;Sucker Punch;Smack Down;;Atk;;;;Spd
+;Modest;Bright Powder;Nasty Plot;Shadow Ball;Grass Knot;Baton Pass;HP;;;SpA;;
+Delphox;Timid;Petaya Berry;Confide;Psychic;Flamethrower;Round;;;;SpA;;Spd
+;Modest;Flame Orb;Role Play;Switcheroo;Mystical Fire;Shadow Ball;;;;SpA;;Spd
+;Timid;Heat Rock;Sunny Day;Solar Beam;Fire Blast;Psychic;;;;SpA;;Spd
+;Modest;White Herb;Overheat;Psychic;Shadow Ball;Psyshock;;;;SpA;;Spd
+Dhelmise;Brave;Float Stone;Heavy Slam;Shadow Claw;Switcheroo;Energy Ball;HP;Atk;;SpA;;
+;Modest;Steelium Z;Metal Sound;Flash Cannon;Energy Ball;Shadow Ball;HP;;;SpA;;
+;Adamant;Expert Belt;Gyro Ball;Phantom Force;Rock Slide;Brick Break;HP;Atk;;;;
+;Relaxed;Leftovers;Anchor Shot;Phantom Force;Protect;Giga Drain;HP;;Def;;;
+Dragonite;Impish;Custap Berry;Toxic;Thunder Wave;Roost;Rock Slide;HP;;Def;;SpD;
+;Mild;Salac Berry;Dragon Pulse;Ice Beam;Thunderbolt;Safeguard;;;;SpA;;Spd
+;Adamant;Choice Band;Outrage;Earthquake;Giga Impact;Superpower;;Atk;;;SpD;
+;Adamant;Snowball;Dragon Rush;Iron Tail;Extreme Speed;Fire Punch;;Atk;;;;Spd
+Drampa;Lax;Shell Bell;Thunderbolt;Flamethrower;Surf;Dragon Pulse;HP;;Def;;;
+;Bold;Sitrus Berry;Roost;Snarl;Play Nice;Dragon Breath;HP;;Def;;;
+;Modest;Quick Claw;Hyper Voice;Dragon Pulse;Fire Blast;Roost;HP;;;SpA;;
+;Timid;Dragonium Z;Draco Meteor;Focus Blast;Hurricane;Glare;;;;SpA;;Spd
+Drapion;Bold;Scope Lens;Night Slash;Taunt;Toxic Spikes;X-Scissor;HP;;Def;;;
+;Naive;Shuca Berry;Cross Poison;Crunch;Scary Face;Screech;;Atk;;;;Spd
+;Jolly;Scope Lens;Cross Poison;Night Slash;Fire Fang;Earthquake;;Atk;;;;Spd
+;Careful;Razor Claw;Cross Poison;Night Slash;Earthquake;Swords Dance;HP;Atk;;;;
+Drifblim;Bold;Salac Berry;Calm Mind;Stockpile;Ominous Wind;Baton Pass;;;Def;;SpD;
+;Mild;Wide Lens;Hex;Thunderbolt;Dream Eater;Hypnosis;;;;SpA;;Spd
+;Timid;Ghostium Z;Shadow Ball;Thunderbolt;Tailwind;Destiny Bond;;;Def;;;Spd
+;Bold;Custap Berry;Shadow Ball;Thunderbolt;Hypnosis;Destiny Bond;;;;;SpD;Spd
+Druddigon;Impish;Roseli Berry;Crunch;Scary Face;Glare;Dragon Tail;;Atk;Def;;;
+;Adamant;Scope Lens;Dragon Claw;Night Slash;Slash;Hone Claws;HP;;Def;;SpD;
+;Adamant;Quick Claw;Crunch;Dragon Claw;Earthquake;Rock Slide;HP;Atk;;;;
+;Adamant;Choice Band;Outrage;Earthquake;Superpower;Dragon Tail;HP;Atk;;;;
+Dugtrio (Alola Form);Hasty;Expert Belt;Dig;Rock Slide;Iron Head;Sandstorm;;Atk;;;;Spd
+;Jolly;Choice Band;Earthquake;Night Slash;Iron Head;Stone Edge;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Dugtrio;Naive;Passho Berry;Sand Attack;Pursuit;Tri Attack;Dig;HP;;;;;Spd
+;Timid;Bright Powder;Fissure;Toxic;Substitute;Sandstorm;HP;;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Durant;Naive;Sitrus Berry;Crunch;Dig;Bug Bite;Metal Sound;HP;Atk;;;;Spd
+;Impish;Power Herb;Dig;Iron Defense;Agility;Baton Pass;;;Def;;;Spd
+;Jolly;Occa Berry;X-Scissor;Iron Head;Rock Slide;Shadow Claw;;Atk;;;;Spd
+;Jolly;Focus Sash;Entrainment;X-Scissor;Iron Head;Protect;HP;;;;;Spd
+Dusknoir;Bold;Leftovers;Disable;Will-O-Wisp;Pain Split;Mean Look;HP;;Def;;;
+;Brave;Iron Ball;Shadow Sneak;Fire Punch;Fling;Trick Room;HP;Atk;;;;
+;Sassy;Leftovers;Toxic;Will-O-Wisp;Protect;Double Team;HP;;;;SpD;
+;Relaxed;Ghostium Z;Shadow Sneak;Pain Split;Destiny Bond;Trick Room;HP;;;;SpD;
+Eelektross;Quiet;Magnet;Discharge;Gastro Acid;Thunderbolt;Thunder Wave;HP;;;SpA;;
+;Naughty;Expert Belt;Crunch;Wild Charge;Brick Break;Coil;HP;Atk;;;;
+;Brave;Assault Vest;Brick Break;U-turn;Grass Knot;Wild Charge;HP;Atk;;;;
+;Bold;Leftovers;Charge Beam;Grass Knot;Flamethrower;Protect;HP;;;;SpD;
+Electivire;Naive;Bright Powder;Thunder Wave;Focus Punch;Rock Slide;Fire Punch;;Atk;;;;Spd
+;Impish;Electric Seed;Electric Terrain;Hammer Arm;Thunder Punch;Bulldoze;HP;;Def;;;
+;Modest;Expert Belt;Thunder;Focus Blast;Flamethrower;Psychic;HP;;;SpA;;
+;Adamant;Shuca Berry;Wild Charge;Feint;Ice Punch;Cross Chop;HP;Atk;;;;
+Electrode;Calm;Shuca Berry;Swagger;Light Screen;Charge Beam;Thunder Wave;HP;;;;SpD;
+;Hasty;Focus Sash;Electro Ball;Taunt;Protect;Explosion;;Atk;;;;Spd
+;Timid;Air Balloon;Thunderbolt;Mirror Coat;Thief;Protect;;;;SpA;;Spd
+;Timid;Damp Rock;Rain Dance;Thunder;Taunt;Light Screen;;;;SpA;;Spd
+Emboar;Careful;Chesto Berry;Gyro Ball;Curse;Rest;Sleep Talk;HP;;;;SpD;
+;Brave;Quick Claw;Yawn;Wild Charge;Bulldoze;Heat Crash;;Atk;Def;;SpD;
+;Adamant;Quick Claw;Flare Blitz;Brick Break;Flame Charge;Earthquake;;Atk;Def;;SpD;
+;Timid;Salac Berry;Substitute;Flamethrower;Focus Blast;Scald;;;;SpA;;Spd
+Empoleon;Lax;Sitrus Berry;Yawn;Swords Dance;Aqua Jet;Metal Claw;HP;;Def;;;
+;Lonely;Muscle Band;Drill Peck;Aqua Jet;Metal Claw;Feather Dance;HP;Atk;;;SpD;
+;Quiet;Icium Z;Surf;Ice Beam;Mist;Icy Wind;HP;;;SpA;;
+;Calm;Petaya Berry;Surf;Substitute;Blizzard;Whirlpool;HP;;;SpA;;
+Entei;Lonely;Focus Sash;Overheat;Flame Charge;Fire Fang;Stone Edge;;Atk;;;;Spd
+;Bold;Chesto Berry;Calm Mind;Will-O-Wisp;Flamethrower;Rest;HP;;Def;;SpD;
+;Timid;Choice Scarf;Eruption;Fire Blast;Extrasensory;Solar Beam;;;;SpA;;Spd
+;Adamant;Life Orb;Sacred Fire;Bulldoze;Stone Edge;Protect;HP;Atk;;;;
+Escavalier;Brave;Liechi Berry;Megahorn;Quick Guard;Swords Dance;Reversal;HP;Atk;;;;
+;Naughty;Quick Claw;Pursuit;Counter;X-Scissor;Swords Dance;HP;Atk;;;;
+;Brave;Life Orb;Megahorn;Iron Defense;Poison Jab;Iron Head;HP;Atk;;;;
+;Adamant;Custap Berry;Megahorn;Iron Head;Swagger;Reversal;HP;Atk;;;;
+Espeon;Naive;Focus Sash;Yawn;Dream Eater;Calm Mind;Protect;;;;SpA;;Spd
+;Timid;Kasib Berry;Psyshock;Grass Knot;Dazzling Gleam;Charm;HP;;;;;Spd
+;Modest;Lum Berry;Psychic;Shadow Ball;Hyper Beam;Grass Knot;HP;;;SpA;;Spd
+;Timid;Expert Belt;Psychic;Shadow Ball;Grass Knot;Dazzling Gleam;HP;;;SpA;;Spd
+Excadrill;Naughty;Soft Sand;Hone Claws;Rock Slide;Drill Run;Iron Defense;;Atk;Def;;;
+;Adamant;Steelium Z;Dig;Metal Sound;Metal Claw;Swords Dance;;Atk;Def;;;
+;Adamant;Bright Powder;Sandstorm;Earthquake;Rock Slide;Poison Jab;;Atk;Def;;SpD;
+;Adamant;Life Orb;Earthquake;Aerial Ace;Poison Jab;Rock Slide;;Atk;Def;;SpD;
+Exeggutor (Alola Form);Calm;Sitrus Berry;Dragon Tail;Flamethrower;Hypnosis;Giga Drain;HP;;;;SpD;
+;Brave;Assault Vest;Dragon Hammer;Wood Hammer;Earthquake;Brick Break;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Exeggutor;Mild;Petaya Berry;Psyshock;Grass Knot;Light Screen;Synthesis;;;;SpA;SpD;Spd
+;Modest;Grassium Z;Leaf Storm;Psychic;Sludge Bomb;Grassy Terrain;HP;;;SpA;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Exploud;Modest;Chople Berry;Fire Blast;Roar;Uproar;Hyper Voice;;;Def;SpA;;
+;Lonely;Darkinium Z;Crunch;Fake Tears;Ice Beam;Giga Impact;;Atk;;SpA;;
+;Adamant;Expert Belt;Earthquake;Brick Break;Ice Fang;Crunch;;Atk;Def;;;
+;Timid;Life Orb;Blizzard;Hyper Voice;Focus Blast;Shadow Ball;;;;SpA;;Spd
+Feraligatr;Careful;Lax Incense;Screech;Aqua Jet;Earthquake;Block;HP;;;;SpD;
+;Adamant;Liechi Berry;Superpower;Aqua Tail;Ice Fang;Dragon Dance;HP;Atk;;;;Spd
+;Adamant;Lum Berry;Aqua Jet;Waterfall;Earthquake;Ice Punch;HP;Atk;;;;
+;Adamant;Liechi Berry;Dragon Dance;Waterfall;Crunch;Substitute;;Atk;;;;Spd
+Ferrothorn;Impish;Leftovers;Iron Head;Thunder Wave;Sandstorm;Ingrain;HP;;Def;;;
+;Careful;Chesto Berry;Rest;Payback;Gyro Ball;Curse;HP;;;;SpD;
+;Brave;Custap Berry;Protect;Payback;Explosion;Gyro Ball;HP;Atk;;;;
+;Sassy;Leftovers;Curse;Seed Bomb;Gyro Ball;Ingrain;HP;;;;SpD;
+Flareon;Naughty;Focus Sash;Quick Attack;Flail;Work Up;Fire Blast;;Atk;;SpA;;
+;Impish;Charcoal;Will-O-Wisp;Charm;Flame Charge;Protect;HP;;Def;;;
+;Brave;Firium Z;Flare Blitz;Return;Will-O-Wisp;Overheat;HP;Atk;;;;
+;Adamant;Firium Z;Bite;Quick Attack;Giga Impact;Flare Blitz;;Atk;;;SpD;
+Florges;Sassy;Babiri Berry;Flower Shield;Dazzling Gleam;Energy Ball;Wish;;;Def;;SpD;
+;Quiet;Kebia Berry;Misty Terrain;Grassy Terrain;Nature Power;Round;;;;SpA;SpD;
+;Modest;Kebia Berry;Calm Mind;Grass Knot;Psychic;Moonblast;;;;SpA;SpD;
+;Modest;Lum Berry;Round;Petal Dance;Psychic;Moonblast;;;;SpA;SpD;
+Flygon;Naive;Weakness Policy;Earthquake;Dragon Claw;Endure;Fire Blast;;Atk;;;;Spd
+;Naive;Haban Berry;Swagger;Quick Attack;Rock Slide;U-turn;;Atk;;;;Spd
+;Timid;White Herb;Draco Meteor;Earth Power;Flamethrower;U-turn;;;;SpA;;Spd
+;Adamant;Rockium Z;Earthquake;Dragon Rush;Crunch;Stone Edge;;Atk;;;;Spd
+Froslass;Timid;Colbur Berry;Hail;Ice Beam;Ominous Wind;Thunderbolt;;;;SpA;;Spd
+;Lonely;Kasib Berry;Ice Shard;Thunder Wave;Hex;Taunt;;Atk;;;;Spd
+;Timid;Icy Rock;Hail;Blizzard;Ice Shard;Shadow Ball;;;;SpA;;Spd
+;Timid;Focus Sash;Blizzard;Icy Wind;Shadow Ball;Destiny Bond;;;;SpA;;Spd
+Gallade;Hasty;Expert Belt;Shadow Sneak;Brick Break;Psycho Cut;Swords Dance;;Atk;;;;Spd
+;Jolly;Scope Lens;Psycho Cut;Leaf Blade;Slash;Protect;;Atk;;;;Spd
+;Adamant;Scope Lens;Psycho Cut;Stone Edge;Shadow Sneak;X-Scissor;;Atk;;;;Spd
+;Jolly;Galladite;Psycho Cut;Close Combat;Rock Slide;Destiny Bond;;Atk;;;;Spd
+Garchomp;Jolly;Lax Incense;Earthquake;Protect;Sandstorm;Sand Tomb;HP;;;;;Spd
+;Hasty;Focus Sash;Fire Blast;Dragon Breath;Surf;Sandstorm;;;;SpA;;Spd
+;Jolly;Choice Scarf;Outrage;Earthquake;Fire Fang;Crunch;;Atk;;;;Spd
+;Adamant;Garchompite;Sandstorm;Stone Edge;Earthquake;Dragon Claw;HP;Atk;;;;
+Gardevoir;Timid;Psychium Z;Hypnosis;Dream Eater;Imprison;Dazzling Gleam;HP;;;;;Spd
+;Timid;Bright Powder;Stored Power;Thunderbolt;Calm Mind;Double Team;;;;SpA;;Spd
+;Timid;Lum Berry;Psychic;Shadow Ball;Energy Ball;Dazzling Gleam;;;;SpA;;Spd
+;Modest;Gardevoirite;Psychic;Hyper Beam;Shadow Ball;Focus Blast;HP;;;SpA;;
+Gastrodon;Gentle;Damp Rock;Rain Dance;Sludge Bomb;Muddy Water;Counter;;;;SpA;SpD;
+;Careful;Rindo Berry;Waterfall;Amnesia;Curse;Yawn;;Atk;Def;;SpD;
+;Quiet;Leftovers;Sandstorm;Mud Bomb;Surf;Recover;;;Def;SpA;;
+;Bold;Leftovers;Amnesia;Curse;Earthquake;Waterfall;;;Def;;SpD;
+Gengar;Timid;Focus Sash;Shadow Ball;Dream Eater;Nightmare;Hypnosis;;;;SpA;;Spd
+;Jolly;Expert Belt;Sucker Punch;Fire Punch;Ice Punch;Will-O-Wisp;;Atk;;;;Spd
+;Timid;Payapa Berry;Shadow Ball;Energy Ball;Dazzling Gleam;Round;;;;SpA;;Spd
+;Timid;Gengarite;Sludge Bomb;Thunderbolt;Shadow Ball;Destiny Bond;;;;SpA;;Spd
+Gigalith;Naughty;Rawst Berry;Bulldoze;Rock Blast;Gravity;Curse;HP;Atk;Def;;;
+;Naughty;Hard Stone;Iron Defense;Sandstorm;Lock-On;Rock Blast;HP;;Def;;;
+;Adamant;Custap Berry;Stone Edge;Earthquake;Sandstorm;Explosion;HP;Atk;;;;
+;Quiet;Leftovers;Rock Slide;Stealth Rock;Curse;Earthquake;HP;;;;SpD;
+Glaceon;Rash;Quick Claw;Ice Shard;Blizzard;Mirror Coat;Helping Hand;HP;;;SpA;;
+;Bold;Chesto Berry;Frost Breath;Shadow Ball;Rest;Barrier;HP;;Def;;;
+;Modest;Focus Sash;Hail;Blizzard;Mirror Coat;Hyper Beam;;;Def;SpA;;
+;Modest;Bright Powder;Blizzard;Shadow Ball;Aurora Veil;Detect;;;Def;SpA;;
+Glalie;Bold;Icy Rock;Hail;Blizzard;Shadow Ball;Weather Ball;HP;;Def;;;
+;Modest;Normalium Z;Weather Ball;Rain Dance;Shadow Ball;Dark Pulse;;;;SpA;;Spd
+;Timid;Leftovers;Substitute;Sheer Cold;Frost Breath;Protect;;;Def;;;Spd
+;Naive;Glalitite;Earthquake;Explosion;Protect;Freeze-Dry;;Atk;;;;Spd
+Gliscor;Naughty;Razor Fang;Acrobatics;Fling;U-turn;Swords Dance;HP;;;;;Spd
+;Impish;Liechi Berry;Agility;Acrobatics;Swords Dance;Baton Pass;HP;;Def;;;
+;Adamant;Expert Belt;Aerial Ace;Earthquake;X-Scissor;Stone Edge;;Atk;Def;;;
+;Jolly;Focus Sash;Earthquake;Acrobatics;U-turn;Counter;HP;;;;;Spd
+Gogoat;Impish;Yache Berry;Substitute;Horn Leech;Bulk Up;Payback;;;Def;;SpD;
+;Quiet;Occa Berry;Surf;Energy Ball;Rock Slide;Grass Knot;;Atk;;SpA;;
+;Sassy;Big Root;Horn Leech;Leech Seed;Protect;Payback;HP;Atk;;;;
+;Adamant;Choice Band;Earthquake;Leaf Blade;Wild Charge;Brick Break;;Atk;;;;Spd
+Golem (Alola Form);Impish;Quick Claw;Wild Charge;Smack Down;Bulldoze;Counter;HP;Atk;Def;;;
+;Adamant;Air Balloon;Rock Slide;Earthquake;Explosion;Rock Polish;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Golem;Naughty;Absorb Bulb;Stone Edge;Earthquake;Sandstorm;Autotomize;HP;Atk;;;;
+;Jolly;Focus Sash;Rock Slide;Earthquake;Explosion;Autotomize;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Golisopod;Modest;Eject Button;First Impression;Struggle Bug;Scald;Ice Beam;HP;;;SpA;;
+;Lonely;Sitrus Berry;Swords Dance;Leech Life;Razor Shell;Sucker Punch;HP;Atk;;;;
+;Adamant;Quick Claw;First Impression;Liquidation;Leech Life;Brick Break;HP;Atk;;;;
+;Adamant;Life Orb;First Impression;Aqua Jet;Sucker Punch;Rock Slide;HP;Atk;;;;
+Golurk;Lonely;Muscle Band;Shadow Punch;Iron Defense;Bulldoze;Heavy Slam;HP;;;;SpD;
+;Brave;Wide Lens;Hammer Arm;Rock Slide;Curse;Gyro Ball;;Atk;;;SpD;
+;Adamant;Ghostium Z;Dynamic Punch;Shadow Punch;Earthquake;Rock Slide;HP;Atk;;;;
+;Brave;Iron Ball;Hammer Arm;Earthquake;Shadow Punch;Fling;HP;Atk;;;;
+Goodra;Modest;Lax Incense;Substitute;Muddy Water;Dragon Pulse;Sludge Wave;;;;SpA;SpD;
+;Careful;Lum Berry;Aqua Tail;Body Slam;Earthquake;Outrage;;Atk;;;SpD;
+;Modest;Damp Rock;Dragon Pulse;Rain Dance;Thunder;Muddy Water;;;;SpA;SpD;
+;Modest;White Herb;Draco Meteor;Thunder;Blizzard;Fire Blast;;;;SpA;SpD;
+Gothitelle;Calm;Chesto Berry;Fake Tears;Psychic;Rest;Calm Mind;HP;;Def;;;Spd
+;Modest;Twisted Spoon;Psyshock;Miracle Eye;Mirror Coat;Tickle;HP;;Def;SpA;;
+;Modest;Kee Berry;Charm;Safeguard;Psychic;Charge Beam;HP;;;SpA;;
+;Modest;Bright Powder;Substitute;Flatter;Psych Up;Psychic;HP;;;SpA;;
+Gourgeist;Impish;Sitrus Berry;Will-O-Wisp;Trick-or-Treat;Pain Split;Phantom Force;HP;;Def;;;
+;Impish;Iron Ball;Trick Room;Gyro Ball;Seed Bomb;Explosion;HP;;Def;;SpD;
+;Modest;Wise Glasses;Shadow Ball;Sludge Bomb;Energy Ball;Flamethrower;;;Def;SpA;;
+;Adamant;Life Orb;Trick-or-Treat;Phantom Force;Seed Bomb;Rock Slide;HP;Atk;;;;
+Greninja;Calm;Leftovers;Mat Block;Spikes;Scald;Toxic;;;Def;;SpD;
+;Timid;Damp Rock;Rain Dance;Surf;Round;Ice Beam;;;;SpA;;Spd
+;Jolly;King's Rock;Water Shuriken;Rock Slide;Grass Knot;U-turn;;Atk;;;;Spd
+;Modest;Wide Lens;Hydro Pump;Dark Pulse;Blizzard;Extrasensory;;;;SpA;;Spd
+Gyarados;Lonely;Muscle Band;Ice Fang;Aqua Tail;Thunder Wave;Dragon Dance;HP;Atk;;;;Spd
+;Naughty;Normalium Z;Waterfall;Rest;Bulldoze;Giga Impact;;Atk;;;;Spd
+;Jolly;Wacan Berry;Dragon Dance;Waterfall;Ice Fang;Earthquake;;Atk;;;;Spd
+;Jolly;Gyaradosite;Dragon Dance;Waterfall;Stone Edge;Crunch;;Atk;;;;Spd
+Hariyama;Brave;King's Rock;Feint;Fake Out;Smack Down;Vital Throw;;Atk;Def;;SpD;
+;Careful;Custap Berry;Reversal;Bullet Punch;Protect;Belly Drum;;;Def;;SpD;
+;Brave;Flame Orb;Fake Out;Close Combat;Detect;Earthquake;;Atk;Def;;;
+;Careful;Sitrus Berry;Belly Drum;Brick Break;Counter;Bullet Punch;;;Def;;SpD;
+Hawlucha;Jolly;Salac Berry;Acrobatics;High Jump Kick;Feather Dance;Taunt;;Atk;;;;Spd
+;Careful;Leftovers;Toxic;Bounce;Roost;Protect;;;Def;;SpD;
+;Adamant;Liechi Berry;Swords Dance;Flying Press;Acrobatics;Steel Wing;;Atk;;;;Spd
+;Jolly;Power Herb;Sky Attack;Flying Press;U-turn;Stone Edge;;Atk;;;;Spd
+Haxorus;Hasty;Haban Berry;Dual Chop;Earthquake;Roar;Taunt;;Atk;;;;Spd
+;Naughty;Persim Berry;Outrage;Rock Slide;Counter;Dragon Dance;HP;;Def;;;Spd
+;Jolly;Dragonium Z;Outrage;Earthquake;Dragon Claw;Rock Slide;;Atk;;;;Spd
+;Jolly;Yache Berry;Dragon Dance;Dragon Claw;Dragon Tail;Earthquake;;Atk;;;;Spd
+Heatran;Modest;Focus Sash;Lava Plume;Earth Power;Flash Cannon;Dark Pulse;HP;;;SpA;;
+;Modest;White Herb;Overheat;Will-O-Wisp;Flash Cannon;Protect;HP;;;SpA;;
+;Modest;Shuca Berry;Sunny Day;Fire Blast;Solar Beam;Earth Power;HP;;;SpA;;
+;Timid;Choice Scarf;Magma Storm;Earth Power;Dark Pulse;Flash Cannon;;;;SpA;;Spd
+Heracross;Brave;Black Belt;Aerial Ace;Pursuit;Swords Dance;Brick Break;HP;Atk;Def;;;
+;Naughty;Salac Berry;Megahorn;Flail;Endure;Reversal;HP;;;;;Spd
+;Jolly;Coba Berry;Megahorn;Stone Edge;Facade;Shadow Claw;;Atk;;;;Spd
+;Adamant;Heracronite;Pin Missile;Rock Blast;Bullet Seed;Close Combat;HP;Atk;;;;
+Hippowdon;Impish;Soft Sand;Earthquake;Crunch;Yawn;Whirlwind;;Atk;Def;;;
+;Lonely;Sitrus Berry;Crunch;Rock Slide;Protect;Curse;HP;Atk;;;;
+;Adamant;Sitrus Berry;Earthquake;Crunch;Slack Off;Yawn;;Atk;;;SpD;
+;Sassy;Chesto Berry;Curse;Rest;Earthquake;Crunch;HP;;;;SpD;
+Honchkrow;Quiet;Kee Berry;Psychic;Dark Pulse;Protect;Nasty Plot;;;Def;SpA;SpD;
+;Brave;Black Glasses;Sucker Punch;Taunt;Pursuit;Protect;;Atk;;;SpD;
+;Modest;Darkinium Z;Psychic;Dark Pulse;Swagger;Shadow Ball;HP;;;SpA;;
+;Adamant;Life Orb;Night Slash;Drill Peck;Sucker Punch;Thunder Wave;HP;Atk;;;;
+Houndoom;Adamant;Charcoal;Fire Fang;Flame Charge;Will-O-Wisp;Sucker Punch;;Atk;;;;Spd
+;Hasty;Focus Sash;Counter;Flame Charge;Roar;Protect;;Atk;;;;Spd
+;Timid;Air Balloon;Flamethrower;Shadow Ball;Sludge Bomb;Will-O-Wisp;;;;SpA;;Spd
+;Timid;Houndoominite;Fire Blast;Dark Pulse;Solar Beam;Sunny Day;;;;SpA;;Spd
+Hydreigon;Rash;Dragon Fang;Dragon Pulse;Earth Power;Surf;Dragon Tail;;Atk;;;;Spd
+;Mild;Wide Lens;Focus Blast;Fire Blast;Dragon Rush;Work Up;;Atk;;SpA;;Spd
+;Timid;Dragonium Z;Draco Meteor;Taunt;Earth Power;Flamethrower;;;;SpA;;Spd
+;Jolly;Roseli Berry;Dragon Rush;Earthquake;Crunch;Dragon Tail;;Atk;;;;Spd
+Incineroar;Naughty;Razor Fang;Brutal Swing;Fire Fang;Bulk Up;Lick;;Atk;;;;Spd
+;Modest;Firium Z;Fake Out;Heat Wave;Snarl;Will-O-Wisp;HP;;;SpA;;
+;Adamant;Firium Z;Darkest Lariat;Throat Chop;Earthquake;Outrage;;Atk;;;;Spd
+;Adamant;Quick Claw;Flare Blitz;Cross Chop;Crunch;U-turn;HP;Atk;;;;
+Infernape;Jolly;King's Rock;Fake Out;Encore;Fling;Acrobatics;;Atk;;;;Spd
+;Mild;Charcoal;Heat Wave;Will-O-Wisp;Grass Knot;Calm Mind;HP;;;SpA;;Spd
+;Hasty;Life Orb;Fake Out;Close Combat;Overheat;Stone Edge;;Atk;;;;Spd
+;Jolly;Focus Sash;Fake Out;Encore;Flare Blitz;Close Combat;;Atk;;;;Spd
+Jellicent;Quiet;Damp Rock;Rain Dance;Hydro Pump;Ice Beam;Confuse Ray;;;Def;SpA;;
+;Bold;Bright Powder;Acid Armor;Recover;Ominous Wind;Scald;HP;;Def;;;
+;Quiet;Mental Herb;Water Spout;Recover;Will-O-Wisp;Trick Room;;;Def;SpA;;
+;Bold;Sitrus Berry;Scald;Hex;Will-O-Wisp;Recover;HP;;Def;;;
+Jolteon;Hasty;Magnet;Quick Attack;Thunderbolt;Thunder Wave;Swagger;;;;SpA;;Spd
+;Timid;Damp Rock;Thunder;Protect;Charm;Rain Dance;;;;SpA;;Spd
+;Timid;King's Rock;Thunder;Shadow Ball;Rain Dance;Yawn;;;;SpA;;Spd
+;Timid;Darkinium Z;Thunderbolt;Hyper Beam;Fake Tears;Shadow Ball;;;;SpA;;Spd
+Kangaskhan;Adamant;Normalium Z;Dizzy Punch;Fake Out;Chip Away;Roar;;Atk;;;;Spd
+;Jolly;Salac Berry;Rock Slide;Sucker Punch;Endure;Reversal;;Atk;;;;Spd
+;Jolly;Kangaskhanite;Fake Out;Facade;Rock Slide;Sucker Punch;;Atk;;;;Spd
+;Jolly;Kangaskhanite;Fake Out;Double-Edge;Earthquake;Sucker Punch;;Atk;;;;Spd
+Kingdra;Adamant;Persim Berry;Waterfall;Quash;Protect;Outrage;HP;Atk;;;;Spd
+;Mild;Haban Berry;Dragon Pulse;Waterfall;Ice Beam;Dragon Dance;HP;Atk;;SpA;;
+;Modest;Maranga Berry;Rain Dance;Hydro Pump;Dragon Pulse;Ice Beam;HP;;;SpA;;Spd
+;Modest;Dragonium Z;Draco Meteor;Surf;Blizzard;Protect;HP;;;SpA;;Spd
+Klinklang;Impish;Shuca Berry;Gear Grind;Thunder Wave;Screech;Volt Switch;HP;;;;;Spd
+;Mild;Steelium Z;Charge Beam;Metal Sound;Flash Cannon;Autotomize;;;;SpA;;Spd
+;Adamant;Steelium Z;Shift Gear;Gear Grind;Volt Switch;Giga Impact;;Atk;;;;Spd
+;Modest;Leftovers;Flash Cannon;Thunderbolt;Protect;Toxic;;;;SpA;;Spd
+Komala;Adamant;Chople Berry;Flail;Payback;Low Sweep;Play Rough;;Atk;;;;Spd
+;Impish;Quick Claw;Defense Curl;Rollout;Yawn;Thrash;HP;;Def;;;
+;Adamant;Focus Sash;Flail;Earthquake;Sucker Punch;Play Rough;;Atk;;;SpD;
+;Adamant;Normalium Z;Thrash;Play Rough;Wood Hammer;Sucker Punch;HP;Atk;;;;
+Kommo-o;Sassy;Focus Sash;Counter;Reversal;Dragon Tail;Taunt;HP;;;;SpD;
+;Jolly;Cheri Berry;Dragon Dance;Dragon Claw;Brick Break;Rock Slide;;Atk;;;;Spd
+;Modest;Sitrus Berry;Clanging Scales;Focus Blast;Autotomize;Flash Cannon;HP;;;SpA;;
+;Adamant;White Herb;Shell Smash;Outrage;Sky Uppercut;Poison Jab;HP;Atk;;;;
+Landorus;Careful;Bright Powder;Rest;Sleep Talk;Smack Down;Fissure;;;Def;;SpD;
+;Modest;Choice Scarf;Earth Power;Extrasensory;Focus Blast;Grass Knot;;;;SpA;;Spd
+;Jolly;Smooth Rock;Sandstorm;Earthquake;Rock Slide;Protect;;Atk;;;;Spd
+;Adamant;White Herb;Hammer Arm;Earthquake;Explosion;U-turn;;Atk;Def;;;
+Lanturn;Naughty;Salac Berry;Thunder Wave;Volt Switch;Waterfall;Agility;;Atk;;;;Spd
+;Calm;Sitrus Berry;Thunder Wave;Charge Beam;Stockpile;Swallow;;;Def;SpA;;
+;Modest;Petaya Berry;Surf;Discharge;Thunder Wave;Ice Beam;;;Def;SpA;SpD;
+;Bold;Chesto Berry;Stockpile;Rest;Charge Beam;Ice Beam;;;Def;;SpD;
+Lapras;Quiet;Damp Rock;Rain Dance;Thunder;Ice Shard;Confuse Ray;;;Def;SpA;;
+;Modest;Normalium Z;Surf;Ice Beam;Rest;Sleep Talk;;;Def;SpA;SpD;
+;Modest;Bright Powder;Surf;Ice Beam;Thunderbolt;Psychic;HP;;;SpA;;
+;Quiet;Psychium Z;Blizzard;Hydro Pump;Psychic;Ice Shard;;;Def;SpA;;
+Latias;Bold;Lax Incense;Calm Mind;Mist Ball;Dragon Pulse;Recover;HP;;Def;;;
+;Timid;White Herb;Draco Meteor;Thunder;Psychic;Mist Ball;;;;SpA;;Spd
+;Adamant;Life Orb;Zen Headbutt;Earthquake;Thunder Wave;Dragon Claw;;Atk;;;;Spd
+;Modest;Latiasite;Dragon Pulse;Roost;Thunder Wave;Psychic;HP;;;SpA;;
+Latios;Bold;Lax Incense;Calm Mind;Luster Purge;Dragon Pulse;Recover;HP;;Def;;;
+;Timid;White Herb;Draco Meteor;Thunderbolt;Psychic;Protect;;;;SpA;;Spd
+;Timid;Choice Specs;Draco Meteor;Thunder;Psychic;Energy Ball;;;;SpA;;Spd
+;Adamant;Latiosite;Zen Headbutt;Earthquake;Dragon Dance;Dragon Claw;;Atk;;;;Spd
+Leafeon;Impish;Scope Lens;X-Scissor;Leaf Blade;Swords Dance;Grass Whistle;HP;;;;;Spd
+;Naive;Liechi Berry;Leaf Blade;Giga Impact;Substitute;Yawn;;Atk;;;;Spd
+;Adamant;Heat Rock;Sunny Day;Leaf Blade;X-Scissor;Synthesis;;Atk;Def;;;
+;Adamant;Quick Claw;Leaf Blade;X-Scissor;Aerial Ace;Detect;;Atk;Def;;;
+Lickilicky;Modest;Expert Belt;Blizzard;Muddy Water;Fire Blast;Thunder;HP;;;SpA;;
+;Careful;Normalium Z;Defense Curl;Rollout;Me First;Power Whip;HP;;;;SpD;
+;Adamant;Quick Claw;Body Slam;Knock Off;Hammer Arm;Zen Headbutt;HP;Atk;;;;
+;Adamant;Normalium Z;Explosion;Brutal Swing;Hammer Arm;Dragon Tail;HP;Atk;;;;
+Liepard;Timid;Roseli Berry;Snarl;Shadow Ball;Snatch;Fake Out;;;;SpA;;Spd
+;Careful;Groundium Z;Sand Attack;Foul Play;Swagger;Play Rough;HP;;;;SpD;
+;Bold;Red Card;Foul Play;Sucker Punch;Sand Attack;Thunder Wave;HP;;Def;;;
+;Timid;Focus Sash;Dark Pulse;Shadow Ball;Grass Knot;Nasty Plot;;;;SpA;;Spd
+Lilligant;Timid;Persim Berry;Charm;Sleep Powder;Petal Dance;Healing Wish;;;;SpA;;Spd
+;Bold;Big Root;Ingrain;Leech Seed;Toxic;Protect;HP;;Def;;SpD;
+;Bold;Leftovers;Quiver Dance;Energy Ball;Leech Seed;Protect;HP;;Def;;;
+;Bold;Grassium Z;Solar Beam;Teeter Dance;Charm;Leech Seed;HP;;Def;SpA;;Spd
+Lopunny;Naive;Toxic Orb;Fake Out;Encore;Fling;Dizzy Punch;HP;;;;;Spd
+;Jolly;Liechi Berry;Charm;Focus Punch;Substitute;Thunder Punch;;Atk;;;;Spd
+;Jolly;Lopunnite;Sweet Kiss;Fake Out;High Jump Kick;Ice Punch;;Atk;;;;Spd
+;Jolly;Lopunnite;High Jump Kick;Quick Attack;Ice Punch;Double Hit;;Atk;;;;Spd
+Lucario;Modest;Fightinium Z;Metal Sound;Dark Pulse;Aura Sphere;Heal Pulse;;;;SpA;;Spd
+;Jolly;Liechi Berry;Close Combat;Bulk Up;Endure;Reversal;;Atk;;;;Spd
+;Jolly;Lucarionite;Close Combat;Rock Slide;Blaze Kick;Bullet Punch;;Atk;;;;Spd
+;Serious;Weakness Policy;Aura Sphere;Dragon Pulse;Stone Edge;Extreme Speed;;Atk;;SpA;;Spd
+Ludicolo;Lax;Leftovers;Leech Seed;Toxic;Giga Drain;Rain Dance;HP;;Def;SpA;;
+;Naughty;Tanga Berry;Fake Out;Grass Knot;Surf;Tickle;HP;Atk;;SpA;;
+;Bold;Leftovers;Rain Dance;Leech Seed;Protect;Giga Drain;;;Def;SpA;SpD;
+;Modest;Kee Berry;Fake Out;Hydro Pump;Leech Seed;Grass Knot;;;;SpA;;Spd
+Lurantis;Modest;Smooth Rock;Solar Beam;Weather Ball;Sunny Day;Synthesis;;;;SpA;SpD;
+;Sassy;Grassium Z;Solar Blade;Ingrain;Synthesis;Giga Drain;HP;;;;SpD;
+;Adamant;Power Herb;Solar Blade;Leech Life;Poison Jab;Payback;HP;Atk;;;;
+;Adamant;Quick Claw;Sunny Day;Solar Blade;X-Scissor;Brick Break;HP;Atk;;;;
+Lycanroc (Midday Form);Naughty;Rockium Z;Stealth Rock;Accelerock;Rock Polish;Rock Climb;HP;Atk;Def;;;
+;Jolly;Life Orb;Quick Attack;Thunder Fang;Accelerock;Rock Slide;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Lycanroc (Midnight Form);Calm;Focus Sash;Counter;Reversal;Sucker Punch;Rock Slide;HP;;;;SpD;
+;Adamant;Expert Belt;Sucker Punch;Stone Edge;Thunder Fang;Fire Fang;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Machamp;Brave;Rawst Berry;Dynamic Punch;Payback;Foresight;Wide Guard;HP;Atk;;;;
+;Brave;Expert Belt;Ice Punch;Cross Chop;Fire Punch;Focus Energy;HP;Atk;;;;
+;Jolly;Choice Scarf;Dynamic Punch;Ice Punch;Rock Slide;Earthquake;;Atk;;;;Spd
+;Adamant;Flame Orb;Protect;Earthquake;Close Combat;Payback;;Atk;;;SpD;
+Magmortar;Lonely;Quick Claw;Will-O-Wisp;Confuse Ray;Thunder Punch;Fire Punch;HP;Atk;;;;
+;Naughty;Sitrus Berry;Belly Drum;Mach Punch;Belch;Flare Blitz;HP;;Def;;;
+;Adamant;Air Balloon;Flare Blitz;Cross Chop;Flame Charge;Rock Slide;HP;Atk;;;;
+;Modest;Air Balloon;Fire Blast;Psychic;Will-O-Wisp;Focus Blast;HP;;;SpA;;
+Magnezone;Rash;Steelium Z;Metal Sound;Flash Cannon;Thunderbolt;Magnet Rise;HP;;;SpA;;
+;Quiet;Shuca Berry;Charge Beam;Thunder Wave;Flash Cannon;Mirror Coat;HP;;;SpA;;
+;Modest;Bright Powder;Charge Beam;Flash Cannon;Magnet Rise;Thunder Wave;;;Def;SpA;;
+;Modest;Assault Vest;Thunderbolt;Flash Cannon;Tri Attack;Volt Switch;;;;SpA;SpD;
+Malamar;Adamant;Tanga Berry;Payback;Psycho Cut;Reflect;Flatter;;Atk;Def;;;
+;Modest;Choice Specs;Thunderbolt;Flamethrower;Psychic;Dark Pulse;;;;SpA;;Spd
+;Jolly;Darkinium Z;Superpower;Psycho Cut;Foul Play;Destiny Bond;;Atk;;;;Spd
+;Careful;Assault Vest;Psycho Cut;Superpower;Rock Slide;Night Slash;;Atk;;;SpD;
+Mamoswine;Adamant;Passho Berry;Double Hit;Earthquake;Icicle Crash;Stealth Rock;;Atk;;;SpD;Spd
+;Brave;Zoom Lens;Stone Edge;Bulldoze;Blizzard;Ice Fang;;Atk;Def;;SpD;
+;Adamant;Lax Incense;Hail;Earthquake;Avalanche;Fissure;HP;Atk;;;;
+;Adamant;Life Orb;Earthquake;Ice Fang;Double-Edge;Stone Edge;HP;Atk;;;;
+Mandibuzz;Calm;Wacan Berry;Taunt;Flatter;Roost;Toxic;;;;;SpD;Spd
+;Mild;Roseli Berry;Dark Pulse;Air Slash;Shadow Ball;Nasty Plot;;;;SpA;;Spd
+;Modest;Sitrus Berry;Nasty Plot;Dark Pulse;Air Slash;Tailwind;HP;;Def;;SpD;
+;Careful;Leftovers;Substitute;Swagger;Punishment;Roost;HP;;Def;;SpD;
+Manectric;Adamant;Life Orb;Crunch;Odor Sleuth;Quick Attack;Wild Charge;;Atk;;;;Spd
+;Modest;Air Balloon;Flamethrower;Overheat;Discharge;Charge;;;;SpA;;Spd
+;Timid;Manectite;Thunderbolt;Overheat;Snarl;Quick Attack;;;;SpA;;Spd
+;Timid;Choice Scarf;Switcheroo;Thunder;Volt Switch;Overheat;;;;SpA;;Spd
+Marowak (Alola Form);Quiet;Air Balloon;Will-O-Wisp;Hex;Thunder;Rain Dance;HP;;;SpA;;
+;Jolly;Thick Club;Shadow Bone;Flare Blitz;Detect;Stomping Tantrum;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Marowak;Sassy;Red Card;Bone Rush;Double Kick;Endeavor;Smack Down;HP;;;;SpD;
+;Jolly;Thick Club;Earthquake;Stone Edge;Brick Break;Brutal Swing;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Mawile;Adamant;Quick Claw;Crunch;Sucker Punch;Iron Head;Taunt;HP;Atk;;;;
+;Modest;Fairium Z;Flash Cannon;Fairy Wind;Metal Burst;Shadow Ball;HP;;;SpA;;
+;Adamant;Mawilite;Play Rough;Iron Head;Sucker Punch;Swords Dance;HP;Atk;;;;
+;Adamant;Mawilite;Sucker Punch;Play Rough;Fire Fang;Stone Edge;HP;Atk;;;;
+Medicham;Impish;Fightinium Z;Fake Out;High Jump Kick;Bulk Up;Feint;HP;;;;;Spd
+;Timid;Psychium Z;Psychic;Shadow Ball;Energy Ball;Calm Mind;;;;SpA;;Spd
+;Jolly;Expert Belt;High Jump Kick;Zen Headbutt;Ice Punch;Bullet Punch;;Atk;;;;Spd
+;Adamant;Medichamite;High Jump Kick;Psycho Cut;Fake Out;Detect;;Atk;;;;Spd
+Meganium;Gentle;Sitrus Berry;Light Screen;Aromatherapy;Swagger;Solar Beam;HP;;;;SpD;
+;Bold;Chesto Berry;Double Team;Petal Blizzard;Substitute;Rest;HP;;Def;;;
+;Adamant;Light Clay;Petal Blizzard;Earthquake;Reflect;Light Screen;HP;Atk;;;;
+;Bold;Leftovers;Leech Seed;Ingrain;Toxic;Protect;;;Def;;SpD;
+Mesprit;Adamant;Flame Orb;Acrobatics;U-turn;Facade;Fling;HP;Atk;;;;
+;Calm;Bright Powder;Future Sight;Healing Wish;Copycat;Thunder Wave;HP;;;;SpD;
+;Modest;Kasib Berry;Psyshock;Grass Knot;Shadow Ball;Charm;HP;;;SpA;;
+;Modest;Wide Lens;Psychic;Thunder;Blizzard;Protect;HP;;;SpA;;
+Metagross;Naive;Occa Berry;Meteor Mash;Magnet Rise;Zen Headbutt;Agility;;Atk;;;;Spd
+;Quiet;Occa Berry;Psychic;Shadow Ball;Meteor Mash;Magnet Rise;HP;Atk;;SpA;;
+;Adamant;Occa Berry;Earthquake;Meteor Mash;Bullet Punch;Explosion;HP;Atk;;;SpD;
+;Jolly;Metagrossite;Zen Headbutt;Meteor Mash;Brick Break;Bullet Punch;;Atk;;;;Spd
+Mienshao;Naive;Salac Berry;U-turn;Endure;Calm Mind;Baton Pass;HP;;;;;Spd
+;Jolly;King's Rock;Fake Out;Fling;Acrobatics;High Jump Kick;;Atk;;;;Spd
+;Jolly;Focus Sash;Low Kick;Fake Out;High Jump Kick;U-turn;;Atk;;;;Spd
+;Impish;Fightinium Z;Feint;Fake Out;High Jump Kick;Wide Guard;HP;Atk;;;;
+Milotic;Bold;Enigma Berry;Surf;Recover;Mirror Coat;Confuse Ray;HP;;Def;;;
+;Quiet;Leftovers;Hydro Pump;Toxic;Attract;Aqua Ring;HP;;Def;;;
+;Calm;Wide Lens;Hydro Pump;Blizzard;Mirror Coat;Recover;;;;SpA;SpD;
+;Impish;Leftovers;Ice Beam;Rest;Sleep Talk;Surf;HP;;;;SpD;
+Mimikyu;Jolly;Bright Powder;Shadow Claw;Slash;Double Team;Thunder Wave;;Atk;;;;Spd
+;Impish;Leftovers;Curse;Protect;Astonish;Baby-Doll Eyes;HP;;Def;;;
+;Jolly;Fairium Z;Play Rough;Shadow Claw;Wood Hammer;Swords Dance;;Atk;;;;Spd
+;Adamant;Rocky Helmet;Play Rough;Shadow Claw;Destiny Bond;Shadow Sneak;;Atk;;;;Spd
+Minior;Sassy;Light Clay;U-turn;Rock Tomb;Light Screen;Reflect;HP;;;;SpD;
+;Bold;Absorb Bulb;Confuse Ray;Cosmic Power;Ancient Power;Charge Beam;HP;;Def;;SpD;
+;Jolly;Red Card;Earthquake;Acrobatics;Stone Edge;Autotomize;;Atk;;;;Spd
+;Adamant;Sitrus Berry;Rock Slide;Shell Smash;Explosion;Acrobatics;HP;Atk;;;;
+Mismagius;Naive;Colbur Berry;Taunt;Protect;Imprison;Shadow Ball;HP;;;;;Spd
+;Timid;Kasib Berry;Shadow Ball;Wonder Room;Grudge;Pain Split;HP;;;;SpD;
+;Timid;Ghostium Z;Dazzling Gleam;Shadow Ball;Thunderbolt;Destiny Bond;;;;SpA;;Spd
+;Bold;Bright Powder;Power Gem;Protect;Perish Song;Mean Look;HP;;Def;;;
+Moltres;Modest;White Herb;Overheat;Air Slash;Agility;Will-O-Wisp;;;;SpA;;Spd
+;Naughty;Power Herb;Flame Charge;Sky Attack;Aerial Ace;Fire Blast;;Atk;;;;Spd
+;Timid;Heat Rock;Sunny Day;Solar Beam;Flamethrower;Air Slash;;;;SpA;;Spd
+;Timid;Firium Z;Heat Wave;Burn Up;Air Slash;Protect;;;;SpA;;Spd
+Mudsdale;Sassy;Sitrus Berry;Counter;Rest;Sleep Talk;Payback;HP;;;;SpD;
+;Naughty;Rindo Berry;Earthquake;Superpower;Rock Tomb;Roar;HP;Atk;;;;
+;Adamant;Passho Berry;Earthquake;Rock Slide;Mud-Slap;Payback;HP;Atk;;;;
+;Brave;Yache Berry;Earthquake;Heavy Slam;Close Combat;Sandstorm;HP;Atk;;;;
+Muk (Alola Form);Relaxed;Air Balloon;Minimize;Acid Spray;Rest;Snarl;HP;;Def;;;
+;Adamant;Liechi Berry;Crunch;Belch;Shadow Sneak;Stone Edge;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Muk;Relaxed;Black Sludge;Poison Jab;Stockpile;Swallow;Mud-Slap;HP;Atk;;;;
+;Adamant;Quick Claw;Gunk Shot;Shadow Sneak;Brick Break;Explosion;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Musharna;Modest;Zoom Lens;Hypnosis;Dream Eater;Calm Mind;Helping Hand;;;Def;SpA;SpD;
+;Bold;Lum Berry;Shadow Ball;Energy Ball;Psychic;Trick Room;;;Def;SpA;;
+;Modest;Scope Lens;Psychic;Shadow Ball;Energy Ball;Yawn;;;Def;SpA;;
+;Relaxed;Chesto Berry;Stored Power;Calm Mind;Shadow Ball;Rest;;;Def;;SpD;
+Nidoking;Naughty;King's Rock;Bulldoze;Megahorn;Rock Slide;Sucker Punch;HP;Atk;;;;
+;Quiet;Black Sludge;Amnesia;Sludge Bomb;Flamethrower;Protect;HP;;;SpA;;
+;Modest;Black Sludge;Earth Power;Sludge Bomb;Protect;Fire Blast;;;;SpA;;Spd
+;Adamant;Buginium Z;Earthquake;Poison Jab;Megahorn;Protect;;Atk;;;;Spd
+Nidoqueen;Relaxed;Payapa Berry;Chip Away;Swagger;Helping Hand;Flatter;HP;;Def;;SpD;
+;Mild;Absorb Bulb;Thunderbolt;Hyper Beam;Earth Power;Counter;HP;;;SpA;;
+;Modest;Black Sludge;Sludge Bomb;Earth Power;Flamethrower;Ice Beam;HP;;;SpA;;
+;Adamant;Black Sludge;Poison Jab;Dragon Tail;Bulldoze;Earthquake;HP;Atk;;;;
+Ninetales (Alola Form);Timid;Icium Z;Aurora Veil;Hypnosis;Dream Eater;Blizzard;HP;;Def;;;
+;Timid;Psychium Z;Freeze-Dry;Dazzling Gleam;Extrasensory;Ice Shard;HP;;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Ninetales;Modest;Passho Berry;Will-O-Wisp;Hex;Confuse Ray;Flame Burst;;;;SpA;;Spd
+;Timid;Wide Lens;Fire Blast;Dark Pulse;Hypnosis;Energy Ball;;;;SpA;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Noivern;Timid;Yache Berry;Super Fang;Boomburst;Round;Torment;;;;SpA;;Spd
+;Adamant;Roseli Berry;Dragon Claw;Wild Charge;X-Scissor;Acrobatics;;Atk;;;;Spd
+;Modest;Razor Fang;Air Slash;Dragon Pulse;Flamethrower;Psychic;;;;SpA;;Spd
+;Modest;Wide Lens;Dragon Pulse;Hurricane;Flamethrower;Focus Blast;;;;SpA;;Spd
+Oranguru;Modest;Psychium Z;Psychic;Energy Ball;Shadow Ball;Nasty Plot;HP;;;SpA;;
+;Calm;Psychic Seed;Psychic Terrain;Psyshock;Future Sight;Instruct;;;;SpA;SpD;
+;Sassy;Mental Herb;Psychic;Shadow Ball;Focus Blast;Trick Room;;;;SpA;SpD;
+;Modest;Electrium Z;Foul Play;Psychic;Focus Blast;Thunder;HP;;;SpA;;
+Oricorio (Baile Style);Timid;Choice Specs;Revelation Dance;Hurricane;U-turn;Air Slash;;;;SpA;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Oricorio (Pa'u Style);Hasty;Charti Berry;Revelation Dance;Teeter Dance;Feather Dance;Acrobatics;HP;;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Oricorio (Pom-Pom Style);Modest;Flyinium Z;Revelation Dance;Air Slash;Roost;Tailwind;HP;;;SpA;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Oricorio (Sensu Style);Calm;Weakness Policy;Revelation Dance;Pluck;Calm Mind;Baton Pass;HP;;;;SpD;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Palossand;Bold;Smooth Rock;Shore Up;Sandstorm;Shadow Ball;Earth Power;HP;;Def;;;
+;Timid;Ghostium Z;Rock Polish;Shadow Ball;Earth Power;Sludge Bomb;;;;SpA;;Spd
+;Modest;Sitrus Berry;Earth Power;Shadow Ball;Ancient Power;Sludge Bomb;HP;;;SpA;;
+;Calm;Weakness Policy;Earth Power;Shadow Ball;Giga Drain;Destiny Bond;HP;;;;SpD;
+Passimian;Adamant;Coba Berry;Close Combat;Rock Slide;Iron Head;Feint;;Atk;;;;Spd
+;Brave;Iron Ball;Seismic Toss;Vital Throw;Fling;Gyro Ball;;Atk;Def;;;
+;Adamant;Choice Scarf;Close Combat;Earthquake;U-turn;Rock Slide;;Atk;;;;Spd
+;Adamant;Hard Stone;Close Combat;Rock Slide;Feint;Fling;;Atk;;;;Spd
+Pelipper;Modest;Sea Incense;Surf;Tailwind;Blizzard;Hurricane;HP;;;SpA;;Spd
+;Bold;Rocky Helmet;Stockpile;Roost;Toxic;Surf;HP;;Def;;;
+;Bold;Flyinium Z;Hurricane;Scald;Roost;Blizzard;HP;;Def;;;
+;Timid;Waterium Z;Rain Dance;Hurricane;Hydro Pump;Ice Beam;;;;SpA;;Spd
+Pidgeot;Jolly;Charti Berry;Aerial Ace;Steel Wing;Thief;Roost;;Atk;;;;Spd
+;Quiet;Flyinium Z;Mirror Move;Twister;Sand Attack;Double Team;HP;;;SpA;;
+;Timid;Pidgeotite;Hurricane;Hyper Beam;Tailwind;Quick Attack;;;;SpA;;Spd
+;Modest;Pidgeotite;Hurricane;Feather Dance;Roost;Hyper Beam;;;Def;SpA;;
+Pinsir;Naughty;Persim Berry;Bug Bite;Brick Break;Thrash;Swords Dance;;Atk;;;;Spd
+;Lonely;Rockium Z;Feint;X-Scissor;Stone Edge;Bug Bite;;Atk;;;;Spd
+;Jolly;Pinsirite;X-Scissor;Superpower;Stone Edge;Thrash;;Atk;;;;Spd
+;Jolly;Choice Scarf;X-Scissor;Earthquake;Close Combat;Guillotine;;Atk;;;;Spd
+Politoed;Modest;Cell Battery;Waterfall;Encore;Swagger;Bounce;;;;SpA;;Spd
+;Quiet;Damp Rock;Rain Dance;Round;Body Slam;Hydro Pump;;;;SpA;SpD;
+;Careful;Chesto Berry;Waterfall;Earthquake;Belly Drum;Rest;;Atk;;;SpD;
+;Modest;Wide Lens;Hydro Pump;Blizzard;Focus Blast;Hypnosis;;;;SpA;SpD;
+Porygon-Z;Modest;Wise Glasses;Psychic;Shadow Ball;Thunderbolt;Thunder Wave;;;;SpA;;Spd
+;Modest;Choice Specs;Hyper Beam;;;;;;;SpA;;Spd
+;Modest;Expert Belt;Psychic;Ice Beam;Signal Beam;Charge Beam;HP;;;SpA;;
+;Timid;Normalium Z;Tri Attack;Thunderbolt;Shadow Ball;Recover;;;;SpA;;Spd
+Porygon2;Modest;Sitrus Berry;Blizzard;Magic Coat;Lock-On;Zap Cannon;HP;;;SpA;;
+;Calm;Eviolite;Tri Attack;Psychic;Double Team;Recover;HP;;Def;;SpD;
+;Modest;Eviolite;Tri Attack;Thunderbolt;Psychic;Ice Beam;HP;;;SpA;;
+;Modest;Eviolite;Tri Attack;Thunder Wave;Shadow Ball;Ice Beam;HP;;;SpA;;
+Primarina;Lax;Mystic Water;Bubble Beam;Shadow Ball;Energy Ball;Aqua Ring;HP;;;;SpD;
+;Mild;Normalium Z;Hyper Voice;Disarming Voice;Growl;Sing;HP;;Def;;SpD;
+;Modest;Kebia Berry;Hydro Pump;Moonblast;Psychic;Baby-Doll Eyes;HP;;;SpA;;
+;Modest;Waterium Z;Sparkling Aria;Dazzling Gleam;Blizzard;Aqua Jet;HP;;;SpA;;
+Probopass;Impish;Chesto Berry;Thunder Wave;Double Team;Rest;Magnet Bomb;HP;;Def;;;
+;Relaxed;Leftovers;Thunder Wave;Bulldoze;Rock Slide;Stealth Rock;HP;;Def;;;
+;Jolly;Quick Claw;Explosion;Rock Blast;Volt Switch;Sandstorm;;Atk;;;SpD;
+;Calm;Sitrus Berry;Tri Attack;Power Gem;Flash Cannon;Dazzling Gleam;HP;;;;SpD;
+Pyroar;Timid;King's Rock;Flamethrower;Hyper Voice;Snarl;Noble Roar;;;;SpA;;Spd
+;Timid;Heat Rock;Sunny Day;Hyper Voice;Fire Blast;Solar Beam;;;;SpA;;Spd
+;Adamant;Lum Berry;Return;Fire Fang;Wild Charge;Crunch;;Atk;;;;Spd
+;Modest;White Herb;Overheat;Hyper Voice;Dark Pulse;Round;;;;SpA;;Spd
+Raichu (Alola Form);Modest;Twisted Spoon;Volt Switch;Safeguard;Psyshock;Disarming Voice;;;;SpA;;Spd
+;Timid;Focus Sash;Thunderbolt;Psychic;Grass Knot;Nasty Plot;;;;SpA;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Raichu;Bold;Shuca Berry;Nuzzle;Focus Blast;Sweet Kiss;Charge Beam;HP;;Def;;;
+;Jolly;Air Balloon;Fake Out;Volt Tackle;Reversal;Light Screen;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Raikou;Timid;Shuca Berry;Thunderbolt;Volt Switch;Shadow Ball;Extrasensory;;;;SpA;;Spd
+;Timid;Electrium Z;Charge Beam;Thunder Wave;Calm Mind;Shadow Ball;;;Def;;;Spd
+;Timid;Electrium Z;Thunderbolt;Volt Switch;Shadow Ball;Protect;;;;SpA;;Spd
+;Timid;Air Balloon;Thunder;Discharge;Reflect;Extrasensory;;;;SpA;;Spd
+Rampardos;Brave;Passho Berry;Rock Slide;Crunch;Curse;Protect;;Atk;Def;;SpD;
+;Naughty;Sitrus Berry;Head Smash;Stone Edge;Hammer Arm;Scary Face;;Atk;;;;Spd
+;Jolly;Choice Scarf;Head Smash;Earthquake;Brick Break;Iron Head;;Atk;;;;Spd
+;Relaxed;Sitrus Berry;Head Smash;Earthquake;Rock Slide;Protect;;Atk;;;SpD;
+Regice;Modest;Sitrus Berry;Thunderbolt;Ice Beam;Focus Blast;Toxic;HP;;;SpA;;
+;Timid;Chesto Berry;Thunderbolt;Icy Wind;Ice Beam;Rest;HP;;Def;;;Spd
+;Bold;Leftovers;Charge Beam;Ice Beam;Amnesia;Protect;HP;;Def;;;
+;Impish;Zoom Lens;Thunder;Blizzard;Focus Blast;Thunder Wave;HP;;;;SpD;
+Regigigas;Adamant;Leftovers;Confuse Ray;Double Team;Bulldoze;Payback;HP;Atk;;;;
+;Quiet;Zoom Lens;Thunder;Toxic;Focus Blast;Confuse Ray;HP;;;SpA;;
+;Adamant;Leftovers;Confuse Ray;Knock Off;Thunder Wave;Rock Slide;HP;Atk;;;;
+;Careful;Leftovers;Wide Guard;Double Team;Confuse Ray;Toxic;HP;;Def;;;
+Regirock;Careful;Leftovers;Sandstorm;Curse;Rock Slide;Hammer Arm;HP;;;;SpD;
+;Adamant;Custap Berry;Stone Edge;Hammer Arm;Earthquake;Explosion;HP;Atk;;;;
+;Adamant;Rockium Z;Thunder Wave;Stone Edge;Hammer Arm;Earthquake;HP;Atk;;;;
+;Jolly;Sitrus Berry;Rock Polish;Rock Slide;Superpower;Explosion;;Atk;;;;Spd
+Registeel;Careful;Chesto Berry;Curse;Amnesia;Iron Head;Rest;HP;;;;SpD;
+;Jolly;Fightinium Z;Rock Polish;Earthquake;Iron Head;Superpower;;Atk;;;;Spd
+;Bold;Leftovers;Amnesia;Iron Defense;Charge Beam;Flash Cannon;HP;;;;SpD;
+;Adamant;Leftovers;Toxic;Double Team;Earthquake;Protect;HP;Atk;;;;
+Reuniclus;Bold;Kee Berry;Psychic;Energy Ball;Recover;Wonder Room;HP;;Def;SpA;;
+;Brave;King's Rock;Rock Slide;Explosion;Gyro Ball;Trick Room;;Atk;Def;;SpD;
+;Quiet;Colbur Berry;Calm Mind;Psychic;Focus Blast;Shadow Ball;;;Def;SpA;;
+;Relaxed;Toxic Orb;Trick;Psychic;Focus Blast;Recover;;;Def;;SpD;
+Rhyperior;Brave;Zoom Lens;Payback;Rock Blast;Stone Edge;Protect;HP;Atk;;;SpD;
+;Lonely;Hard Stone;Rock Wrecker;Rock Polish;;;;Atk;;;;Spd
+;Impish;Focus Sash;Horn Drill;Reversal;Payback;Metal Burst;HP;;Def;;;
+;Brave;Rockium Z;Rock Slide;Hammer Arm;Earthquake;Protect;HP;Atk;;;;
+Ribombee;Naive;Big Root;Substitute;Leech Life;Draining Kiss;Stun Spore;HP;;;;;Spd
+;Timid;Light Clay;Pollen Puff;Reflect;Light Screen;U-turn;HP;;;;;Spd
+;Bold;Sitrus Berry;Quiver Dance;Baton Pass;Silver Wind;Draining Kiss;HP;;Def;;SpD;
+;Modest;Expert Belt;Quiver Dance;Dazzling Gleam;Bug Buzz;Energy Ball;HP;;;SpA;;
+Rotom (Fan Rotom);Sassy;Damp Rock;Rain Dance;Thunder;Air Slash;Shadow Ball;HP;;;;SpD;
+;Timid;Sitrus Berry;Will-O-Wisp;Hex;Volt Switch;Confuse Ray;;;;SpA;;Spd
+;Modest;Weakness Policy;Air Slash;Thunder Wave;Thunderbolt;Dark Pulse;HP;;;SpA;;
+;Timid;Choice Scarf;Air Slash;Thunder;Dark Pulse;Trick;;;;SpA;;Spd
+Rotom (Frost Rotom);Calm;Bright Powder;Double Team;Charge Beam;Charge;Ominous Wind;HP;;;;SpD;
+;Relaxed;Light Clay;Blizzard;Discharge;Reflect;Light Screen;HP;;Def;;SpD;
+;Modest;Electrium Z;Blizzard;Thunder Wave;Dark Pulse;Thunderbolt;HP;;;SpA;;
+;Modest;Zoom Lens;Blizzard;Thunder;Will-O-Wisp;Shadow Ball;HP;;;SpA;;
+Rotom (Heat Rotom);Mild;Sitrus Berry;Thunder Wave;Electro Ball;Double Team;Ominous Wind;HP;;;SpA;;
+;Calm;Bright Powder;Will-O-Wisp;Hex;Confuse Ray;Charge Beam;HP;;;;SpD;
+;Modest;Passho Berry;Thunder Wave;Dark Pulse;Thunderbolt;Overheat;HP;;;SpA;;
+;Modest;Firium Z;Overheat;Will-O-Wisp;Shadow Ball;Volt Switch;HP;;;SpA;;
+Rotom (Mow Rotom);Lax;Light Clay;Reflect;Light Screen;Volt Switch;Leaf Storm;HP;;Def;;;
+;Sassy;Sitrus Berry;Will-O-Wisp;Hex;Charge;Charge Beam;HP;;;;SpD;
+;Modest;Grassium Z;Leaf Storm;Volt Switch;Will-O-Wisp;Shadow Ball;HP;;;SpA;;
+;Modest;White Herb;Leaf Storm;Thunder;Thunder Wave;Dark Pulse;HP;;;SpA;;
+Rotom (Wash Rotom);Quiet;Leftovers;Charge Beam;Confuse Ray;Double Team;Substitute;HP;;;SpA;;
+;Timid;Choice Scarf;Trick;Thunder Wave;Discharge;Hydro Pump;HP;;;;;Spd
+;Modest;Rindo Berry;Hydro Pump;Thunderbolt;Thunder Wave;Dark Pulse;HP;;;SpA;;
+;Modest;Sitrus Berry;Hydro Pump;Thunder;Will-O-Wisp;Shadow Ball;HP;;;SpA;;
+Sableye;Bold;Lax Incense;Knock Off;Shadow Ball;Confuse Ray;Recover;HP;;Def;;;
+;Careful;Normalium Z;Captivate;Foul Play;Mean Look;Moonlight;HP;;;;SpD;
+;Bold;Sablenite;Foul Play;Recover;Will-O-Wisp;Snarl;HP;;Def;;;
+;Careful;Focus Sash;Foul Play;Will-O-Wisp;Metal Burst;Fake Out;HP;;;;SpD;
+Salamence;Adamant;Yache Berry;Roost;Scary Face;Dragon Tail;Earthquake;;Atk;Def;;SpD;
+;Lonely;Expert Belt;Dragon Claw;Zen Headbutt;Rock Slide;Dragon Dance;;Atk;;;SpD;Spd
+;Timid;Yache Berry;Draco Meteor;Fire Blast;Hydro Pump;Protect;;;;SpA;;Spd
+;Jolly;Salamencite;Dragon Rush;Crunch;Earthquake;Double-Edge;;Atk;;;;Spd
+Salazzle;Timid;Poisonium Z;Venoshock;Flamethrower;Nasty Plot;Toxic;;;;SpA;;Spd
+;Timid;Bright Powder;Disable;Protect;Encore;Sludge Bomb;;;;SpA;;Spd
+;Timid;Focus Sash;Fire Blast;Sludge Bomb;Nasty Plot;Fake Out;;;;SpA;;Spd
+;Modest;Firium Z;Overheat;Sludge Wave;Dragon Pulse;Fake Out;;;;SpA;;Spd
+Samurott;Mild;Normalium Z;Retaliate;Razor Shell;Assurance;Encore;HP;Atk;;;;
+;Quiet;Zoom Lens;Blizzard;Giga Impact;Detect;Hydro Pump;;Atk;;SpA;;
+;Adamant;Custap Berry;Aerial Ace;Waterfall;X-Scissor;Aqua Jet;;Atk;Def;;SpD;
+;Modest;Salac Berry;Hydro Pump;Ice Beam;Grass Knot;Protect;;;Def;SpA;SpD;
+Sandslash (Alola Form);Brave;Focus Sash;Counter;Defense Curl;Ice Ball;Gyro Ball;HP;Atk;;;;
+;Adamant;Icium Z;Hail;Icicle Spear;Iron Head;Aurora Veil;;Atk;;;;Spd
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Sandslash;Impish;Quick Claw;Dig;Poison Jab;Swagger;Sand Attack;HP;;Def;;;
+;Adamant;Smooth Rock;Sandstorm;Earthquake;Stone Edge;X-Scissor;HP;Atk;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Sawk;Naughty;Black Belt;Low Sweep;Quick Guard;Retaliate;Taunt;;Atk;;;;Spd
+;Naughty;Focus Sash;Earthquake;Payback;Endure;Reversal;;Atk;;;;Spd
+;Jolly;Expert Belt;Close Combat;Payback;Low Sweep;Earthquake;;Atk;;;;Spd
+;Adamant;Life Orb;Close Combat;Earthquake;Stone Edge;Taunt;;Atk;;;;Spd
+Sceptile;Timid;Focus Sash;Quick Attack;Endeavor;Detect;Leaf Storm;;;;SpA;;Spd
+;Hasty;Scope Lens;Leaf Blade;Night Slash;Earthquake;Swords Dance;;Atk;;;;Spd
+;Timid;White Herb;Leaf Storm;Focus Blast;Energy Ball;Detect;;;;SpA;;Spd
+;Jolly;Sceptilite;Leaf Blade;Dual Chop;Earthquake;Rock Slide;;Atk;;;;Spd
+Scizor;Brave;Occa Berry;Metal Claw;Night Slash;Aerial Ace;Swords Dance;HP;;Def;;;
+;Naughty;Psychium Z;Bullet Punch;X-Scissor;Feint;Agility;HP;Atk;;;;
+;Brave;Life Orb;Swords Dance;Bullet Punch;Reversal;U-turn;HP;Atk;;;;
+;Adamant;Scizorite;X-Scissor;Aerial Ace;Roost;Bullet Punch;HP;Atk;;;;
+Scrafty;Naughty;Liechi Berry;Fake Out;Bulk Up;Focus Punch;Substitute;HP;Atk;;;;
+;Jolly;Coba Berry;High Jump Kick;Rock Slide;Taunt;Dragon Dance;HP;;;;;Spd
+;Adamant;Fightinium Z;Substitute;Payback;High Jump Kick;Focus Punch;HP;Atk;;;;
+;Careful;Leftovers;Bulk Up;Payback;Protect;Drain Punch;HP;;;;SpD;
+Serperior;Jolly;Lum Berry;Attract;Leaf Tornado;Dragon Tail;Gastro Acid;;;Def;;SpD;Spd
+;Sassy;Sitrus Berry;Leaf Tornado;Hidden Power;Mirror Coat;Captivate;HP;;;SpA;SpD;
+;Calm;Bright Powder;Leaf Storm;Substitute;Hyper Beam;Toxic;HP;;Def;;SpD;
+;Modest;Choice Specs;Leaf Storm;;;;;;;SpA;;Spd
+Sharpedo;Adamant;Muscle Band;Aqua Jet;Ice Fang;Crunch;Bulldoze;;Atk;;;;Spd
+;Mild;Poisonium Z;Poison Jab;Surf;Dark Pulse;Taunt;;;;SpA;;Spd
+;Adamant;Sharpedonite;Crunch;Ice Fang;Aqua Jet;Poison Jab;;Atk;;;;Spd
+;Modest;Focus Sash;Ice Beam;Hydro Pump;Dark Pulse;Protect;;;;SpA;;Spd
+Shiftry;Brave;Iron Ball;Fling;Razor Leaf;Brick Break;Swords Dance;HP;Atk;;;SpD;
+;Rash;Miracle Seed;Fake Out;Extrasensory;Solar Beam;Swagger;;;;SpA;;Spd
+;Modest;Heat Rock;Sunny Day;Solar Beam;Dark Pulse;Explosion;;;Def;SpA;;
+;Adamant;Focus Sash;Fake Out;X-Scissor;Leaf Blade;Protect;;Atk;Def;;;
+Shiinotic;Sassy;Assault Vest;Moonblast;Giga Drain;Sludge Bomb;Charge Beam;HP;;;;SpD;
+;Modest;Normalium Z;Flash;Light Screen;Confuse Ray;Dazzling Gleam;HP;;;SpA;;
+;Relaxed;Leftovers;Moonblast;Giga Drain;Strength Sap;Spore;HP;;Def;;;
+;Sassy;Weakness Policy;Moonblast;Grass Knot;Moonlight;Spore;HP;;;;SpD;
+Shuckle;Careful;Binding Band;Power Split;Encore;Gastro Acid;Sand Tomb;HP;;;;SpD;
+;Bold;Quick Claw;Power Trick;Encore;Rock Slide;Bug Bite;HP;;Def;;;
+;Relaxed;Lax Incense;Gyro Ball;Double Team;Substitute;Power Trick;HP;;Def;;;
+;Relaxed;Leftovers;Toxic;Protect;Sandstorm;Wrap;HP;;Def;;;
+Skarmory;Naive;Lax Incense;Spikes;Stealth Rock;Sky Drop;Whirlwind;HP;;;;;Spd
+;Naughty;Cell Battery;Brave Bird;Steel Wing;Swords Dance;Roar;HP;;;;;Spd
+;Jolly;Choice Scarf;Brave Bird;Steel Wing;Night Slash;Rock Slide;;Atk;;;;Spd
+;Careful;Poisonium Z;Spikes;Stealth Rock;Whirlwind;Toxic;HP;;;;SpD;
+Slaking;Naive;Chople Berry;Earthquake;Brick Break;Rock Slide;Encore;;Atk;;;;Spd
+;Jolly;Kee Berry;Crush Claw;Night Slash;Slack Off;Amnesia;;Atk;;;;Spd
+;Adamant;Choice Band;Giga Impact;Shadow Claw;Hammer Arm;Earthquake;HP;Atk;;;;
+;Jolly;Life Orb;Return;Night Slash;Rock Slide;Aerial Ace;;Atk;;;;Spd
+Slowbro;Bold;Sitrus Berry;Yawn;Psychic;Calm Mind;Water Pulse;HP;;Def;;;
+;Modest;Quick Claw;Flamethrower;Ice Beam;Slack Off;Water Pulse;;;Def;SpA;;
+;Bold;Leftovers;Psychic;Surf;Slack Off;Amnesia;HP;;Def;;;
+;Quiet;Slowbronite;Psychic;Surf;Blizzard;Trick Room;HP;;;SpA;;
+Slowking;Calm;Sitrus Berry;Psyshock;Water Pulse;Trick Room;Heal Pulse;;;;SpA;SpD;
+;Gentle;King's Rock;Zen Headbutt;Earthquake;Swagger;Psych Up;;Atk;;;SpD;
+;Modest;Choice Specs;Psychic;Shadow Ball;Scald;Focus Blast;;;;SpA;SpD;
+;Quiet;Waterium Z;Psychic;Surf;Ice Beam;Trick Room;HP;;;;SpD;
+Snorlax;Adamant;Sitrus Berry;Return;Wild Charge;Counter;Recycle;;Atk;Def;;;
+;Brave;Sitrus Berry;Return;Protect;Crunch;Belly Drum;;Atk;Def;;;
+;Adamant;Life Orb;Double-Edge;Earthquake;Crunch;Protect;;Atk;Def;;;
+;Careful;Assault Vest;Body Slam;Fissure;Earthquake;Crunch;HP;;;;SpD;
+Spiritomb;Calm;Sitrus Berry;Sucker Punch;Pain Split;Toxic;Grudge;HP;;;;SpD;
+;Brave;Quick Claw;Shadow Sneak;Sucker Punch;Will-O-Wisp;Taunt;HP;Atk;;;;
+;Careful;Leftovers;Will-O-Wisp;Shadow Sneak;Swagger;Psych Up;HP;;;;SpD;
+;Careful;Custap Berry;Will-O-Wisp;Sucker Punch;Substitute;Pain Split;HP;;;;SpD;
+Staraptor;Hasty;Focus Sash;U-turn;Feather Dance;Quick Attack;Endeavor;;Atk;;;;Spd
+;Adamant;Choice Scarf;Pursuit;Close Combat;Brave Bird;Final Gambit;HP;;;;;Spd
+;Mild;Choice Band;Close Combat;Brave Bird;U-turn;Giga Impact;;Atk;;;;Spd
+;Jolly;Flyinium Z;Brave Bird;Double-Edge;Roost;Feather Dance;;Atk;;;;Spd
+Starmie;Timid;Sitrus Berry;Psychic;Cosmic Power;Recover;Reflect Type;HP;;;;;Spd
+;Modest;Waterium Z;Protect;Psychic;Hydro Pump;Rapid Spin;;;;SpA;;Spd
+;Timid;Focus Sash;Surf;Psychic;Power Gem;Dazzling Gleam;;;;SpA;;Spd
+;Timid;King's Rock;Surf;Psychic;Thunderbolt;Ice Beam;;;;SpA;;Spd
+Steelix;Impish;Chesto Berry;Earthquake;Rest;Curse;Stealth Rock;HP;;;;SpD;
+;Impish;Enigma Berry;Crunch;Curse;Gyro Ball;Screech;HP;Atk;;;;
+;Brave;Quick Claw;Gyro Ball;Earthquake;Rock Slide;Explosion;;Atk;;;SpD;
+;Adamant;Steelixite;Gyro Ball;Earthquake;Stone Edge;Sandstorm;HP;Atk;;;;
+Suicune;Bold;Chesto Berry;Calm Mind;Surf;Ice Beam;Rest;HP;;Def;;;
+;Modest;Sitrus Berry;Hydro Pump;Ice Beam;Shadow Ball;Mirror Coat;HP;;;SpA;;
+;Bold;Leftovers;Surf;Blizzard;Calm Mind;Protect;HP;;Def;;;
+;Timid;Lum Berry;Snarl;Surf;Blizzard;Protect;;;;SpA;;Spd
+Swampert;Sassy;Jaboca Berry;Mirror Coat;Counter;Earthquake;Roar;;;Def;;SpD;
+;Careful;Chesto Berry;Waterfall;Hammer Arm;Rest;Curse;HP;;;;SpD;
+;Adamant;Swampertite;Earthquake;Rock Slide;Waterfall;Rain Dance;HP;Atk;;;;
+;Careful;Chesto Berry;Curse;Rest;Earthquake;Waterfall;HP;;;;SpD;
+Sylveon;Calm;Misty Seed;Misty Terrain;Tail Whip;Helping Hand;Dazzling Gleam;HP;;;;SpD;
+;Calm;Ganlon Berry;Baton Pass;Calm Mind;Psych Up;Moonblast;;;Def;;SpD;
+;Modest;Razor Claw;Moonblast;Shadow Ball;Round;Psyshock;;;;SpA;SpD;
+;Modest;Big Root;Draining Kiss;Baby-Doll Eyes;Psyshock;Misty Terrain;;;;SpA;SpD;
+Talonflame;Timid;Charti Berry;Round;Me First;Will-O-Wisp;Flamethrower;;;;SpA;;Spd
+;Timid;Heat Rock;Round;Fire Blast;Sunny Day;Solar Beam;;;;SpA;;Spd
+;Jolly;Focus Sash;Swords Dance;Quick Attack;Flail;Acrobatics;;;Def;;;Spd
+;Adamant;Sitrus Berry;Brave Bird;Flare Blitz;Quick Attack;Swords Dance;;Atk;;;;Spd
+Tangrowth;Bold;Big Root;Leech Seed;Ingrain;Giga Drain;Toxic;HP;;Def;;SpD;
+;Naughty;Yache Berry;Wring Out;Tickle;Power Whip;Bulldoze;;Atk;;;;Spd
+;Modest;Heat Rock;Sunny Day;Solar Beam;Sludge Bomb;Wring Out;;;Def;SpA;;
+;Adamant;Groundium Z;Power Whip;Earthquake;Aerial Ace;Brick Break;;Atk;Def;;;
+Tauros;Naughty;Liechi Berry;Earthquake;Rock Slide;Zen Headbutt;Substitute;;Atk;;;;Spd
+;Jolly;Expert Belt;Zen Headbutt;Wild Charge;Swagger;Giga Impact;;Atk;;;;Spd
+;Jolly;Life Orb;Thrash;Earthquake;Payback;Giga Impact;;Atk;;;;Spd
+;Careful;Sitrus Berry;Toxic;Protect;Double Team;Earthquake;HP;;;;SpD;
+Tentacruel;Hasty;Black Sludge;Ice Beam;Sludge Wave;Hex;Toxic Spikes;;;;SpA;;Spd
+;Hasty;Poisonium Z;Rapid Spin;Poison Jab;Waterfall;Swords Dance;;Atk;;;;Spd
+;Modest;Focus Sash;Hydro Pump;Sludge Bomb;Blizzard;Mirror Coat;HP;;;SpA;;
+;Bold;Black Sludge;Surf;Toxic;Venoshock;Protect;HP;;Def;;;
+Terrakion;Jolly;Expert Belt;Close Combat;Earthquake;Stone Edge;Aerial Ace;;Atk;;;;Spd
+;Adamant;Choice Scarf;Sacred Sword;Earthquake;Stone Edge;Aerial Ace;;Atk;;;;Spd
+;Jolly;Sitrus Berry;Swords Dance;Sacred Sword;Earthquake;Rock Slide;;Atk;;;;Spd
+;Jolly;King's Rock;Bulldoze;Rock Slide;Earthquake;Sacred Sword;;Atk;;;;Spd
+Throh;Impish;Payapa Berry;Protect;Toxic;Circle Throw;Wide Guard;;Atk;Def;;;
+;Brave;Expert Belt;Revenge;Storm Throw;Protect;Seismic Toss;;Atk;Def;;;
+;Adamant;Expert Belt;Earthquake;Storm Throw;Payback;Rock Slide;;Atk;Def;;SpD;
+;Brave;Flame Orb;Protect;Earthquake;Storm Throw;Payback;;Atk;;;SpD;
+Thundurus;Bold;Chesto Berry;Thunderbolt;Protect;Toxic;Rest;HP;;;;SpD;
+;Timid;Choice Specs;Thunderbolt;Dark Pulse;Focus Blast;Grass Knot;;;;SpA;;Spd
+;Jolly;Sitrus Berry;Wild Charge;U-turn;Crunch;Sky Drop;;Atk;;;;Spd
+;Timid;Electrium Z;Discharge;Focus Blast;Volt Switch;Taunt;;;;SpA;;Spd
+Togedemaru;Impish;Rocky Helmet;Spiky Shield;Wish;Nuzzle;Reflect;HP;;Def;;;
+;Hasty;Terrain Extender;Electric Terrain;Wild Charge;Fake Out;U-turn;HP;;;;;Spd
+;Adamant;Air Balloon;Wild Charge;Spiky Shield;Fell Stinger;Poison Jab;HP;Atk;;;;
+;Jolly;Electrium Z;Reversal;Nuzzle;U-turn;Spiky Shield;;Atk;;;;Spd
+Togekiss;Calm;Sitrus Berry;Encore;Follow Me;Reflect;Dazzling Gleam;HP;;;;SpD;
+;Brave;Liechi Berry;Extreme Speed;Aerial Ace;Steel Wing;Brick Break;HP;Atk;;;;
+;Timid;King's Rock;Grass Knot;Thunder Wave;Air Slash;Shadow Ball;;;;SpA;;Spd
+;Modest;Expert Belt;Aura Sphere;Air Slash;Grass Knot;Dazzling Gleam;;;;SpA;;Spd
+Tornadus;Timid;Flyinium Z;Hurricane;Grass Knot;Focus Blast;Dark Pulse;;;;SpA;;Spd
+;Modest;Yache Berry;Substitute;Double Team;Focus Blast;Hurricane;HP;;;SpA;;
+;Bold;Chesto Berry;Rest;Air Slash;Dark Pulse;Focus Blast;HP;;;;SpD;
+;Timid;Damp Rock;Hurricane;Focus Blast;Taunt;Rain Dance;;;;SpA;;Spd
+Torterra;Adamant;Binding Band;Sand Tomb;Seed Bomb;Curse;Synthesis;HP;Atk;;;;
+;Jolly;Choice Scarf;Rock Slide;Earthquake;Wood Hammer;Tickle;;Atk;;;;Spd
+;Adamant;Custap Berry;Earthquake;Crunch;Seed Bomb;Rock Slide;;Atk;;;SpD;
+;Careful;Leftovers;Stockpile;Leech Seed;Earthquake;Protect;HP;;;;SpD;
+Toucannon;Adamant;Steelium Z;Swords Dance;Drill Peck;Steel Wing;Smack Down;HP;Atk;Def;;;
+;Adamant;King's Rock;Tailwind;Rock Blast;Bullet Seed;Brave Bird;;Atk;;;;Spd
+;Impish;Sitrus Berry;Beak Blast;Roost;Rock Blast;Bullet Seed;HP;;Def;;;
+;Impish;Rocky Helmet;Beak Blast;Roost;Tailwind;Overheat;HP;;Def;;;
+Toxapex;Sassy;Poisonium Z;Toxic Spikes;Venom Drench;Venoshock;Scald;HP;;Def;;SpD;
+;Quiet;Wacan Berry;Sludge Wave;Surf;Blizzard;Wide Guard;HP;;;SpA;SpD;
+;Modest;Red Card;Baneful Bunker;Venoshock;Surf;Ice Beam;HP;;;SpA;;
+;Careful;Black Sludge;Baneful Bunker;Liquidation;Payback;Stockpile;HP;;;;SpD;
+Toxicroak;Lonely;Payapa Berry;Fake Out;Brick Break;Sucker Punch;Taunt;;Atk;;;;Spd
+;Modest;Petaya Berry;Focus Blast;Sludge Bomb;Substitute;Protect;;;;SpA;;Spd
+;Modest;Focus Sash;Sludge Bomb;Focus Blast;Shadow Ball;Dark Pulse;;;;SpA;;Spd
+;Adamant;Wide Lens;Cross Chop;Sucker Punch;Poison Jab;Taunt;;Atk;;;;Spd
+Trevenant;Modest;Wise Glasses;Psychic;Shadow Ball;Energy Ball;Round;;;;SpA;SpD;
+;Careful;Leftovers;Toxic;Ingrain;Protect;Phantom Force;;;Def;;SpD;
+;Adamant;Choice Band;Horn Leech;Shadow Claw;Earthquake;X-Scissor;HP;Atk;;;;
+;Quiet;Iron Ball;Trick Room;Focus Blast;Energy Ball;Shadow Ball;;;Def;SpA;;
+Tsareena;Adamant;Occa Berry;Trop Kick;Play Rough;Low Sweep;Feint;;Atk;;;;Spd
+;Impish;Rocky Helmet;Trop Kick;Synthesis;Play Rough;Captivate;HP;;Def;;;
+;Adamant;Assault Vest;Trop Kick;Payback;High Jump Kick;Play Rough;;Atk;;;SpD;
+;Jolly;Choice Scarf;Trop Kick;High Jump Kick;Play Rough;U-turn;;Atk;;;;Spd
+Turtonator;Sassy;Rocky Helmet;Shell Trap;Dragon Tail;Fire Spin;Taunt;HP;;;;SpD;
+;Calm;Smooth Rock;Shell Trap;Solar Beam;Flamethrower;Sunny Day;HP;;;;SpD;
+;Lonely;Normalium Z;Head Smash;Explosion;Overheat;Dragon Claw;HP;Atk;;;;
+;Timid;Sitrus Berry;Shell Smash;Fire Blast;Dragon Pulse;Flash Cannon;;;;SpA;;Spd
+Typhlosion;Rash;Passho Berry;Flame Burst;Flamethrower;Solar Beam;Sunny Day;;;;SpA;;Spd
+;Naive;Wide Lens;Inferno;Focus Blast;Extrasensory;Will-O-Wisp;;;;SpA;;Spd
+;Modest;Choice Scarf;Eruption;Focus Blast;Flamethrower;Extrasensory;;;;SpA;;Spd
+;Modest;Power Herb;Extrasensory;Lava Plume;Bulldoze;Solar Beam;;;;SpA;;Spd
+Tyranitar;Impish;Iron Ball;Rock Slide;Stealth Rock;Thunder Wave;Fling;HP;;;;SpD;
+;Hasty;King's Rock;Rock Slide;Crunch;Ice Beam;Dragon Dance;;Atk;;;;Spd
+;Jolly;Chople Berry;Rock Slide;Crunch;Earthquake;Dragon Dance;;Atk;;;;Spd
+;Brave;Tyranitarite;Stone Edge;Earthquake;Ice Fang;Payback;HP;Atk;;;;
+Tyrantrum;Relaxed;Lax Incense;Stealth Rock;Dragon Tail;Double Team;Earthquake;;;Def;;SpD;
+;Impish;Leftovers;Crunch;Charm;Sandstorm;Dragon Claw;;;Def;;SpD;
+;Impish;Wide Lens;Horn Drill;Stone Edge;Rest;Sleep Talk;HP;;Def;;;
+;Adamant;Choice Band;Crunch;Dragon Claw;Earthquake;Head Smash;;Atk;;;;Spd
+Umbreon;Impish;Leftovers;Confuse Ray;Payback;Curse;Moonlight;HP;;Def;;;
+;Careful;Normalium Z;Payback;Moonlight;Stored Power;Work Up;HP;Atk;;;;
+;Impish;Sitrus Berry;Feint Attack;Swagger;Psych Up;Screech;HP;;Def;;;
+;Careful;Chesto Berry;Curse;Trump Card;Payback;Rest;HP;;Def;;;
+Unfezant;Jolly;Enigma Berry;Aerial Ace;U-turn;Razor Wind;Tailwind;HP;Atk;Def;;;
+;Jolly;Power Herb;Giga Impact;Quick Attack;Hypnosis;Sky Attack;;Atk;;;;Spd
+;Jolly;Power Herb;Sky Attack;Return;Detect;U-turn;;Atk;;;;Spd
+;Impish;Bright Powder;Detect;Feather Dance;Toxic;Fly;HP;;;;SpD;
+Ursaring;Adamant;Chesto Berry;Thrash;Crunch;Rest;Counter;;Atk;Def;;SpD;
+;Jolly;Toxic Orb;Facade;Hammer Arm;Scary Face;Yawn;;Atk;;;;Spd
+;Adamant;Toxic Orb;Facade;Close Combat;Crunch;Protect;HP;Atk;;;;
+;Adamant;Quick Claw;Return;Cross Chop;Earthquake;Aerial Ace;HP;Atk;;;;
+Uxie;Bold;Chesto Berry;Calm Mind;Rest;Extrasensory;Thunder Wave;HP;;Def;;SpD;
+;Calm;Psychium Z;Future Sight;Memento;U-turn;Reflect;HP;;;;SpD;
+;Modest;Quick Claw;Psyshock;Energy Ball;Thunder;Shadow Ball;HP;;;SpA;;
+;Modest;Leftovers;Yawn;Psychic;Charge Beam;Dazzling Gleam;HP;;;SpA;;
+Vanilluxe;Calm;Never-Melt Ice;Ice Beam;Frost Breath;Mirror Coat;Icy Wind;HP;;;SpA;SpD;
+;Lonely;Occa Berry;Avalanche;Ice Shard;Natural Gift;Giga Impact;HP;Atk;;;;
+;Modest;Leftovers;Hail;Blizzard;Flash Cannon;Sheer Cold;HP;;;SpA;;
+;Calm;Maranga Berry;Taunt;Ice Beam;Acid Armor;Mirror Coat;HP;;;;SpD;
+Vaporeon;Quiet;Quick Claw;Wish;Surf;Helping Hand;Shadow Ball;;;Def;SpA;;
+;Modest;Waterium Z;Ice Beam;Hydro Pump;Acid Armor;Aqua Ring;;;Def;SpA;;
+;Modest;Leftovers;Muddy Water;Blizzard;Aqua Ring;Yawn;HP;;;SpA;;
+;Modest;Expert Belt;Surf;Ice Beam;Shadow Ball;Baby-Doll Eyes;HP;;;SpA;;
+Venusaur;Calm;Big Root;Leech Seed;Toxic;Synthesis;Ingrain;HP;;;;SpD;
+;Brave;Grassium Z;Roar;Venoshock;Power Whip;Earthquake;HP;Atk;Def;;;
+;Timid;Salac Berry;Energy Ball;Sludge Bomb;Grass Knot;Protect;;;;SpA;;Spd
+;Bold;Venusaurite;Synthesis;Substitute;Sludge Bomb;Giga Drain;HP;;Def;;;
+Vespiquen;Sassy;Quick Claw;Defend Order;Toxic;Protect;Heal Order;HP;;Def;;SpD;
+;Quiet;Normalium Z;Attack Order;Power Gem;Captivate;Confuse Ray;HP;;;SpA;;
+;Impish;Sitrus Berry;Attack Order;Defend Order;Roost;Confuse Ray;HP;;Def;;SpD;
+;Brave;Custap Berry;Attack Order;U-turn;Aerial Ace;Destiny Bond;HP;Atk;;;;
+Vikavolt;Quiet;Focus Band;Charge Beam;Energy Ball;Mud-Slap;Charge;;;Def;SpA;;
+;Impish;Magnet;Wild Charge;Bug Bite;Sky Drop;Electroweb;HP;;Def;;SpD;
+;Modest;Electrium Z;Thunderbolt;Air Slash;Flash Cannon;Thunder Wave;HP;;;SpA;;
+;Modest;Groundium Z;Mud Shot;Thunder;Bug Buzz;Guillotine;HP;;;SpA;;
+Virizion;Jolly;Salac Berry;Sacred Sword;Leaf Blade;Taunt;Stone Edge;;Atk;;;;Spd
+;Timid;Sitrus Berry;Energy Ball;Focus Blast;Calm Mind;Toxic;;;Def;;;Spd
+;Jolly;Coba Berry;Leaf Blade;Stone Edge;Sacred Sword;Protect;;Atk;;;;Spd
+;Impish;Chesto Berry;Leaf Blade;Swords Dance;Sacred Sword;Rest;HP;;Def;;;
+Volcarona;Modest;Power Herb;Fire Spin;Heat Wave;Solar Beam;Whirlwind;HP;;;;;Spd
+;Timid;Lum Berry;Bug Buzz;Flamethrower;Protect;Calm Mind;;;;SpA;;Spd
+;Bold;White Herb;Overheat;Quiver Dance;Bug Buzz;Protect;HP;;Def;;;
+;Bold;Leftovers;Hurricane;Quiver Dance;Bug Buzz;Heat Wave;HP;;Def;;;
+Wailord;Brave;Chesto Berry;Waterfall;Heavy Slam;Curse;Rest;;Atk;Def;;SpD;
+;Timid;Quick Claw;Water Spout;Rest;Sleep Talk;Ice Beam;;;;SpA;;Spd
+;Careful;Leftovers;Waterfall;Avalanche;Aqua Ring;Curse;;;Def;;SpD;
+;Modest;Zoom Lens;Hydro Pump;Blizzard;Fissure;Hyper Beam;HP;;;SpA;;
+Walrein;Calm;Chesto Berry;Frost Breath;Snore;Stockpile;Rest;;;Def;;SpD;
+;Calm;Metronome;Ice Ball;Earthquake;Encore;Curse;;Atk;;;SpD;
+;Modest;Leftovers;Surf;Blizzard;Hail;Signal Beam;HP;;;SpA;;
+;Bold;Lax Incense;Sheer Cold;Fissure;Rest;Sleep Talk;;;Def;;SpD;
+Weavile;Hasty;Razor Fang;Fake Out;Taunt;Night Slash;Fling;;Atk;;;;Spd
+;Jolly;Never-Melt Ice;Ice Shard;Ice Punch;Torment;Protect;;Atk;;;;Spd
+;Jolly;Focus Sash;Fake Out;Ice Punch;Night Slash;Protect;;Atk;;;;Spd
+;Jolly;Focus Sash;Taunt;Ice Punch;Night Slash;Fake Out;;Atk;;;;Spd
+Weezing;Impish;Payapa Berry;Pain Split;Explosion;Haze;Will-O-Wisp;HP;;Def;;;
+;Rash;Safety Goggles;Sludge Bomb;Fire Blast;Stockpile;Swallow;HP;;;SpA;;
+;Modest;Black Sludge;Sludge Bomb;Thunder;Fire Blast;Shadow Ball;HP;;;SpA;;
+;Careful;Chesto Berry;Toxic;Will-O-Wisp;Stockpile;Rest;HP;;;;SpD;
+Whimsicott;Modest;Wise Glasses;Dazzling Gleam;Psychic;Cotton Spore;Grass Knot;HP;;;SpA;;
+;Modest;Choice Specs;Switcheroo;Hurricane;Moonblast;Energy Ball;;;;SpA;;Spd
+;Bold;Leftovers;Moonblast;Leech Seed;Substitute;Cotton Guard;HP;;Def;;;
+;Calm;Fairium Z;Moonblast;Tailwind;Swagger;Energy Ball;HP;;;;SpD;
+Wishiwashi;Brave;Sitrus Berry;Waterfall;Ice Beam;Double-Edge;Rain Dance;HP;Atk;;;;
+;Adamant;Leftovers;Dive;Aqua Ring;Protect;Earthquake;HP;Atk;;;;
+;Brave;Wacan Berry;Earthquake;Aqua Tail;Ice Beam;U-turn;HP;;;SpA;;
+;Quiet;Rindo Berry;Ice Beam;Hydro Pump;U-turn;Endeavor;HP;;;SpA;;
+Yanmega;Modest;Cheri Berry;Air Slash;Bug Buzz;Detect;U-turn;;;;SpA;SpD;
+;Modest;Sitrus Berry;Psychic;Bug Buzz;Swagger;Substitute;HP;;;SpA;;
+;Modest;Buginium Z;Silver Wind;Air Slash;Detect;Shadow Ball;;;;SpA;;Spd
+;Modest;King's Rock;Bug Buzz;Air Slash;Detect;Shadow Ball;;;;SpA;;Spd
+Zapdos;Timid;Rockium Z;Thunderbolt;Thunder Wave;U-turn;Ancient Power;;;;SpA;;Spd
+;Bold;Bright Powder;Charge Beam;Ancient Power;Double Team;Roost;HP;;;;SpD;
+;Naive;Petaya Berry;Thunder;Light Screen;Rain Dance;Drill Peck;;;;SpA;;Spd
+;Adamant;Flyinium Z;Wild Charge;Drill Peck;Thunder Wave;Roost;HP;Atk;;;;
+Zoroark;Naive;Focus Sash;Night Slash;Shadow Claw;Taunt;Counter;;Atk;;;;Spd
+;Timid;Expert Belt;Grass Knot;Shadow Ball;Flamethrower;Nasty Plot;;;;SpA;;Spd
+;Jolly;Sitrus Berry;Swords Dance;Night Slash;U-turn;Sucker Punch;;Atk;;;;Spd
+;Timid;Focus Band;Protect;Counter;Dark Pulse;Focus Blast;;;;SpA;;Spd

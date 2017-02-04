@@ -1,0 +1,164 @@
+Item;Mega Stone;ID;Effect
+Abomasite;TRUE;571;
+Absolite;TRUE;572;
+Absorb Bulb;FALSE;168;1.5x spa, used
+Aerodactylite;TRUE;573;
+Aggronite;TRUE;574;
+Air Balloon;FALSE;171;
+Alakazite;TRUE;575;
+Altarianite;TRUE;576;
+Ampharosite;TRUE;577;
+Apicot Berry;FALSE;16;1.5x spd, used
+Assault Vest;FALSE;173;1.5x spd
+Audinite;TRUE;578;
+Babiri Berry;FALSE;18;
+Banettite;TRUE;579;
+Beedrillite;TRUE;580;
+Big Root;FALSE;174;
+Binding Band;FALSE;175;
+Black Belt;FALSE;176;1.2x fighting
+Black Glasses;FALSE;177;1.2x dark
+Black Sludge;FALSE;178;
+Blastoisinite;TRUE;581;
+Blazikenite;TRUE;582;
+Bright Powder;FALSE;180;
+Buginium Z;FALSE;769;
+Cameruptite;TRUE;583;
+Cell Battery;FALSE;182;1.5x atk, used
+Charcoal;FALSE;183;1.2x fire
+Charizardite X;TRUE;584;
+Charizardite Y;TRUE;585;
+Charti Berry;FALSE;21;
+Cheri Berry;FALSE;22;
+Chesto Berry;FALSE;23;
+Choice Band;FALSE;185;1.5x atk
+Choice Scarf;FALSE;186;1.5x spe
+Choice Specs;FALSE;187;1.5x spa
+Chople Berry;FALSE;25;
+Coba Berry;FALSE;26;
+Colbur Berry;FALSE;27;
+Custap Berry;FALSE;29;
+Damp Rock;FALSE;189;
+Darkinium Z;FALSE;771;
+Dragon Fang;FALSE;192;1.2x dragon
+Dragonium Z;FALSE;775;
+Eject Button;FALSE;193;
+Electric Seed;FALSE;194;
+Electrium Z;FALSE;779;
+Enigma Berry;FALSE;31;
+Eviolite;TRUE;196;
+Expert Belt;FALSE;197;1.2x super effective
+Fairium Z;FALSE;781;
+Fightinium Z;FALSE;783;
+Firium Z;FALSE;785;
+Flame Orb;FALSE;198;
+Float Stone;FALSE;199;
+Flyinium Z;FALSE;787;
+Focus Band;FALSE;200;
+Focus Sash;FALSE;201;
+Galladite;TRUE;587;
+Ganlon Berry;FALSE;33;1.5x def, used
+Garchompite;TRUE;588;
+Gardevoirite;TRUE;589;
+Gengarite;TRUE;590;
+Ghostium Z;FALSE;789;
+Glalitite;TRUE;591;
+Grassium Z;FALSE;791;
+Groundium Z;FALSE;793;
+Gyaradosite;TRUE;592;
+Haban Berry;FALSE;35;
+Hard Stone;FALSE;205;1.2x rock
+Heat Rock;FALSE;206;
+Heracronite;TRUE;593;
+Houndoominite;TRUE;594;
+Icium Z;FALSE;795;
+Icy Rock;FALSE;207;
+Iron Ball;FALSE;208;0.5x spe
+Jaboca Berry;FALSE;38;
+Kangaskhanite;TRUE;595;
+Kasib Berry;FALSE;39;
+Kebia Berry;FALSE;40;
+Kee Berry;FALSE;41;1.5x def, used
+King's Rock;FALSE;113;
+Latiasite;TRUE;596;
+Latiosite;TRUE;597;
+Lax Incense;FALSE;265;
+Leftovers;FALSE;211;
+Liechi Berry;FALSE;45;1.5x atk, used
+Life Orb;FALSE;212;1.3x atk & spa
+Light Clay;FALSE;214;
+Lopunnite;TRUE;598;
+Lucarionite;TRUE;599;
+Lum Berry;FALSE;46;
+Luminous Moss;FALSE;217;1.5x spd, used
+Magnet;FALSE;219;1.2x electric
+Manectite;TRUE;600;
+Maranga Berry;FALSE;49;1.5x spd, used
+Mawilite;TRUE;601;
+Medichamite;TRUE;602;
+Mental Herb;FALSE;220;
+Metagrossite;TRUE;603;
+Metronome;FALSE;223;
+Miracle Seed;FALSE;224;1.2x grass
+Misty Seed;FALSE;225;
+Muscle Band;FALSE;226;1.1x atk
+Mystic Water;FALSE;227;1.2x water
+Never-Melt Ice;FALSE;228;1.2x ice
+Normalium Z;FALSE;803;
+Occa Berry;FALSE;53;
+Passho Berry;FALSE;56;
+Payapa Berry;FALSE;57;
+Persim Berry;FALSE;59;
+Petaya Berry;FALSE;60;1.5x spa, used
+Pidgeotite;TRUE;606;
+Pinsirite;TRUE;607;
+Poisonium Z;FALSE;809;
+Power Herb;FALSE;230;
+Psychic Seed;FALSE;232;
+Psychium Z;FALSE;813;
+Quick Claw;FALSE;233;
+Rawst Berry;FALSE;65;
+Razor Claw;FALSE;121;
+Razor Fang;FALSE;122;
+Red Card;FALSE;235;
+Rindo Berry;FALSE;67;
+Rockium Z;FALSE;815;
+Rocky Helmet;FALSE;238;
+Roseli Berry;FALSE;68;
+Sablenite;TRUE;608;
+Safety Goggles;FALSE;239;
+Salac Berry;FALSE;70;1.5x spe, used
+Salamencite;TRUE;609;
+Sceptilite;TRUE;610;
+Scizorite;TRUE;611;
+Scope Lens;FALSE;240;
+Sea Incense;FALSE;271;
+Sharp Beak;FALSE;241;1.2x flying
+Sharpedonite;TRUE;612;
+Shell Bell;FALSE;243;
+Shuca Berry;FALSE;71;
+Silk Scarf;FALSE;245;1.2x normal
+Sitrus Berry;FALSE;72;
+Slowbronite;TRUE;613;
+Smooth Rock;FALSE;248;
+Snowball;FALSE;249;1.5x atk, used
+Soft Sand;FALSE;250;1.2x ground
+Spell Tag;FALSE;252;1.2x ghost
+Steelium Z;FALSE;819;
+Steelixite;TRUE;614;
+Swampertite;TRUE;615;
+Tanga Berry;FALSE;76;
+Terrain Extender;FALSE;255;
+Thick Club;FALSE;256;2x atk cubone or marowak
+Toxic Orb;FALSE;257;
+Twisted Spoon;FALSE;258;1.2x psychic
+Tyranitarite;TRUE;616;
+Venusaurite;TRUE;617;
+Wacan Berry;FALSE;77;
+Waterium Z;FALSE;823;
+Weakness Policy;FALSE;259;2x atk && spa, used
+White Herb;FALSE;260;
+Wide Lens;FALSE;261;
+Wise Glasses;FALSE;262;1.1x spa
+Yache Berry;FALSE;81;
+Zoom Lens;FALSE;263;

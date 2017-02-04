@@ -1,4 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ability" representedClassName=".Ability" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="firstOf" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="firstAbility" inverseEntity="Pokemon" syncable="YES"/>
+        <relationship name="hiddenOf" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="hiddenAbility" inverseEntity="Pokemon" syncable="YES"/>
+        <relationship name="secondOf" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="secondAbility" inverseEntity="Pokemon" syncable="YES"/>
+    </entity>
+    <entity name="Dex" representedClassName=".Dex" syncable="YES" codeGenerationType="class">
+        <relationship name="contains" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="includedIn" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="ownedBy" toMany="YES" deletionRule="Deny" destinationEntity="Trainer" inverseName="availableMons" inverseEntity="Trainer" syncable="YES"/>
+    </entity>
+    <entity name="FlavorText" representedClassName="FlavorText" syncable="YES" codeGenerationType="class">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="itemDescribed" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Item" inverseName="text" inverseEntity="Item" syncable="YES"/>
+        <relationship name="partnerLose" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Trainer" inverseName="partnerLoseQuote" inverseEntity="Trainer" syncable="YES"/>
+        <relationship name="partnerStart" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Trainer" inverseName="partnerStartQuote" inverseEntity="Trainer" syncable="YES"/>
+        <relationship name="trainerLose" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Trainer" inverseName="loseQuote" inverseEntity="Trainer" syncable="YES"/>
+        <relationship name="trainerStart" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Trainer" inverseName="startQuote" inverseEntity="Trainer" syncable="YES"/>
+        <relationship name="trainerWin" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Trainer" inverseName="winQuote" inverseEntity="Trainer" syncable="YES"/>
+    </entity>
+    <entity name="Image" representedClassName=".Image" syncable="YES">
+        <attribute name="x" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Item" inverseName="image" inverseEntity="Item" syncable="YES"/>
+        <relationship name="pokemon" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="image" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="trainerClass" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="TrainerClass" inverseName="image" inverseEntity="TrainerClass" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName=".Item" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="holder" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="holding" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Image" inverseName="item" inverseEntity="Image" syncable="YES"/>
+        <relationship name="text" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="itemDescribed" inverseEntity="FlavorText" syncable="YES"/>
+    </entity>
+    <entity name="Move" representedClassName=".Move" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="power" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="extraType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="specialMoves" inverseEntity="Type" syncable="YES"/>
+        <relationship name="pokemons" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="moveSet" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="moves" inverseEntity="Type" syncable="YES"/>
+    </entity>
+    <entity name="Pokemon" representedClassName=".Pokemon" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="species" attributeType="String" syncable="YES"/>
+        <relationship name="baseStats" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Stat" inverseName="baseStats" inverseEntity="Stat" syncable="YES"/>
+        <relationship name="firstAbility" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ability" inverseName="firstOf" inverseEntity="Ability" syncable="YES"/>
+        <relationship name="hiddenAbility" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ability" inverseName="hiddenOf" inverseEntity="Ability" syncable="YES"/>
+        <relationship name="secondAbility" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ability" inverseName="secondOf" inverseEntity="Ability" syncable="YES"/>
+        <relationship name="sets" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="species" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="type1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="primaryPkms" inverseEntity="Type" syncable="YES"/>
+        <relationship name="type2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="secondaryPkms" inverseEntity="Type" syncable="YES"/>
+    </entity>
+    <entity name="PokemonSet" representedClassName=".PokemonSet" syncable="YES" codeGenerationType="class">
+        <attribute name="nature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setID" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="evs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Stat" inverseName="setEvs" inverseEntity="Stat" syncable="YES"/>
+        <relationship name="holding" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="holder" inverseEntity="Item" syncable="YES"/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Image" inverseName="pokemon" inverseEntity="Image" syncable="YES"/>
+        <relationship name="includedIn" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dex" inverseName="contains" inverseEntity="Dex" syncable="YES"/>
+        <relationship name="moveSet" optional="YES" toMany="YES" maxCount="4" deletionRule="Nullify" destinationEntity="Move" inverseName="pokemons" inverseEntity="Move" syncable="YES"/>
+        <relationship name="preCalcStats" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stat" inverseName="setStats" inverseEntity="Stat" syncable="YES"/>
+        <relationship name="preCalcStatsNoItem" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stat" inverseName="setStatsNoItem" inverseEntity="Stat" syncable="YES"/>
+        <relationship name="species" maxCount="1" deletionRule="Nullify" destinationEntity="Pokemon" inverseName="sets" inverseEntity="Pokemon" syncable="YES"/>
+    </entity>
+    <entity name="Stat" representedClassName=".Stats" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="baseStats" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="baseStats" inverseEntity="Pokemon" syncable="YES"/>
+        <relationship name="setEvs" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="evs" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="setStats" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="preCalcStats" inverseEntity="PokemonSet" syncable="YES"/>
+        <relationship name="setStatsNoItem" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="PokemonSet" inverseName="preCalcStatsNoItem" inverseEntity="PokemonSet" syncable="YES"/>
+    </entity>
+    <entity name="Trainer" representedClassName=".Trainer" syncable="YES" codeGenerationType="class">
+        <attribute name="end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="availableMons" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dex" inverseName="ownedBy" inverseEntity="Dex" syncable="YES"/>
+        <relationship name="loseQuote" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="trainerLose" inverseEntity="FlavorText" syncable="YES"/>
+        <relationship name="partnerLoseQuote" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="partnerLose" inverseEntity="FlavorText" syncable="YES"/>
+        <relationship name="partnerStartQuote" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="partnerStart" inverseEntity="FlavorText" syncable="YES"/>
+        <relationship name="startQuote" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="trainerStart" inverseEntity="FlavorText" syncable="YES"/>
+        <relationship name="trainerClass" maxCount="1" deletionRule="Nullify" destinationEntity="TrainerClass" inverseName="trainers" inverseEntity="TrainerClass" syncable="YES"/>
+        <relationship name="winQuote" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlavorText" inverseName="trainerWin" inverseEntity="FlavorText" syncable="YES"/>
+    </entity>
+    <entity name="TrainerClass" representedClassName=".TrainerClass" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="possibleSex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Image" inverseName="trainerClass" inverseEntity="Image" syncable="YES"/>
+        <relationship name="trainers" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Trainer" inverseName="trainerClass" inverseEntity="Trainer" syncable="YES"/>
+    </entity>
+    <entity name="Type" representedClassName="Type" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="moves" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Move" inverseName="type" inverseEntity="Move" syncable="YES"/>
+        <relationship name="primaryPkms" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="type1" inverseEntity="Pokemon" syncable="YES"/>
+        <relationship name="secondaryPkms" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Pokemon" inverseName="type2" inverseEntity="Pokemon" syncable="YES"/>
+        <relationship name="specialMoves" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Move" inverseName="extraType" inverseEntity="Move" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ability" positionX="396" positionY="99" width="128" height="103"/>
+        <element name="Dex" positionX="-110" positionY="-129" width="128" height="75"/>
+        <element name="FlavorText" positionX="603" positionY="468" width="128" height="148"/>
+        <element name="Image" positionX="216" positionY="279" width="128" height="120"/>
+        <element name="Item" positionX="-207" positionY="320" width="128" height="103"/>
+        <element name="Move" positionX="-344" positionY="72" width="128" height="148"/>
+        <element name="Pokemon" positionX="214" positionY="54" width="128" height="180"/>
+        <element name="PokemonSet" positionX="-173" positionY="53" width="128" height="193"/>
+        <element name="Stat" positionX="63" positionY="9" width="128" height="133"/>
+        <element name="Trainer" positionX="603" positionY="-97" width="128" height="210"/>
+        <element name="TrainerClass" positionX="387" positionY="306" width="128" height="103"/>
+        <element name="Type" positionX="-135" positionY="27" width="128" height="120"/>
+    </elements>
 </model>
