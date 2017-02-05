@@ -91,6 +91,7 @@ class PopulateDB {
   // Pokemon | Nature | Item | [Moves 1 - 4] | [EV Placement HP-Spe]
   enum PkmSetCSV: Int {
     case species = 0
+    case isMega
     case nature
     case heldItem
     case move1
@@ -289,7 +290,7 @@ class PopulateDB {
     return newStat
   }
   
-  static fileprivate func getOrCreatePokemon(ofSpecies species: String, rawData basicData: [String:[String]]) -> Pokemon {
+  static fileprivate func getOrCreatePokemon(ofSpecies species: String) -> Pokemon {
     let result = basePkms.filter() { $0.species == species }
     
     if result.count > 1 {
@@ -303,7 +304,7 @@ class PopulateDB {
     }
     
     // need to create a new mon
-    let tuples = basicData.filter() { $0.key == species }
+    let tuples = pkmBaseData.filter() { $0.key == species }
     
     if tuples.count != 1 {
       print("there is more/less than one pokemon with the same species: something went wrong!\n")
@@ -427,8 +428,9 @@ class PopulateDB {
     return img
   }
   
+  static fileprivate let pkmBaseData = getPokemonBasicData() // raw data of all pkm species
+  //static fileprivate var altForms = [[String]]() // species of alternate forms
   static fileprivate func parsePkms() {
-    let pkmBaseData = getPokemonBasicData() // raw data of all pkm species
     
     if let contentsOfURL = Bundle.main.url(forResource: "Pokemon-Table 1", withExtension: "csv") {
       do {
@@ -441,17 +443,29 @@ class PopulateDB {
         var index = 0
         while index < lines.count {
           var species = ""
+          var bckspecies = ""
           var basePkm: Pokemon!
           for i in 0...3 {
-            let values = lines[index + i].components(separatedBy: ";")
+            var values = lines[index + i].components(separatedBy: ";")
+            
             if i == 0 {
               species = values[0]
-              basePkm = getOrCreatePokemon(ofSpecies: species, rawData: pkmBaseData)
             }
             
-            guard values[1] != "" else { continue } // empty line of alternative forms
+            bckspecies = species
+            // creates a new line with the same species but a different form
+            if values[PkmSetCSV.isMega.rawValue] == "Mega" { // Megas
+              species = "\(species) (Mega \(species))"
+            }
             
-            // TODO: Implement the image from the pkmSets
+            basePkm = getOrCreatePokemon(ofSpecies: species)
+            
+            // empty line of alternative sets
+            if values[PkmSetCSV.heldItem.rawValue] == "" {
+              //species = bckspecies
+              continue
+            }
+            
             let newPkmSet = createPokemonSet()
             newPkmSet.species = basePkm
             newPkmSet.setID = (i + 1) as NSNumber?
@@ -510,6 +524,8 @@ class PopulateDB {
             try? newPkmSet.managedObjectContext?.save()
             
             pkmSets.append(newPkmSet)
+            //print("\(species), set \(i): OK")
+            species = bckspecies
           }
           index += 4
         }
@@ -547,6 +563,16 @@ class PopulateDB {
   }
   
   static fileprivate func getPkmSet(pkmNamed species: String, id setID: Int) -> PokemonSet {
+    if let result = findPkmSet(pkmNamed: species, id: setID) { // regular form
+      return result
+    } else if let result = findPkmSet(pkmNamed: "\(species) (Mega \(species))", id: setID) { // mega
+      return result
+    } else {
+      abort()
+    }
+  }
+  
+  static fileprivate func findPkmSet(pkmNamed species: String, id setID: Int) -> PokemonSet? {
     let result = pkmSets.filter() { $0.species?.species == species }
     
     if result.count == 0 {
@@ -559,9 +585,10 @@ class PopulateDB {
         return res
       }
     }
-    
-    // Could not find a pkmSet with the same id as requested
-    abort()
+//    
+//    // Could not find a pkmSet with the same id as requested
+//    abort()
+    return nil
   }
   
   static fileprivate func parseDexes() {
@@ -776,9 +803,14 @@ class PopulateDB {
     }
   }
   
+//  static fileprivate func parseAlternateForms() {
+//    
+//  }
+  
   static func preload() {
     removeData()
     parsePkms()
+    //parseAlternateForms()
     parseTrainers()
   }
 }

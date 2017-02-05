@@ -52,15 +52,12 @@
 		F954BA961E38019E0052E459 /* PokemonSetsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSetsVC.swift; sourceTree = "<group>"; };
 		F954BA981E3803A30052E459 /* PokemonSetsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSetsCell.swift; sourceTree = "<group>"; };
 		F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerUpdateVC.swift; sourceTree = "<group>"; };
-		F9DD85CF1E43A3CC003D61E8 /* Pokemon-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pokemon-Table 1.csv"; sourceTree = "<group>"; };
 		F9DD85D11E43A3E5003D61E8 /* Trainer-Table 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Trainer-Table 1.csv"; sourceTree = "<group>"; };
 		F9DD85DF1E4412C3003D61E8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "items_images-Table 1-1.csv"; sourceTree = "<group>"; };
-		F9DD85ED1E455CAB003D61E8 /* pkmn_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pkmn_images-Table 1-1.csv"; sourceTree = "<group>"; };
-		F9DD85EE1E456505003D61E8 /* Tree_Sets.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tree_Sets.sqlite; sourceTree = "<group>"; };
-		F9DD85EF1E456505003D61E8 /* Tree_Sets.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree_Sets.sqlite-shm"; sourceTree = "<group>"; };
-		F9DD85F01E456505003D61E8 /* Tree_Sets.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree_Sets.sqlite-wal"; sourceTree = "<group>"; };
+		F9DD85F11E46C921003D61E8 /* pkmn_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pkmn_images-Table 1-1.csv"; sourceTree = "<group>"; };
+		F9DD85F51E478AE4003D61E8 /* Pokemon-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pokemon-Table 1.csv"; sourceTree = "<group>"; };
 		F9ECBC191E14955A0005F92A /* TrainersTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainersTableVC.swift; path = ../TrainersTableVC.swift; sourceTree = "<group>"; };
 		F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsTableVC.swift; sourceTree = "<group>"; };
 		F9ECBC1D1E1496880005F92A /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
@@ -149,12 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				F94A9BAD1E156AE60072F5AA /* Battle Tree Lookup - Pokedex.tsv */,
-				F9DD85ED1E455CAB003D61E8 /* pkmn_images-Table 1-1.csv */,
-				F9DD85CF1E43A3CC003D61E8 /* Pokemon-Table 1.csv */,
-				F9DD85D11E43A3E5003D61E8 /* Trainer-Table 1.csv */,
-				F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */,
-				F954BA801E3412510052E459 /* Trainer Category-Table 1.csv */,
 				F954BA821E3420E30052E459 /* Dex-Table 1.csv */,
+				F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */,
+				F9DD85F51E478AE4003D61E8 /* Pokemon-Table 1.csv */,
+				F9DD85F11E46C921003D61E8 /* pkmn_images-Table 1-1.csv */,
+				F954BA801E3412510052E459 /* Trainer Category-Table 1.csv */,
+				F9DD85D11E43A3E5003D61E8 /* Trainer-Table 1.csv */,
 			);
 			name = rawFiles;
 			sourceTree = "<group>";
@@ -181,9 +178,6 @@
 		F954BA9C1E3856070052E459 /* preBuilt */ = {
 			isa = PBXGroup;
 			children = (
-				F9DD85EE1E456505003D61E8 /* Tree_Sets.sqlite */,
-				F9DD85EF1E456505003D61E8 /* Tree_Sets.sqlite-shm */,
-				F9DD85F01E456505003D61E8 /* Tree_Sets.sqlite-wal */,
 			);
 			name = preBuilt;
 			sourceTree = "<group>";

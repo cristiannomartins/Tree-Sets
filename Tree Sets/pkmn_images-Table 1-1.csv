@@ -599,11 +599,11 @@ Probopass;596;18;20;476;476
 Dusknoir;597;18;21;477;477
 Froslass;598;18;22;478;478
 Rotom;599;18;23;479;479
-Rotom (Heat Rotom);600;18;24;917;479
-Rotom (Wash Rotom);601;18;25;918;479
-Rotom (Frost Rotom);602;18;26;919;479
-Rotom (Fan Rotom);603;18;27;920;479
-Rotom (Mow Rotom);604;18;28;921;479
+Rotom (Fan Rotom);600;18;24;917;479
+Rotom (Frost Rotom);601;18;25;918;479
+Rotom (Heat Rotom);602;18;26;919;479
+Rotom (Mow Rotom);603;18;27;920;479
+Rotom (Wash Rotom);604;18;28;921;479
 Uxie;605;18;29;480;480
 Mesprit;606;18;30;481;481
 Azelf;607;18;31;482;482
@@ -954,8 +954,8 @@ Vikavolt;951;29;23;738;738
 Crabrawler;952;29;24;739;739
 Crabominable;953;29;25;740;740
 Oricorio (Baile Style);954;29;26;741;741
-Oricorio (Pom-Pom Style);955;29;27;1021;741
-Oricorio (Pa'u Style);956;29;28;1022;741
+Oricorio (Pa'u Style);955;29;27;1021;741
+Oricorio (Pom-Pom Style);956;29;28;1022;741
 Oricorio (Sensu Style);957;29;29;1023;741
 Cutiefly;958;29;30;742;742
 Ribombee;959;29;31;743;743

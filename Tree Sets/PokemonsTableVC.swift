@@ -115,8 +115,19 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = self.tableView.dequeueReusableCell(withIdentifier: "pcell")! as! PokemonCell
     
-    cell.pName?.text = filteredMons[indexPath.row].species
     cell.pkm = filteredMons[indexPath.row]
+    cell.pName.text = filteredMons[indexPath.row].species
+    if cell.pName.text!.contains("(Mega ") {
+      let components = cell.pName.text!.components(separatedBy: " ")
+      cell.pName.text = ""
+      for c in components {
+        if c == "(Mega" {
+          break
+        }
+        cell.pName.text = "\(cell.pName.text!)\(c) "
+      }
+      cell.pName.text = "\(cell.pName.text!)(Mega)"
+    }
     
     // asynchronously sets up the image view for the cell, to speed up the tableView
     (filteredMons[indexPath.row].sets!.allObjects.first as! PokemonSet).image!.async_setUIImage(.PokemonSprite)
@@ -197,7 +208,12 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
       
       selectedRows.sort()
       
-      for name in selectedRows {
+      for var name in selectedRows {
+        if let mega = name.range(of: " (Mega)") {//contains("(Mega)") {
+          name.removeSubrange(mega)
+          name = "\(name) (Mega \(name))"
+        }
+        
         if let pkm = pokemons.first(where: { p in p.species == name }) {
           //        if dest.sets[pkm] == nil {
           //          dest.sets[pkm] = []

@@ -113,14 +113,14 @@ class PokemonSetsVC: UITableViewController {
     // existing abilities
     cell.firstAbility.text = pkmSet.species!.firstAbility!.name
     
-    if let second = pkmSet.species!.secondAbility {
+    if let second = pkmSet.species!.secondAbility, second.name != "#N/A" {
       cell.secondAbility.text = second.name
       cell.secondAbility.textColor = UIColor.black
     } else {
       cell.secondAbility.textColor = UIColor.clear
     }
     
-    if let hidden = pkmSet.species!.hiddenAbility {
+    if let hidden = pkmSet.species!.hiddenAbility, hidden.name != "#N/A" {
       cell.hiddenAbility.text = hidden.name
       cell.hiddenAbility.textColor = UIColor.black
     } else {
@@ -149,19 +149,21 @@ class PokemonSetsVC: UITableViewController {
     
     if statsBuff[pkmSet] == nil {
       // calculating total stats
-//      statsBuff[pkmSet] = [
-//        pkmSet.getStatValue(.hp),
-//        pkmSet.getStatValue(.atk),
-//        pkmSet.getStatValue(.def),
-//        pkmSet.getStatValue(.spa),
-//        pkmSet.getStatValue(.spd),
-//        pkmSet.getStatValue(.spe)
-//      ]
       statsBuff[pkmSet] = [Int].init(repeating: 0, count: 6)
       for stat in pkmSet.preCalcStats?.allObjects as! [Stats] {
         statsBuff[pkmSet]![Int(stat.id)] = Int(stat.value)
       }
     }
+    
+    // megastones
+//    if cell.holdItem!.text!.hasSuffix("ite") {
+//      // FIXME: MegaSet does not come from the tuples
+//      let megaSet = tuples[indexPath.section].value[indexPath.row]
+//      statsBuff[megaSet] = [Int].init(repeating: 0, count: 6)
+//      for stat in megaSet.preCalcStats?.allObjects as! [Stats] {
+//        statsBuff[megaSet]![Int(stat.id)] = Int(stat.value)
+//      }
+//    }
     
     cell.hpTotal.text  = String(statsBuff[pkmSet]![0])
     cell.atkTotal.text = String(statsBuff[pkmSet]![1])
@@ -301,11 +303,7 @@ class PokemonSetsVC: UITableViewController {
   var hasItemEnabled: [IndexPath:Bool] = [:]
   //var itemForIndex: [IndexPath:String] = [:]
   
-  //var imgBuffs: [IndexPath:UIImage] = [:]
   @IBAction func itemButtonPressed(_ button: UIButton) {
-    //print("Hello!!")
-    //print(button)
-    
     // find the PokemonSetsCell (which is a superview of button, on the views hierarchy)
     var view: UIView? = button
     var cell: PokemonSetsCell?
@@ -314,43 +312,53 @@ class PokemonSetsVC: UITableViewController {
       cell = view as? PokemonSetsCell
     } while (cell == nil);
     
-    //print (button.superview)
     let indexPath = tableView.indexPath(for:cell!)!
-    //let nsIndexPath = indexPath as! NSIndexPath
-    let pkmSet = tuples[indexPath.section].value[indexPath.row] //sets[sortedKeys[(indexPath?.section)!]]![(indexPath?.row)!]
+    let pkmSet = tuples[indexPath.section].value[indexPath.row]
     
-    //if let newImg = imgBuffs.removeValue(forKey: button.currentImage!) {
     if hasItemEnabled[indexPath]! {
-      //let newImg = button.currentImage!.alpha(value: 0.2)
-      //imgBuffs[indexPath!] = button.currentImage!
-      //button.setImage(newImg, for: [])
       pkmSet.holding!.image!.async_setUIImage(.ItemSprite) {
         [weak weakSelf = self] in
         if let visibleRows = weakSelf?.tableView.indexPathsForVisibleRows, visibleRows.contains(indexPath) {
-          //if let cell = self.tableView.cellForRow(at: indexPath) as? PokemonSetsCell {
           cell?.itemImage.setImage($0.alpha(value: 0.2), for: [])
+          cell?.holdItem.alpha = 0.2
         }
       }
-      cell?.holdItem.alpha = 0.2
-      hasItemEnabled[indexPath] = false
       
       // remoção do item dos stats
       cell?.removeItem(statsBuff: statsBuff[pkmSet]!)
     } else {
-      //let newImg = imgBuffs.removeValue(forKey: indexPath!)
-      //button.setImage(newImg, for: [])
       pkmSet.holding!.image!.async_setUIImage(.ItemSprite) {
         [weak weakSelf = self] in
         if let visibleRows = weakSelf?.tableView.indexPathsForVisibleRows, visibleRows.contains(indexPath) {
-          //if let cell = self.tableView.cellForRow(at: indexPath) as? PokemonSetsCell {
           cell?.itemImage.setImage($0, for: [])
+          cell?.holdItem.alpha = 1.0
         }
       }
-      cell?.holdItem.alpha = 1.0
-      hasItemEnabled[indexPath] = true
       
       // adição do item nos stats
       cell?.addItem(statsBuff: statsBuff[pkmSet]!)
     }
+    hasItemEnabled[indexPath] = !hasItemEnabled[indexPath]!
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
