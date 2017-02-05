@@ -119,13 +119,13 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
     cell.pkm = filteredMons[indexPath.row]
     
     // asynchronously sets up the image view for the cell, to speed up the tableView
-//    filteredMons[indexPath.row].image!.async_setUIImage(.PokemonSprite)
-//    { [weak weakSelf = self] in
-//      //if let cell = self.tableView.cellForRow(at: indexPath) as? PokemonCell {
-//      if let visibleRows = weakSelf?.tableView.indexPathsForVisibleRows, visibleRows.contains(indexPath) {
-//        cell.pkmImage.image = $0
-//      }
-//    }
+    (filteredMons[indexPath.row].sets!.allObjects.first as! PokemonSet).image!.async_setUIImage(.PokemonSprite)
+    { [weak weakSelf = self] in
+      //if let cell = self.tableView.cellForRow(at: indexPath) as? PokemonCell {
+      if let visibleRows = weakSelf?.tableView.indexPathsForVisibleRows, visibleRows.contains(indexPath) {
+        cell.pImage.image = $0
+      }
+    }
     
     // verifies which image to apply to the checkmark of the cell
     if let _ = selectedRows.index(of: cell.pName!.text!) {
