@@ -16,6 +16,10 @@ class TrainersTableVC: UITableViewController, UISearchResultsUpdating {
   
   var category: TrainerClass?
   
+  override func viewWillAppear(_ animated: Bool) {
+    tableView.reloadData()
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     

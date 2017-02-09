@@ -147,17 +147,27 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
     
     if let currentDex = pokedex {
       let dexSets = currentDex.contains!.allObjects as! [PokemonSet]
-      var setsForSpecies = dexSets.filter({p in p.species!.species! == cell.pName!.text!})
-      if setsForSpecies.count == 4 {
+      let pName:String
+      
+      if cell.pName.text!.hasSuffix(" (Mega)") {
+        let species = cell.pName.text!.components(separatedBy: " (Mega)").first!
+        pName = "\(species) (Mega \(species))"
+      } else {
+        pName = cell.pName.text!
+      }
+      
+      var setsForSpecies = dexSets.filter({p in p.species!.species! == pName})
+      if setsForSpecies.count == setsForSpecies.first?.species?.sets?.count {
         cell.sets.text = "All"
       } else {
         cell.sets.text = ""
         setsForSpecies.sort(by: { p1, p2 in Int(p1.setID!) < Int(p2.setID!) })
         for set in setsForSpecies {
-          if cell.sets.text! != "" {
-            cell.sets.text = "\(cell.sets.text!),"
+          if cell.sets.text! == "" {
+            cell.sets.text = "\(set.setID!)"
+          } else {
+            cell.sets.text = "\(cell.sets.text!), \(set.setID!)"
           }
-          cell.sets.text = "\(cell.sets.text!) \(set.setID!)"
         }
       }
     } else {
@@ -247,6 +257,11 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
     if pokedex != nil {
       performSegue(withIdentifier: "cancelToTrainers", sender: self)
     }
+  }
+  
+  @IBAction func clearSelection (_ sender: AnyObject) {
+    selectedRows.removeAll()
+    tableView.reloadData()
   }
   
   /*

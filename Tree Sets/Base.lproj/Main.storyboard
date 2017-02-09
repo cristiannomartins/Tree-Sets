@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kga-qY-gKp" id="cLA-BC-SPr">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="0ew-0v-ZYp">
@@ -77,19 +77,11 @@
                             <outlet property="delegate" destination="fRU-iE-e87" id="yt3-Rt-dQh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Trainers" id="Z1r-85-6uB">
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="Uy9-bl-SZF">
-                            <connections>
-                                <segue destination="aI6-cJ-5Az" kind="popoverPresentation" popoverAnchorBarButtonItem="Uy9-bl-SZF" id="RKi-ez-L5s">
-                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                </segue>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Trainers" id="Z1r-85-6uB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8x-kN-m91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600.8" y="-206.44677661169416"/>
+            <point key="canvasLocation" x="1601" y="-752"/>
         </scene>
         <!--Update-->
         <scene sceneID="Vmw-Gv-ffh">
@@ -104,28 +96,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="W3K-6v-ttq">
-                                <rect key="frame" x="20" y="28" width="335" height="264.5"/>
+                                <rect key="frame" x="20" y="28" width="335" height="234"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3M1-ZT-Yfr">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="164.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="174"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rN-Ak-nyJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6rN-Ak-nyJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6F-he-dTr">
-                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o68-qH-2qm">
-                                                        <rect key="frame" x="45" y="0.0" width="242" height="20.5"/>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="o68-qH-2qm">
+                                                        <rect key="frame" x="53" y="0.0" width="226" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="6Yy-93-OQd"/>
+                                                        </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jav-mQ-ecH">
-                                                        <rect key="frame" x="287" y="0.0" width="48" height="20.5"/>
+                                                        <rect key="frame" x="287" y="0.0" width="48" height="30"/>
                                                         <state key="normal" title="Search"/>
                                                         <connections>
                                                             <action selector="hasNewName:" destination="aI6-cJ-5Az" eventType="touchUpInside" id="ENu-6c-2gt"/>
@@ -134,7 +129,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzj-pC-BB1">
-                                                <rect key="frame" x="0.0" y="20.5" width="335" height="48"/>
+                                                <rect key="frame" x="0.0" y="30" width="335" height="48"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZyJ-ac-I4r">
                                                         <rect key="frame" x="0.0" y="0.0" width="70.5" height="48"/>
@@ -151,7 +146,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUN-dH-Bef">
-                                                <rect key="frame" x="0.0" y="68.5" width="131.5" height="48"/>
+                                                <rect key="frame" x="0.0" y="78" width="131.5" height="48"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cuz-4A-Mqz">
                                                         <rect key="frame" x="0.0" y="0.0" width="28" height="48"/>
@@ -169,7 +164,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vlz-rb-Hni">
-                                                <rect key="frame" x="0.0" y="116.5" width="335" height="48"/>
+                                                <rect key="frame" x="0.0" y="126" width="335" height="48"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Va9-aj-Kbf">
                                                         <rect key="frame" x="0.0" y="0.0" width="38" height="48"/>
@@ -217,20 +212,20 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DWi-53-nXN">
-                                        <rect key="frame" x="50" y="194.5" width="235" height="70"/>
+                                        <rect key="frame" x="34.5" y="204" width="266" height="30"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="auh-6B-Cln">
-                                                <rect key="frame" x="0.0" y="0.0" width="235" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="266" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9n-nk-pT1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
-                                                        <state key="normal" title="Cancel"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiZ-1R-SSz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="79" height="30"/>
+                                                        <state key="normal" title="Export CSV"/>
                                                         <connections>
-                                                            <action selector="updateDataAndReturn:" destination="aI6-cJ-5Az" eventType="touchUpInside" id="WSD-18-fU2"/>
+                                                            <action selector="exportCSV:" destination="aI6-cJ-5Az" eventType="touchUpInside" id="QDx-xD-aCe"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYW-GA-LsO">
-                                                        <rect key="frame" x="198" y="0.0" width="37" height="30"/>
+                                                        <rect key="frame" x="229" y="0.0" width="37" height="30"/>
                                                         <state key="normal" title="Done"/>
                                                         <connections>
                                                             <action selector="updateDataAndReturn:" destination="aI6-cJ-5Az" eventType="touchUpInside" id="dq5-Oy-TG9"/>
@@ -238,13 +233,6 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiZ-1R-SSz">
-                                                <rect key="frame" x="78" y="40" width="79" height="30"/>
-                                                <state key="normal" title="Export CSV"/>
-                                                <connections>
-                                                    <action selector="exportCSV:" destination="aI6-cJ-5Az" eventType="touchUpInside" id="QDx-xD-aCe"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -258,6 +246,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="W3K-6v-ttq" secondAttribute="trailing" constant="4" id="yRb-Lf-8Mq"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Update" image="arrows" id="Dc0-U6-evQ"/>
                     <connections>
                         <outlet property="categoryPicker" destination="fbV-Mm-mu1" id="nsl-0e-uqZ"/>
                         <outlet property="endPicker" destination="Hir-QK-db9" id="Thg-cV-KNr"/>
@@ -270,7 +259,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="niz-fA-Ht5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="inb-pD-XEA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2448.8000000000002" y="-206.44677661169416"/>
+            <point key="canvasLocation" x="662" y="733"/>
         </scene>
         <!--Pokémons-->
         <scene sceneID="Qs4-Rf-P2x">
@@ -286,7 +275,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wMz-eu-4Ne" id="KNR-Tb-duv">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="OXa-BF-qHH">
@@ -345,9 +334,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Pokémons" id="Fuv-9h-Wms">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="S48-3b-2Og">
+                            <connections>
+                                <action selector="clearSelection:" destination="geJ-Ao-PM9" id="uTJ-Pw-Un7"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="29H-gv-TFZ">
                             <connections>
-                                <segue destination="lra-E9-lXK" kind="show" id="PWO-qE-WNY"/>
+                                <segue destination="lra-E9-lXK" kind="show" identifier="pushPokemonSets" id="PWO-qE-WNY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -368,12 +362,12 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1601" y="560"/>
+            <point key="canvasLocation" x="1601" y="14"/>
         </scene>
         <!--Tab BarVC-->
         <scene sceneID="aJt-Xe-nIq">
             <objects>
-                <tabBarController id="v64-hq-bXd" customClass="TabBarVC" customModule="Tree_Sets" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBarController" id="v64-hq-bXd" customClass="TabBarVC" customModule="Tree_Sets" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="CL3-YC-ZwC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -382,11 +376,12 @@
                     <connections>
                         <segue destination="RYK-bI-CwE" kind="relationship" relationship="viewControllers" id="U0d-LD-v4x"/>
                         <segue destination="Dr1-py-o6u" kind="relationship" relationship="viewControllers" id="VOO-sA-f0K"/>
+                        <segue destination="aI6-cJ-5Az" kind="relationship" relationship="viewControllers" id="qmd-bf-VBZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V6R-B7-Rvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="14"/>
+            <point key="canvasLocation" x="-282" y="135"/>
         </scene>
         <!--Trainers-->
         <scene sceneID="uiB-oQ-eSt">
@@ -405,7 +400,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZs-KZ-hOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661.60000000000002" y="-206.44677661169416"/>
+            <point key="canvasLocation" x="662" y="-752"/>
         </scene>
         <!--Pokémons-->
         <scene sceneID="2gB-fX-Jq9">
@@ -424,7 +419,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MxB-64-tGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="560"/>
+            <point key="canvasLocation" x="662" y="14"/>
         </scene>
         <!--Pokemon Sets-->
         <scene sceneID="vsv-gq-doM">
@@ -440,7 +435,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="im7-ez-EUd" id="5eb-Ej-f9o">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="msC-l5-Ene" userLabel="allData">
@@ -851,17 +846,18 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1601" y="1302"/>
+            <point key="canvasLocation" x="1601" y="733"/>
         </scene>
     </scenes>
     <resources>
+        <image name="arrows" width="24" height="24"/>
         <image name="pokedex" width="24" height="24"/>
         <image name="trainer" width="16" height="16"/>
         <image name="trainersBag" width="24" height="24"/>
         <image name="ultraball" width="75" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zjJ-8t-5Wf"/>
+        <segue reference="4La-GD-yqA"/>
         <segue reference="PWO-qE-WNY"/>
     </inferredMetricsTieBreakers>
 </document>

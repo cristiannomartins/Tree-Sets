@@ -113,14 +113,14 @@ class PokemonSetsVC: UITableViewController {
     // existing abilities
     cell.firstAbility.text = pkmSet.species!.firstAbility!.name
     
-    if let second = pkmSet.species!.secondAbility, second.name != "#N/A" {
+    if let second = pkmSet.species!.secondAbility, second.name != "#N/A", second.name != cell.firstAbility.text {
       cell.secondAbility.text = second.name
       cell.secondAbility.textColor = UIColor.black
     } else {
       cell.secondAbility.textColor = UIColor.clear
     }
     
-    if let hidden = pkmSet.species!.hiddenAbility, hidden.name != "#N/A" {
+    if let hidden = pkmSet.species!.hiddenAbility, hidden.name != "#N/A", hidden.name != cell.firstAbility.text {
       cell.hiddenAbility.text = hidden.name
       cell.hiddenAbility.textColor = UIColor.black
     } else {

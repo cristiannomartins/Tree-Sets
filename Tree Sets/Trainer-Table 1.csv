@@ -6,7 +6,7 @@ Aino;86;Veteran;Both;F;43;49
 Alice;107;Sightseer;Both;;;
 Alim;41;Golfer;Both;M;21;39
 Alwyn;20;Youth Athlete;Both;F;2;19
-Anabel;129;Pokémon Trainer;Both;F;20;20
+Anabel;129;Pokémon Trainer;Both;F;20;40
 Anisa;43;Golfer;Both;F;21;39
 Arlo;11;Hiker;M;M;1;7
 Arnold;62;Black Belt;M;M;31;48
@@ -41,10 +41,10 @@ Chen;107;Sightseer?;;;;
 Cheryl;37;Madame;F;F;12;29
 Chip;51;Bellhop;M;M;21;34
 Christian;108;Sightseer?;;;;
-Christina;42;Golfer;Both;F;21;31
+Christina;42;Golfer;Both;F;21;38
 Christopher;22;Rising Star;Both;M;1;15
 Christy;38;Madame;F;F;11;21
-Chucky;61;Black Belt;M;M;36;42
+Chucky;61;Black Belt;M;M;36;45
 Cleavant;9;Hiker;M;M;3;10
 Colby;117;Pokémon Breeder?;;;;
 Colress;131;Pokémon Trainer;Both;M;10;40
@@ -70,7 +70,7 @@ Dustin;101;Punk Guy?;;;;
 Dylan;15;Punk Guy;M;M;1;19
 Dyson;50;Bellhop;M;M;22;37
 Edda;102;Punk Girl?;;;;
-Emery;12;Office Worker;Both;M;6;9
+Emery;12;Office Worker;Both;M;3;9
 Erix;106;Rising Star?;;;;
 Etta;101;Punk Guy?;;;;
 Eva;16;Punk Girl;F;F;2;19
@@ -109,7 +109,7 @@ Jairo;30;Janitor;M;M;11;25
 Jana;100;Preschooler;Both;;;
 Jasper;4;Preschooler;Both;M;1;9
 Jerry;36;Gentleman;M;M;11;27
-Jo;74;Rising Star;Both;;;
+Jo;74;Dancer;F;F;41;41
 Joaquin;105;Worker;M;M;;
 JT;33;Worker;M;M;11;29
 Julien;53;Cook;M;M;22;39

@@ -141,6 +141,7 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     activity.center = self.view.center
     activity.color = UIColor.red
     view.addSubview(activity)
+    resetFields()
   }
   
   func getSexLine(_ t: Trainer) -> Int {
@@ -196,8 +197,17 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         print("Failed to retrieve record: \(error)")
       }
     }
-    
-    performSegue(withIdentifier: "trainerUpdated", sender: self)
+    resetFields()
+    tabBarController?.selectedIndex = 0
+    //performSegue(withIdentifier: "trainerUpdated", sender: self)
+  }
+  
+  func resetFields() {
+    nameTF.text = ""
+    categoryPicker.selectRow(0, inComponent: 0, animated: false)
+    sexPicker.selectRow(2, inComponent: 0, animated: false)
+    startPicker.selectRow(0, inComponent: 0, animated: false)
+    endPicker.selectRow(0, inComponent: 0, animated: false)
   }
   
   //MARK: - Delegates and data sources
