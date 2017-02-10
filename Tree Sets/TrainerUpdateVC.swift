@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
   
   @IBOutlet weak var categoryPicker: UIPickerView!
   @IBOutlet weak var endPicker: UIPickerView!
@@ -23,7 +23,7 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
   let sexData = ["M", "F", "?"]
   static var categoryData: [String]? = nil
   
-  @IBAction func hasNewName(_ sender: UIButton) {
+  @IBAction func hasNewName(_ sender: AnyObject) {
     trainersName = nameTF.text
     
     let fetchTrainer = NSFetchRequest<Trainer>(entityName: "Trainer")
@@ -40,6 +40,11 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     } catch {
       print("Failed to retrieve record: \(error)")
     }
+  }
+  
+  func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    self.hasNewName(self)
+    return true
   }
   
   func getCSV() -> URL? {
@@ -110,6 +115,8 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.hideKeyboardWhenTappedAround()
+    
     // Do any additional setup after loading the view.
     if TrainerUpdateVC.categoryData == nil {
       let fetchTrainerCat = NSFetchRequest<TrainerClass>(entityName: "TrainerClass")
@@ -134,6 +141,7 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     endPicker.delegate = self
     sexPicker.dataSource = self
     sexPicker.delegate = self
+    nameTF.delegate = self
     
     activity.isHidden = true
     activity.hidesWhenStopped = true

@@ -25,6 +25,7 @@
 		F954BAA41E3975670052E459 /* TrainerUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */; };
 		F9DD85E01E4412C3003D61E8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85DF1E4412C3003D61E8 /* Image.swift */; };
 		F9DD85E41E4413A6003D61E8 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */; };
+		F9DD86011E4D1BA1003D61E8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86001E4D1BA1003D61E8 /* UIViewController+Extensions.swift */; };
 		F9ECBC1A1E14955A0005F92A /* TrainersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECBC191E14955A0005F92A /* TrainersTableVC.swift */; };
 		F9ECBC1C1E14957E0005F92A /* PokemonsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */; };
 		F9ECBC1E1E1496880005F92A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECBC1D1E1496880005F92A /* TabBarVC.swift */; };
@@ -58,6 +59,7 @@
 		F9DD85F11E46C921003D61E8 /* pkmn_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pkmn_images-Table 1-1.csv"; sourceTree = "<group>"; };
 		F9DD85F51E478AE4003D61E8 /* Pokemon-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pokemon-Table 1.csv"; sourceTree = "<group>"; };
 		F9DD85FC1E4BA775003D61E8 /* Trainer-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Trainer-Table 1.csv"; sourceTree = "<group>"; };
+		F9DD86001E4D1BA1003D61E8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		F9ECBC191E14955A0005F92A /* TrainersTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainersTableVC.swift; path = ../TrainersTableVC.swift; sourceTree = "<group>"; };
 		F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsTableVC.swift; sourceTree = "<group>"; };
 		F9ECBC1D1E1496880005F92A /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
@@ -106,10 +108,9 @@
 		F94A9BA91E14A6E90072F5AA /* ViewControlllers */ = {
 			isa = PBXGroup;
 			children = (
+				F9DD85FD1E4D0318003D61E8 /* Extensions */,
 				F9ECBC191E14955A0005F92A /* TrainersTableVC.swift */,
 				F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */,
-				F9ECBC1D1E1496880005F92A /* TabBarVC.swift */,
-				F954BA8E1E37CBE60052E459 /* UITableView+Extension.swift */,
 				F954BA961E38019E0052E459 /* PokemonSetsVC.swift */,
 				F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */,
 			);
@@ -180,6 +181,16 @@
 			children = (
 			);
 			name = preBuilt;
+			sourceTree = "<group>";
+		};
+		F9DD85FD1E4D0318003D61E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9ECBC1D1E1496880005F92A /* TabBarVC.swift */,
+				F954BA8E1E37CBE60052E459 /* UITableView+Extension.swift */,
+				F9DD86001E4D1BA1003D61E8 /* UIViewController+Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 				F954BA8B1E37B7670052E459 /* TrainerCell.swift in Sources */,
 				F9ECBC1C1E14957E0005F92A /* PokemonsTableVC.swift in Sources */,
 				F954BA911E37D6990052E459 /* Checkmark.swift in Sources */,
+				F9DD86011E4D1BA1003D61E8 /* UIViewController+Extensions.swift in Sources */,
 				F9ECBC1E1E1496880005F92A /* TabBarVC.swift in Sources */,
 				F954BA931E37D8270052E459 /* PokemonCell.swift in Sources */,
 				F954BA861E3505FA0052E459 /* PokemonSet+Extension.swift in Sources */,
