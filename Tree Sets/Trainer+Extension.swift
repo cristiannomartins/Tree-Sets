@@ -19,7 +19,7 @@ extension Trainer {
     let fetch = NSFetchRequest<Trainer>(entityName: "Trainer")
     
     do {
-      let trainers = try PopulateDB.managedObjectContext.fetch(fetch)
+      let trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetch)
       return trainers
     } catch {
       print("Failed to retrieve record: \(error)")

@@ -91,9 +91,16 @@ class TrainersTableVC: UITableViewController, UISearchResultsUpdating {
     let cell = tableView.dequeueReusableCell(withIdentifier: "tcell", for: indexPath) as! TrainerCell
     
     cell.limits.text = "[\(filteredTrainers[(indexPath as NSIndexPath).row].start ?? "?")"
-    if filteredTrainers[(indexPath as NSIndexPath).row].start! != filteredTrainers[(indexPath as NSIndexPath).row].end! {
-      cell.limits.text = cell.limits.text! + " - \(filteredTrainers[(indexPath as NSIndexPath).row].end ?? "?")"
+    if let start = filteredTrainers[(indexPath as NSIndexPath).row].start {
+      if let end = filteredTrainers[(indexPath as NSIndexPath).row].end {
+        if start != end {
+          cell.limits.text = cell.limits.text! + " - \(end)"
+        }
+      } else {
+        cell.limits.text = cell.limits.text! + " - ?"
+      }
     }
+    
     cell.limits.text = cell.limits.text! + "]"
     
     cell.tName.text = filteredTrainers[(indexPath as NSIndexPath).row].name

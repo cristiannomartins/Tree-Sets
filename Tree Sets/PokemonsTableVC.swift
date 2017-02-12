@@ -42,9 +42,16 @@ class PokemonsTableVC: UITableViewController, UISearchResultsUpdating, UISearchB
   
   deinit{
     // garanties the searchBar doesn't have a nil parent view, supressing warning
-    if let superView = resultSearchControler.view.superview {
-      superView.removeFromSuperview()
+    if let rsc = resultSearchControler {
+      if let v = rsc.view {
+        if let superview = v.superview {
+          superview.removeFromSuperview()
+        }
+      }
     }
+//    if let superView = resultSearchControler.view.superview {
+//      superView.removeFromSuperview()
+//    }
   }
   
   // MARK: - UIViewController methods

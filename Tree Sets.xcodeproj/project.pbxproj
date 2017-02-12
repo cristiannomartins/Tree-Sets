@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F902D46D1E4F51CD00252B04 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902D46C1E4F51CD00252B04 /* ShareViewController.swift */; };
+		F902D4701E4F51CD00252B04 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902D46E1E4F51CD00252B04 /* MainInterface.storyboard */; };
+		F902D4741E4F51CD00252B04 /* TreeSetsImport.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F902D46A1E4F51CC00252B04 /* TreeSetsImport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F902D47B1E4F63C500252B04 /* Tree_Sets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9462B5A1E146F7E00A63F9E /* Tree_Sets.xcdatamodeld */; };
+		F902D47D1E4F81CF00252B04 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */; };
+		F902D47E1E4F81D100252B04 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85DF1E4412C3003D61E8 /* Image.swift */; };
+		F902D4801E4FFC8400252B04 /* CoreDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902D47F1E4FFC8400252B04 /* CoreDataWrapper.swift */; };
+		F902D4811E4FFC9200252B04 /* CoreDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902D47F1E4FFC8400252B04 /* CoreDataWrapper.swift */; };
+		F902D4891E50C69900252B04 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902D4881E50C69900252B04 /* LoadingVC.swift */; };
 		F9462B541E146F7E00A63F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9462B531E146F7E00A63F9E /* AppDelegate.swift */; };
 		F9462B591E146F7E00A63F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9462B571E146F7E00A63F9E /* Main.storyboard */; };
 		F9462B5C1E146F7F00A63F9E /* Tree_Sets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9462B5A1E146F7E00A63F9E /* Tree_Sets.xcdatamodeld */; };
@@ -31,7 +40,44 @@
 		F9ECBC1E1E1496880005F92A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECBC1D1E1496880005F92A /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F902D4721E4F51CD00252B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9462B481E146F7E00A63F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F902D4691E4F51CC00252B04;
+			remoteInfo = TreeSetsImport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F902D4781E4F51CD00252B04 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F902D4741E4F51CD00252B04 /* TreeSetsImport.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F902D4641E4F47EA00252B04 /* Pokemon-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pokemon-Table 1.csv"; sourceTree = "<group>"; };
+		F902D4651E4F4E0900252B04 /* Trainer-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Trainer-Table 1.csv"; sourceTree = "<group>"; };
+		F902D46A1E4F51CC00252B04 /* TreeSetsImport.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TreeSetsImport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902D46C1E4F51CD00252B04 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		F902D46F1E4F51CD00252B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F902D4711E4F51CD00252B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F902D4791E4F560900252B04 /* Tree Sets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tree Sets.entitlements"; sourceTree = "<group>"; };
+		F902D47A1E4F562200252B04 /* TreeSetsImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TreeSetsImport.entitlements; sourceTree = "<group>"; };
+		F902D47F1E4FFC8400252B04 /* CoreDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataWrapper.swift; path = "Tree Sets/CoreDataWrapper.swift"; sourceTree = "<group>"; };
+		F902D4881E50C69900252B04 /* LoadingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
+		F902D48A1E50F6C500252B04 /* Tree_Sets.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tree_Sets.sqlite; sourceTree = "<group>"; };
+		F902D48B1E50F6C500252B04 /* Tree_Sets.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree_Sets.sqlite-shm"; sourceTree = "<group>"; };
+		F902D48C1E50F6C500252B04 /* Tree_Sets.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree_Sets.sqlite-wal"; sourceTree = "<group>"; };
 		F9462B501E146F7E00A63F9E /* Tree Sets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tree Sets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9462B531E146F7E00A63F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9462B581E146F7E00A63F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,8 +103,6 @@
 		F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "items_images-Table 1-1.csv"; sourceTree = "<group>"; };
 		F9DD85F11E46C921003D61E8 /* pkmn_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pkmn_images-Table 1-1.csv"; sourceTree = "<group>"; };
-		F9DD85F51E478AE4003D61E8 /* Pokemon-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pokemon-Table 1.csv"; sourceTree = "<group>"; };
-		F9DD85FC1E4BA775003D61E8 /* Trainer-Table 1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Trainer-Table 1.csv"; sourceTree = "<group>"; };
 		F9DD86001E4D1BA1003D61E8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		F9ECBC191E14955A0005F92A /* TrainersTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainersTableVC.swift; path = ../TrainersTableVC.swift; sourceTree = "<group>"; };
 		F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonsTableVC.swift; sourceTree = "<group>"; };
@@ -66,6 +110,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F902D4671E4F51CC00252B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9462B4D1E146F7E00A63F9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,10 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F902D46B1E4F51CD00252B04 /* TreeSetsImport */ = {
+			isa = PBXGroup;
+			children = (
+				F902D47A1E4F562200252B04 /* TreeSetsImport.entitlements */,
+				F902D46C1E4F51CD00252B04 /* ShareViewController.swift */,
+				F902D46E1E4F51CD00252B04 /* MainInterface.storyboard */,
+				F902D4711E4F51CD00252B04 /* Info.plist */,
+			);
+			path = TreeSetsImport;
+			sourceTree = "<group>";
+		};
 		F9462B471E146F7E00A63F9E = {
 			isa = PBXGroup;
 			children = (
+				F902D47F1E4FFC8400252B04 /* CoreDataWrapper.swift */,
 				F9462B521E146F7E00A63F9E /* Tree Sets */,
+				F902D46B1E4F51CD00252B04 /* TreeSetsImport */,
 				F9462B511E146F7E00A63F9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				F9462B501E146F7E00A63F9E /* Tree Sets.app */,
+				F902D46A1E4F51CC00252B04 /* TreeSetsImport.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +160,7 @@
 		F9462B521E146F7E00A63F9E /* Tree Sets */ = {
 			isa = PBXGroup;
 			children = (
+				F902D4791E4F560900252B04 /* Tree Sets.entitlements */,
 				F954BA871E37B6EE0052E459 /* cells */,
 				F94A9BA91E14A6E90072F5AA /* ViewControlllers */,
 				F9462B531E146F7E00A63F9E /* AppDelegate.swift */,
@@ -113,6 +179,7 @@
 				F9ECBC1B1E14957E0005F92A /* PokemonsTableVC.swift */,
 				F954BA961E38019E0052E459 /* PokemonSetsVC.swift */,
 				F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */,
+				F902D4881E50C69900252B04 /* LoadingVC.swift */,
 			);
 			name = ViewControlllers;
 			sourceTree = "<group>";
@@ -149,9 +216,9 @@
 				F94A9BAD1E156AE60072F5AA /* Battle Tree Lookup - Pokedex.tsv */,
 				F954BA821E3420E30052E459 /* Dex-Table 1.csv */,
 				F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */,
-				F9DD85F51E478AE4003D61E8 /* Pokemon-Table 1.csv */,
+				F902D4641E4F47EA00252B04 /* Pokemon-Table 1.csv */,
 				F9DD85F11E46C921003D61E8 /* pkmn_images-Table 1-1.csv */,
-				F9DD85FC1E4BA775003D61E8 /* Trainer-Table 1.csv */,
+				F902D4651E4F4E0900252B04 /* Trainer-Table 1.csv */,
 				F954BA801E3412510052E459 /* Trainer Category-Table 1.csv */,
 			);
 			name = rawFiles;
@@ -179,6 +246,9 @@
 		F954BA9C1E3856070052E459 /* preBuilt */ = {
 			isa = PBXGroup;
 			children = (
+				F902D48A1E50F6C500252B04 /* Tree_Sets.sqlite */,
+				F902D48B1E50F6C500252B04 /* Tree_Sets.sqlite-shm */,
+				F902D48C1E50F6C500252B04 /* Tree_Sets.sqlite-wal */,
 			);
 			name = preBuilt;
 			sourceTree = "<group>";
@@ -196,6 +266,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F902D4691E4F51CC00252B04 /* TreeSetsImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F902D4751E4F51CD00252B04 /* Build configuration list for PBXNativeTarget "TreeSetsImport" */;
+			buildPhases = (
+				F902D4661E4F51CC00252B04 /* Sources */,
+				F902D4671E4F51CC00252B04 /* Frameworks */,
+				F902D4681E4F51CC00252B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeSetsImport;
+			productName = TreeSetsImport;
+			productReference = F902D46A1E4F51CC00252B04 /* TreeSetsImport.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F9462B4F1E146F7E00A63F9E /* Tree Sets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9462B651E146F7F00A63F9E /* Build configuration list for PBXNativeTarget "Tree Sets" */;
@@ -204,10 +291,12 @@
 				F9462B4D1E146F7E00A63F9E /* Frameworks */,
 				F9462B4E1E146F7E00A63F9E /* Resources */,
 				F954BAA21E38702F0052E459 /* ShellScript */,
+				F902D4781E4F51CD00252B04 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F902D4731E4F51CD00252B04 /* PBXTargetDependency */,
 			);
 			name = "Tree Sets";
 			productName = "Tree Sets";
@@ -224,10 +313,25 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Cristianno Vieira";
 				TargetAttributes = {
+					F902D4691E4F51CC00252B04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P7B2AA8678;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					F9462B4F1E146F7E00A63F9E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = P7B2AA8678;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -245,11 +349,20 @@
 			projectRoot = "";
 			targets = (
 				F9462B4F1E146F7E00A63F9E /* Tree Sets */,
+				F902D4691E4F51CC00252B04 /* TreeSetsImport */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F902D4681E4F51CC00252B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902D4701E4F51CD00252B04 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9462B4E1E146F7E00A63F9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +392,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F902D4661E4F51CC00252B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902D47D1E4F81CF00252B04 /* Image+CoreDataProperties.swift in Sources */,
+				F902D47E1E4F81D100252B04 /* Image.swift in Sources */,
+				F902D47B1E4F63C500252B04 /* Tree_Sets.xcdatamodeld in Sources */,
+				F902D4811E4FFC9200252B04 /* CoreDataWrapper.swift in Sources */,
+				F902D46D1E4F51CD00252B04 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9462B4C1E146F7E00A63F9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +416,7 @@
 				F954BA911E37D6990052E459 /* Checkmark.swift in Sources */,
 				F9DD86011E4D1BA1003D61E8 /* UIViewController+Extensions.swift in Sources */,
 				F9ECBC1E1E1496880005F92A /* TabBarVC.swift in Sources */,
+				F902D4801E4FFC8400252B04 /* CoreDataWrapper.swift in Sources */,
 				F954BA931E37D8270052E459 /* PokemonCell.swift in Sources */,
 				F954BA861E3505FA0052E459 /* PokemonSet+Extension.swift in Sources */,
 				F94A9BA81E14A6A70072F5AA /* PopulateDB.swift in Sources */,
@@ -302,12 +428,29 @@
 				F954BA991E3803A30052E459 /* PokemonSetsCell.swift in Sources */,
 				F9462B5C1E146F7F00A63F9E /* Tree_Sets.xcdatamodeld in Sources */,
 				F954BA971E38019E0052E459 /* PokemonSetsVC.swift in Sources */,
+				F902D4891E50C69900252B04 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F902D4731E4F51CD00252B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F902D4691E4F51CC00252B04 /* TreeSetsImport */;
+			targetProxy = F902D4721E4F51CD00252B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		F902D46E1E4F51CD00252B04 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F902D46F1E4F51CD00252B04 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		F9462B571E146F7E00A63F9E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,6 +470,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F902D4761E4F51CD00252B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TreeSetsImport/TreeSetsImport.entitlements;
+				DEVELOPMENT_TEAM = P7B2AA8678;
+				INFOPLIST_FILE = TreeSetsImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tree-Sets.TreeSetsImport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F902D4771E4F51CD00252B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TreeSetsImport/TreeSetsImport.entitlements;
+				DEVELOPMENT_TEAM = P7B2AA8678;
+				INFOPLIST_FILE = TreeSetsImport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tree-Sets.TreeSetsImport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		F9462B631E146F7F00A63F9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,7 +592,9 @@
 		F9462B661E146F7F00A63F9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tree Sets/Tree Sets.entitlements";
 				DEVELOPMENT_TEAM = P7B2AA8678;
 				INFOPLIST_FILE = "Tree Sets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -434,7 +607,9 @@
 		F9462B671E146F7F00A63F9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tree Sets/Tree Sets.entitlements";
 				DEVELOPMENT_TEAM = P7B2AA8678;
 				INFOPLIST_FILE = "Tree Sets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,6 +622,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F902D4751E4F51CD00252B04 /* Build configuration list for PBXNativeTarget "TreeSetsImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F902D4761E4F51CD00252B04 /* Debug */,
+				F902D4771E4F51CD00252B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F9462B4B1E146F7E00A63F9E /* Build configuration list for PBXProject "Tree Sets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

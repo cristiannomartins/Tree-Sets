@@ -19,7 +19,7 @@ extension PokemonSet {
     let fetch = NSFetchRequest<PokemonSet>(entityName: "PokemonSet")
     
     do {
-      let pokemons = try PopulateDB.managedObjectContext.fetch(fetch)
+      let pokemons = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetch)
       return pokemons
     } catch {
       print("Failed to retrieve record: \(error)")

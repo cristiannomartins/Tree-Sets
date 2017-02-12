@@ -364,6 +364,52 @@
             </objects>
             <point key="canvasLocation" x="1601" y="14"/>
         </scene>
+        <!--LoadingVC-->
+        <scene sceneID="Sp2-w4-v6O">
+            <objects>
+                <viewController storyboardIdentifier="LoadingVC" id="jXM-NJ-zR4" customClass="LoadingVC" customModule="Tree_Sets" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="41z-Tw-9ka"/>
+                        <viewControllerLayoutGuide type="bottom" id="NOn-4x-BJH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gIt-Pp-keZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PokemonSun_TA" translatesAutoresizingMaskIntoConstraints="NO" id="Q7v-Gt-zBt">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is happening?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXT-b1-rFt">
+                                <rect key="frame" x="16" y="571" width="343" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="R83-76-axf">
+                                <rect key="frame" x="169" y="610" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q7v-Gt-zBt" firstAttribute="height" secondItem="gIt-Pp-keZ" secondAttribute="height" id="ORt-5Q-bdD"/>
+                            <constraint firstItem="Q7v-Gt-zBt" firstAttribute="centerY" secondItem="gIt-Pp-keZ" secondAttribute="centerY" id="XwC-dE-tdz"/>
+                            <constraint firstItem="Q7v-Gt-zBt" firstAttribute="width" secondItem="gIt-Pp-keZ" secondAttribute="width" id="itC-UQ-DQj"/>
+                            <constraint firstItem="Q7v-Gt-zBt" firstAttribute="centerX" secondItem="gIt-Pp-keZ" secondAttribute="centerX" id="m1m-Jl-HhE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activity" destination="R83-76-axf" id="3CV-4M-Wro"/>
+                        <outlet property="status" destination="RXT-b1-rFt" id="ddU-Cs-K2l"/>
+                        <segue destination="v64-hq-bXd" kind="show" identifier="startApplication" id="q4z-iK-Mnb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPt-wC-Skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1170" y="134"/>
+        </scene>
         <!--Tab BarVC-->
         <scene sceneID="aJt-Xe-nIq">
             <objects>
@@ -850,6 +896,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="PokemonSun_TA" width="860" height="645"/>
         <image name="arrows" width="24" height="24"/>
         <image name="pokedex" width="24" height="24"/>
         <image name="trainer" width="16" height="16"/>

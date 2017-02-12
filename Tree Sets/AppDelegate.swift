@@ -13,28 +13,33 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  let CDWrapper = CoreDataWrapper()
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
     let defaults = UserDefaults.standard
-    
     // Start of Database copy from Bundle to App Document Directory
     let fileManager = FileManager.default
-    let appSupportPath = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)[0])
+    //let appSupportPath = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)[0])
+    let appSupportPath = CDWrapper.applicationDocumentsDirectory
     try? fileManager.createDirectory(at: appSupportPath as URL, withIntermediateDirectories: false, attributes: nil)
     let destinationSqliteURL = appSupportPath.appendingPathComponent("Tree_Sets.sqlite")
     let sourceSqliteURL = Bundle.main.url(forResource: "Tree_Sets", withExtension: "sqlite")
     if let source = sourceSqliteURL, fileManager.fileExists(atPath: source.path) {
-      if !fileManager.fileExists(atPath: destinationSqliteURL!.path) {
+      if !fileManager.fileExists(atPath: destinationSqliteURL.path) {
         // var error:NSError? = nil
         do {
-          try fileManager.copyItem(atPath: sourceSqliteURL!.path, toPath: destinationSqliteURL!.path)
-          try fileManager.copyItem(atPath: Bundle.main.url(forResource: "Tree_Sets", withExtension: "sqlite-shm")!.path, toPath: appSupportPath.appendingPathComponent("Tree_Sets.sqlite-shm")!.path)
-          try fileManager.copyItem(atPath: Bundle.main.url(forResource: "Tree_Sets", withExtension: "sqlite-wal")!.path, toPath: appSupportPath.appendingPathComponent("Tree_Sets.sqlite-wal")!.path)
-          print("Copied")
-          print(destinationSqliteURL?.path as Any)
+          try fileManager.copyItem(atPath: sourceSqliteURL!.path, toPath: destinationSqliteURL.path)
+          try fileManager.copyItem(atPath: Bundle.main.url(forResource: "Tree_Sets", withExtension: "sqlite-shm")!.path,
+                                   toPath: appSupportPath.appendingPathComponent("Tree_Sets.sqlite-shm").path)
+          try fileManager.copyItem(atPath: Bundle.main.url(forResource: "Tree_Sets", withExtension: "sqlite-wal")!.path,
+                                   toPath: appSupportPath.appendingPathComponent("Tree_Sets.sqlite-wal").path)
+          
+          print("Database path set.")
+          print(destinationSqliteURL.path as Any)
+          
           defaults.set(true, forKey: "isPreloaded")
+          
         } catch let error as NSError {
           print("Unable to create database \(error.debugDescription)")
         }
@@ -42,19 +47,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Database found.")
       }
     } else {
-      print("Prepopulated Database could not be found.")
+      print("Prepopulated Database could not be found in AppBundle.")
     }
-
+    
     
     // creating db during first launch
     let isPreloaded = defaults.bool(forKey: "isPreloaded")
     
     if !isPreloaded {
       print("Creating new Database.")
-      PopulateDB.preload()
-      print("New Database created at path: \(destinationSqliteURL?.path)")
-      defaults.set(true, forKey: "isPreloaded")
+      PopulateDB.processingQueue.async {
+        PopulateDB.preload()
+        DispatchQueue.main.async {
+          print("New Database created at path: \(destinationSqliteURL.path)")
+          self.CDWrapper.saveContext() // only the main thread can save
+          defaults.set(true, forKey: "isPreloaded")
+          print("Database is ready.")
+        }
+      }
+    
     } else {
+      print("Database found in Documents directory.")
       print("Database is ready.")
     }
     
@@ -82,47 +95,48 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func applicationWillTerminate(_ application: UIApplication) {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
-    self.saveContext()
+    CDWrapper.saveContext()
   }
 
   // MARK: - Core Data stack
 
-  lazy var persistentContainer: NSPersistentContainer = {
-      /*
-       The persistent container for the application. This implementation
-       creates and returns a container, having loaded the store for the
-       application to it. This property is optional since there are legitimate
-       error conditions that could cause the creation of the store to fail.
-      */
-      let container = NSPersistentContainer(name: "Tree_Sets")
-      container.loadPersistentStores(completionHandler: { (storeDescription, error) in
-          if let error = error as NSError? {
-              // Replace this implementation with code to handle the error appropriately.
-              // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-               
-              /*
-               Typical reasons for an error here include:
-               * The parent directory does not exist, cannot be created, or disallows writing.
-               * The persistent store is not accessible, due to permissions or data protection when the device is locked.
-               * The device is out of space.
-               * The store could not be migrated to the current model version.
-               Check the error message to determine what the actual problem was.
-               */
-              fatalError("Unresolved error \(error), \(error.userInfo)")
-          }
-      })
-      return container
-  }()
+//  lazy var persistentContainer: NSPersistentContainer = {
+//      /*
+//       The persistent container for the application. This implementation
+//       creates and returns a container, having loaded the store for the
+//       application to it. This property is optional since there are legitimate
+//       error conditions that could cause the creation of the store to fail.
+//      */
+//      let container = NSPersistentContainer(name: "Tree_Sets")
+//      container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+//          if let error = error as NSError? {
+//              // Replace this implementation with code to handle the error appropriately.
+//              // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+//               
+//              /*
+//               Typical reasons for an error here include:
+//               * The parent directory does not exist, cannot be created, or disallows writing.
+//               * The persistent store is not accessible, due to permissions or data protection when the device is locked.
+//               * The device is out of space.
+//               * The store could not be migrated to the current model version.
+//               Check the error message to determine what the actual problem was.
+//               */
+//              fatalError("Unresolved error \(error), \(error.userInfo)")
+//          }
+//      })
+//      return container
+//  }()
   
 //  lazy var applicationDocumentsDirectory: URL = {
 //    // The directory the application uses to store the Core Data store file. This code uses a directory named "unicamp.Maison_Sets" in the application's documents Application Support directory.
-//    let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//    return urls[urls.count-1]
+//    //let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+//    let urls = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.TreeSets")
+//    return urls!
 //  }()
 //  
 //  lazy var managedObjectModel: NSManagedObjectModel = {
 //    // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-//    let modelURL = Bundle.main.url(forResource: "Maison_Sets", withExtension: "momd")!
+//    let modelURL = Bundle.main.url(forResource: "Tree_Sets", withExtension: "momd")!
 //    return NSManagedObjectModel(contentsOf: modelURL)!
 //  }()
 //  
@@ -130,7 +144,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //    // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
 //    // Create the coordinator and store
 //    let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-//    let url = self.applicationDocumentsDirectory.appendingPathComponent("Maison_Sets.sqlite")
+//    let url = self.applicationDocumentsDirectory.appendingPathComponent("Tree_Sets.sqlite")
 //    var failureReason = "There was an error creating or loading the application's saved data."
 //    do {
 //      try coordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: url, options: nil)
@@ -161,19 +175,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   // MARK: - Core Data Saving support
 
-  func saveContext () {
-      let context = persistentContainer.viewContext
-      if context.hasChanges {
-          do {
-              try context.save()
-          } catch {
-              // Replace this implementation with code to handle the error appropriately.
-              // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-              let nserror = error as NSError
-              fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
-          }
-      }
-  }
+//  func saveContext () {
+//      //let context = persistentContainer.viewContext
+//    let context = managedObjectContext
+//      if context.hasChanges {
+//          do {
+//              try context.save()
+//          } catch {
+//              // Replace this implementation with code to handle the error appropriately.
+//              // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+//              let nserror = error as NSError
+//              fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+//          }
+//      }
+//  }
 
 }
 

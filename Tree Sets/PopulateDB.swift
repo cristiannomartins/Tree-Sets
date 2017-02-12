@@ -16,9 +16,12 @@ class PopulateDB {
   static let encoding: String.Encoding = String.Encoding.utf8
   
   // managedObjectContext: interface to access the data model
-  static let managedObjectContext: NSManagedObjectContext =
-    (UIApplication.shared.delegate
-      as! AppDelegate).persistentContainer.viewContext
+  //static let CDWrapper = CoreDataWrapper()
+  static let CDWrapper = (UIApplication.shared.delegate as! AppDelegate).CDWrapper
+//  static let managedObjectContext: NSManagedObjectContext =
+//    (UIApplication.shared.delegate
+//      //as! AppDelegate).persistentContainer.viewContext
+//    as! AppDelegate).managedObjectContext
   
   //static fileprivate var basePokemon: [String:Pokemon] = [:]
   static fileprivate var basePkms = [Pokemon]() // references of pkms that were added to the data source
@@ -126,11 +129,11 @@ class PopulateDB {
   // MARK: -- Auxiliary getOrCreate functions
   
   static fileprivate func createPokemonSet() -> PokemonSet {
-    return NSEntityDescription.insertNewObject(forEntityName: "PokemonSet", into: managedObjectContext) as! PokemonSet
+    return NSEntityDescription.insertNewObject(forEntityName: "PokemonSet", into: CDWrapper.managedObjectContext) as! PokemonSet
   }
   
   static fileprivate func createImage() -> Image {
-    return NSEntityDescription.insertNewObject(forEntityName: "Image", into: managedObjectContext) as! Image
+    return NSEntityDescription.insertNewObject(forEntityName: "Image", into: CDWrapper.managedObjectContext) as! Image
   }
   
   static fileprivate func getOrCreateMove(_ name: String) -> Move {
@@ -146,7 +149,7 @@ class PopulateDB {
     }
     
     // TODO: Implement the rest of the moves fields
-    let newMove = NSEntityDescription.insertNewObject(forEntityName: "Move", into: managedObjectContext) as! Move
+    let newMove = NSEntityDescription.insertNewObject(forEntityName: "Move", into: CDWrapper.managedObjectContext) as! Move
     newMove.name = name
     moves.append(newMove)
     
@@ -218,7 +221,7 @@ class PopulateDB {
     }
     
     // TODO: Implement the image from the items
-    let newItem = NSEntityDescription.insertNewObject(forEntityName: "Item", into: managedObjectContext) as! Item
+    let newItem = NSEntityDescription.insertNewObject(forEntityName: "Item", into: CDWrapper.managedObjectContext) as! Item
     newItem.name = name
     
     let itemID = getID(forItem: name)
@@ -244,7 +247,7 @@ class PopulateDB {
       return result.first!
     }
     
-    let newAbility = NSEntityDescription.insertNewObject(forEntityName: "Ability", into: managedObjectContext) as! Ability
+    let newAbility = NSEntityDescription.insertNewObject(forEntityName: "Ability", into: CDWrapper.managedObjectContext) as! Ability
     newAbility.name = name
     abilities.append(newAbility)
     
@@ -263,7 +266,7 @@ class PopulateDB {
       return result.first!
     }
     
-    let newType = NSEntityDescription.insertNewObject(forEntityName: "Type", into: managedObjectContext) as! Type
+    let newType = NSEntityDescription.insertNewObject(forEntityName: "Type", into: CDWrapper.managedObjectContext) as! Type
     newType.name = name
     types.append(newType)
     
@@ -282,7 +285,7 @@ class PopulateDB {
       return result.first!
     }
     
-    let newStat = NSEntityDescription.insertNewObject(forEntityName: "Stat", into: managedObjectContext) as! Stats
+    let newStat = NSEntityDescription.insertNewObject(forEntityName: "Stat", into: CDWrapper.managedObjectContext) as! Stats
     newStat.id = id
     newStat.value = value
     stats.append(newStat)
@@ -313,7 +316,7 @@ class PopulateDB {
     
     let monData = tuples.first!
     
-    let newMon = NSEntityDescription.insertNewObject(forEntityName: "Pokemon", into: managedObjectContext) as! Pokemon
+    let newMon = NSEntityDescription.insertNewObject(forEntityName: "Pokemon", into: CDWrapper.managedObjectContext) as! Pokemon
     
     newMon.species = monData.key
     
@@ -422,7 +425,7 @@ class PopulateDB {
   }
   
   static fileprivate func createImage(forPokemon id: Int) -> Image {
-    let img = NSEntityDescription.insertNewObject(forEntityName: "Image", into: managedObjectContext) as! Image
+    let img = NSEntityDescription.insertNewObject(forEntityName: "Image", into: CDWrapper.managedObjectContext) as! Image
     img.x = NSNumber(value: id / Image.PkmColumns)
     img.y = NSNumber(value: id % Image.PkmColumns)
     return img
@@ -521,7 +524,7 @@ class PopulateDB {
             newPkmSet.moveSet = NSSet(array: moveSet)
             newPkmSet.image = createImage(forPokemon: getID(forPkmn:newPkmSet.species!.species!))
             
-            try? newPkmSet.managedObjectContext?.save()
+            //try? newPkmSet.managedObjectContext?.save()
             
             pkmSets.append(newPkmSet)
             //print("\(species), set \(i): OK")
@@ -529,6 +532,7 @@ class PopulateDB {
           }
           index += 4
         }
+        //CDWrapper.saveContext()
       } catch {
         print(error)
       }
@@ -606,7 +610,7 @@ class PopulateDB {
           
           var values = lines[curr].components(separatedBy: ";")
           
-          let newDex = NSEntityDescription.insertNewObject(forEntityName: "Dex", into: managedObjectContext) as! Dex
+          let newDex = NSEntityDescription.insertNewObject(forEntityName: "Dex", into: CDWrapper.managedObjectContext) as! Dex
           
           var pkmSets = [PokemonSet]()
           
@@ -679,7 +683,7 @@ class PopulateDB {
     }
     
     // TODO: Implement the image of Trainer Class
-    let newTClass = NSEntityDescription.insertNewObject(forEntityName: "TrainerClass", into: managedObjectContext) as! TrainerClass
+    let newTClass = NSEntityDescription.insertNewObject(forEntityName: "TrainerClass", into: CDWrapper.managedObjectContext) as! TrainerClass
     newTClass.name = name
     newTClass.possibleSex = getTrainerClassPossibleSex(name)
     tclasses.append(newTClass)
@@ -702,21 +706,22 @@ class PopulateDB {
           let values = line.components(separatedBy: ";")
           
           // TODO: Implement the quotes spoken by the trainers
-          let newTrainer = NSEntityDescription.insertNewObject(forEntityName: "Trainer", into: managedObjectContext) as! Trainer
+          let newTrainer = NSEntityDescription.insertNewObject(forEntityName: "Trainer", into: CDWrapper.managedObjectContext) as! Trainer
           
           newTrainer.name = values[TrainerCSV.name.rawValue]
           newTrainer.sex = values[TrainerCSV.sex.rawValue]
-          newTrainer.start = values[TrainerCSV.start.rawValue]
-          newTrainer.end = values[TrainerCSV.end.rawValue]
+          newTrainer.start = values[TrainerCSV.start.rawValue] == "" ? nil : values[TrainerCSV.start.rawValue]
+          newTrainer.end = values[TrainerCSV.end.rawValue] == "" ? nil : values[TrainerCSV.end.rawValue]
           
           newTrainer.trainerClass = getOrCreateTrainerClass(values[TrainerCSV.category.rawValue])
           
           newTrainer.availableMons = getDex(Int(values[TrainerCSV.dexID.rawValue])!)
           
-          try? newTrainer.managedObjectContext?.save()
+          //try? newTrainer.managedObjectContext?.save()
             
           //trainers.append(newTrainer)
         }
+        //CDWrapper.saveContext()
         
       } catch {
         print(error)
@@ -735,14 +740,14 @@ class PopulateDB {
     let fetchTrainers = NSFetchRequest<Trainer>(entityName: "Trainer")
     do {
       
-      let pkms = try managedObjectContext.fetch(fetchMonSets)
+      let pkms = try CDWrapper.managedObjectContext.fetch(fetchMonSets)
       for pkm in pkms {
-        managedObjectContext.delete(pkm)
+        CDWrapper.managedObjectContext.delete(pkm)
       }
       
-      let trainers = try managedObjectContext.fetch(fetchTrainers)
+      let trainers = try CDWrapper.managedObjectContext.fetch(fetchTrainers)
       for trainer in trainers {
-        managedObjectContext.delete(trainer)
+        CDWrapper.managedObjectContext.delete(trainer)
       }
     } catch {
       print("Failed to retrieve record: \(error)")
@@ -754,19 +759,19 @@ class PopulateDB {
     let fetchMons = NSFetchRequest<Pokemon>(entityName: "Pokemon")
     
     do {
-      let items = try managedObjectContext.fetch(fetchItems)
+      let items = try CDWrapper.managedObjectContext.fetch(fetchItems)
       for item in items {
-        managedObjectContext.delete(item)
+        CDWrapper.managedObjectContext.delete(item)
       }
       
-      let moves = try managedObjectContext.fetch(fetchMoves)
+      let moves = try CDWrapper.managedObjectContext.fetch(fetchMoves)
       for move in moves {
-        managedObjectContext.delete(move)
+        CDWrapper.managedObjectContext.delete(move)
       }
       
-      let pkms = try managedObjectContext.fetch(fetchMons)
+      let pkms = try CDWrapper.managedObjectContext.fetch(fetchMons)
       for pkm in pkms {
-        managedObjectContext.delete(pkm)
+        CDWrapper.managedObjectContext.delete(pkm)
       }
     } catch {
       print("Failed to retrieve record: \(error)")
@@ -779,38 +784,36 @@ class PopulateDB {
     let fetchType = NSFetchRequest<Type>(entityName: "Type")
     
     do {
-      let cats = try managedObjectContext.fetch(fetchTrainerCat)
+      let cats = try CDWrapper.managedObjectContext.fetch(fetchTrainerCat)
       for cat in cats {
-        managedObjectContext.delete(cat)
+        CDWrapper.managedObjectContext.delete(cat)
       }
       
-      let dexes = try managedObjectContext.fetch(fetchDex)
+      let dexes = try CDWrapper.managedObjectContext.fetch(fetchDex)
       for dex in dexes {
-        managedObjectContext.delete(dex)
+        CDWrapper.managedObjectContext.delete(dex)
       }
       
-      let abilities = try managedObjectContext.fetch(fetchAbility)
+      let abilities = try CDWrapper.managedObjectContext.fetch(fetchAbility)
       for ability in abilities {
-        managedObjectContext.delete(ability)
+        CDWrapper.managedObjectContext.delete(ability)
       }
       
-      let types = try managedObjectContext.fetch(fetchType)
+      let types = try CDWrapper.managedObjectContext.fetch(fetchType)
       for type in types {
-        managedObjectContext.delete(type)
+        CDWrapper.managedObjectContext.delete(type)
       }
     } catch {
       print("Failed to retrieve record: \(error)")
     }
   }
   
-//  static fileprivate func parseAlternateForms() {
-//    
-//  }
-  
   static func preload() {
     removeData()
     parsePkms()
     //parseAlternateForms()
     parseTrainers()
+    
+    //CDWrapper.saveContext()
   }
 }

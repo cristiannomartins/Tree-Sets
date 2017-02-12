@@ -281,8 +281,8 @@ Escavalier;;Brave;Liechi Berry;Megahorn;Quick Guard;Swords Dance;Reversal;HP;Atk
 ;;Adamant;Custap Berry;Megahorn;Iron Head;Swagger;Reversal;HP;Atk;;;;
 Espeon;;Naive;Focus Sash;Yawn;Dream Eater;Calm Mind;Protect;;;;SpA;;Spd
 ;;Timid;Kasib Berry;Psyshock;Grass Knot;Dazzling Gleam;Charm;HP;;;;;Spd
-;;Modest;Lum Berry;Psychic;Shadow Ball;Hyper Beam;Grass Knot;HP;;;SpA;;Spd
-;;Timid;Expert Belt;Psychic;Shadow Ball;Grass Knot;Dazzling Gleam;HP;;;SpA;;Spd
+;;Modest;Lum Berry;Psychic;Shadow Ball;Hyper Beam;Grass Knot;;;;SpA;;Spd
+;;Timid;Expert Belt;Psychic;Shadow Ball;Grass Knot;Dazzling Gleam;;;;SpA;;Spd
 Excadrill;;Naughty;Soft Sand;Hone Claws;Rock Slide;Drill Run;Iron Defense;;Atk;Def;;;
 ;;Adamant;Steelium Z;Dig;Metal Sound;Metal Claw;Swords Dance;;Atk;Def;;;
 ;;Adamant;Bright Powder;Sandstorm;Earthquake;Rock Slide;Poison Jab;;Atk;Def;;SpD;
@@ -355,7 +355,7 @@ Glalie;;Bold;Icy Rock;Hail;Blizzard;Shadow Ball;Weather Ball;HP;;Def;;;
 ;;Modest;Normalium Z;Weather Ball;Rain Dance;Shadow Ball;Dark Pulse;;;;SpA;;Spd
 ;;Timid;Leftovers;Substitute;Sheer Cold;Frost Breath;Protect;;;Def;;;Spd
 ;Mega;Naive;Glalitite;Earthquake;Explosion;Protect;Freeze-Dry;;Atk;;;;Spd
-Gliscor;;Naughty;Razor Fang;Acrobatics;Fling;U-turn;Swords Dance;HP;;;;;Spd
+Gliscor;;Naughty;Razor Fang;Acrobatics;Fling;U-turn;Swords Dance;;Atk;;;;Spd
 ;;Impish;Liechi Berry;Agility;Acrobatics;Swords Dance;Baton Pass;HP;;Def;;;
 ;;Adamant;Expert Belt;Aerial Ace;Earthquake;X-Scissor;Stone Edge;;Atk;Def;;;
 ;;Jolly;Focus Sash;Earthquake;Acrobatics;U-turn;Counter;HP;;;;;Spd

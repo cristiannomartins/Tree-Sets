@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TreeSetsImport.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F902D4691E4F51CC00252B04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F9462B4F1E146F7E00A63F9E</key>
 		<dict>
 			<key>primary</key>

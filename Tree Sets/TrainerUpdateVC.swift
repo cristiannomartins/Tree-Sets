@@ -30,13 +30,23 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     fetchTrainer.predicate = NSPredicate(format: "SELF.name ==[c] %@", trainersName)
     
     do {
-      let trainers = try PopulateDB.managedObjectContext.fetch(fetchTrainer)
+      let trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainer)
       
-      let t = trainers.first!
-      sexPicker.selectRow(getSexLine(t), inComponent: 0, animated: false)
-      startPicker.selectRow(Int(t.start!) ?? 0, inComponent: 0, animated: false)
-      endPicker.selectRow(Int(t.end!) ?? 0, inComponent: 0, animated: false)
-      categoryPicker.selectRow(getCategoryLine(t.trainerClass!), inComponent: 0, animated: false)
+      if let t = trainers.first {
+        sexPicker.selectRow(getSexLine(t), inComponent: 0, animated: false)
+        startPicker.selectRow(Int(t.start ?? "0")!, inComponent: 0, animated: false)
+        endPicker.selectRow(Int(t.end ?? "0")!, inComponent: 0, animated: false)
+        categoryPicker.selectRow(getCategoryLine(t.trainerClass!), inComponent: 0, animated: false)
+      } else {
+        // create the alert
+        let alert = UIAlertController(title: "Search", message: "There is no trainer named \(trainersName!) on the database.", preferredStyle: UIAlertControllerStyle.alert)
+        
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+      }
     } catch {
       print("Failed to retrieve record: \(error)")
     }
@@ -53,10 +63,10 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     let fetchTrainers = NSFetchRequest<Trainer>(entityName: "Trainer")
     
     do {
-      let trainers = try PopulateDB.managedObjectContext.fetch(fetchTrainers)
+      let trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainers)
       
       for t in trainers {
-        text = text + "\n\(t.name!);\(t.trainerClass!.name!);\(t.sex!);\(t.start!);\(t.end!)"
+        text = text + "\n\(t.name!);\(t.trainerClass!.name!);\(t.sex!);\(t.start ?? "");\(t.end ?? "")"
       }
     } catch {
       print("Failed to retrieve record: \(error)")
@@ -122,7 +132,7 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
       let fetchTrainerCat = NSFetchRequest<TrainerClass>(entityName: "TrainerClass")
       TrainerUpdateVC.categoryData = [String]()
       do {
-        let cats = try PopulateDB.managedObjectContext.fetch(fetchTrainerCat)
+        let cats = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainerCat)
         for cat in cats {
           TrainerUpdateVC.categoryData!.append(cat.name!)
         }
@@ -184,7 +194,7 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
       fetchTrainer.predicate = NSPredicate(format: "SELF.name == %@", trainersName)
       
       do {
-        let trainers = try PopulateDB.managedObjectContext.fetch(fetchTrainer)
+        let trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainer)
 //        if trainers.count != 1 {
 //          print("Error: More than one trainer has the same name!!")
 //          return
@@ -192,12 +202,18 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
         let t = trainers.first!
         t.sex = sexData[sexPicker.selectedRow(inComponent: 0)]
-        t.start = "\(startPicker.selectedRow(inComponent: 0))"
-        t.end = "\(endPicker.selectedRow(inComponent: 0))"
+        
+        if startPicker.selectedRow(inComponent: 0) != 0 {
+          t.start = "\(startPicker.selectedRow(inComponent: 0))"
+        }
+        
+        if endPicker.selectedRow(inComponent: 0) != 0 {
+          t.end = "\(endPicker.selectedRow(inComponent: 0))"
+        }
         
         let fetchTrainerCat = NSFetchRequest<TrainerClass>(entityName: "TrainerClass")
         fetchTrainerCat.predicate = NSPredicate(format: "SELF.name == %@", TrainerUpdateVC.categoryData![categoryPicker.selectedRow(inComponent: 0)])
-        t.trainerClass = try PopulateDB.managedObjectContext.fetch(fetchTrainerCat).first!
+        t.trainerClass = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainerCat).first!
         
         try t.managedObjectContext?.save()
         

@@ -1,9 +1,9 @@
 Name;dex;Category;possible sex;sex;Start;End
 Abby;17;Punk Girl;F;F;1;19
-Abel;111;Gentleman;M;M;;
+Abel;111;Gentleman;M;M;78;85
 Agrata;17;Punk Girl;F;F;2;19
-Aino;86;Veteran;Both;F;43;49
-Alice;107;Sightseer;Both;;;
+Aino;86;Veteran;Both;F;43;73
+Alice;107;Sightseer;Both;M;71;71
 Alim;41;Golfer;Both;M;21;39
 Alwyn;20;Youth Athlete;Both;F;2;19
 Anabel;129;Pokémon Trainer;Both;F;20;40
@@ -11,10 +11,10 @@ Anisa;43;Golfer;Both;F;21;39
 Arlo;11;Hiker;M;M;1;7
 Arnold;62;Black Belt;M;M;31;48
 Arnon;40;Golfer;Both;M;21;37
-Atalanta;64;Dancer;F;F;33;47
+Atalanta;64;Dancer;F;F;28;55
 Ayden;18;Youth Athlete;Both;M;1;18
 Beatrice;24;Rising Star;Both;F;1;19
-Benjamin;33;Worker;M;M;17;28
+Benjamin;33;Worker;M;M;17;29
 Benji;58;Police Officer;M;M;32;46
 Bert;0;Youngster;M;M;1;10
 Bette;81;Ace Trainer;Both;F;41;48
@@ -24,12 +24,12 @@ Boris;72;Black Belt;M;M;44;47
 Brady;90;Youngster;M;M;698;
 Brandi;22;Rising Star;Both;F;1;17
 Brantley;56;Firefighter;M;M;21;38
-Bruce;115;Golfer?;;;;
+Bruce;115;Golfer;Both;F;75;75
 Bryson;73;Black Belt;M;M;44;48
 Buddy;103;Youth Athlete;Both;;;
 Buster;10;Hiker;M;M;1;7
-Cadel;71;Scientist;Both;;;
-Cal;59;Scientist;Both;M;35;39
+Cadel;71;Scientist;Both;M;48;48
+Cal;59;Scientist;Both;M;35;58
 Calder;119;Firefighter;M;M;696;
 Calliope;44;Golfer;Both;F;21;39
 Camber;56;Firefighter;M;M;22;35
@@ -41,7 +41,7 @@ Chen;107;Sightseer?;;;;
 Cheryl;37;Madame;F;F;12;29
 Chip;51;Bellhop;M;M;21;34
 Christian;108;Sightseer?;;;;
-Christina;42;Golfer;Both;F;21;38
+Christina;42;Golfer;Both;F;21;39
 Christopher;22;Rising Star;Both;M;1;15
 Christy;38;Madame;F;F;11;21
 Chucky;61;Black Belt;M;M;36;45
@@ -51,16 +51,16 @@ Colress;131;Pokémon Trainer;Both;M;10;40
 Conley;12;Office Worker;Both;M;2;2
 Cooper;25;Sightseer;Both;M;12;28
 Cynthia;132;Pokémon Trainer;Both;F;10;700
-Dan;110;Worker?;;;;
+Dan;110;Worker;M;M;54;54
 Danby;118;Pokémon Breeder?;;;;
 Dara;48;Pokémon Breeder;Both;F;21;35
 Darien;26;Sightseer;Both;M;11;30
 Darla;6;Backpacker;F;F;1;9
 Darrel;99;Office Worker?;;;;
 Demiathena;125;Veteran?;;;;
-Dennis;121;Collector?;;;;
+Dennis;121;Collector;M;M;67;79
 Dexio;138;Pokémon Trainer;Both;;;
-Dolly;105;Rising Star;Both;;;
+Dolly;105;Rising Star;Both;M;81;81
 Dominica;13;Office Worker;Both;F;1;7
 Donna;113;Bellhop?;;;;
 Donny;112;Madame?;;;;
@@ -69,39 +69,39 @@ Duncan;39;Collector;M;M;12;28
 Dustin;101;Punk Guy?;;;;
 Dylan;15;Punk Guy;M;M;1;19
 Dyson;50;Bellhop;M;M;22;37
-Edda;102;Punk Girl?;;;;
+Edda;102;Punk Girl;F;F;76;76
 Emery;12;Office Worker;Both;M;3;9
-Erix;106;Rising Star?;;;;
-Etta;101;Punk Guy?;;;;
+Erix;106;Rising Star;Both;M;88;88
+Etta;101;Punk Guy;M;M;93;93
 Eva;16;Punk Girl;F;F;2;19
 Evander;15;Punk Guy;M;M;2;19
 Ezra;108;Sightseer;Both;;;
 Ferdinand;2;Preschooler;Both;M;2;9
-Fernanda;95;Backpacker;F;F;55;55
+Fernanda;95;Backpacker;F;F;55;87
 Florian;0;Youngster;M;M;2;8
 Gabriella;20;Youth Athlete;Both;F;2;19
 Gertrude;47;Pokémon Breeder;Both;F;23;35
 Giles;31;Janitor;M;M;11;29
 Gilroy;113;Bellhop?;;;;
 Gladys;5;Preschooler;Both;F;1;8
-Gracie;112;Madame;F;F;;
+Gracie;112;Madame;F;F;64;64
 Granville;67;Ace Trainer;Both;M;31;48
 Grimsley;128;Pokémon Trainer;Both;M;10;30
 Guzma;134;Pokémon Trainer;Both;;;
 Gwenny;90;Veteran?;;;;
 Haley;69;Aether Foundation;Both;F;35;47
-Harding;98;Office Worker?;;;;
+Harding;98;Office Worker;Both;M;91;91
 Hart;27;Sightseer;Both;M;11;29
-Harvey;65;Aether Foundation;Both;M;34;45
+Harvey;65;Aether Foundation;Both;M;34;62
 Hashim;77;Ace Trainer;Both;M;41;49
-Heidi;68;Aether Foundation;Both;F;34;46
+Heidi;68;Aether Foundation;Both;F;33;46
 Helen;5;Preschooler;Both;F;2;9
 Henry;34;Gentleman;M;M;11;29
 Hilario;104;Youth Athlete?;;;;
 Horace;122;Veteran?;;;;
 Ignacio;85;;;;;
 Ikram;35;Gentleman;M;M;14;29
-Inez;92;Lass;F;F;;
+Inez;92;Lass;F;F;63;63
 Iniko;62;Black Belt;M;M;31;53
 Isaac;19;Youth Athlete;Both;M;1;16
 Izel;118;Pokémon Breeder?;;;;
@@ -109,40 +109,40 @@ Jairo;30;Janitor;M;M;11;25
 Jana;100;Preschooler;Both;;;
 Jasper;4;Preschooler;Both;M;1;9
 Jerry;36;Gentleman;M;M;11;27
-Jo;74;Dancer;F;F;41;41
-Joaquin;105;Worker;M;M;;
+Jo;74;Dancer;F;F;41;61
+Joaquin;105;Rising Star;Both;F;89;89
 JT;33;Worker;M;M;11;29
 Julien;53;Cook;M;M;22;39
 Kass;14;Punk Guy;M;M;2;16
 Kaula;28;Sightseer;Both;F;12;26
 Kayla;8;Backpacker;F;F;1;8
 Kendra;3;Preschooler;Both;F;1;8
-Kiawe;135;Captain;Both;M;10;40
+Kiawe;135;Captain;Both;M;10;80
 Kiernan;47;Pokémon Breeder;Both;M;25;39
-Kikujiro;82;Veteran;Both;M;54;54
+Kikujiro;82;Veteran;Both;M;54;92
 Larry;120;;;;;
 Lea;70;Ace Trainer;Both;F;33;37
 Leena;103;Youth Athlete;Both;;;
 Levi;76;Ace Trainer;Both;M;42;45
 Levine;11;Hiker;M;M;5;7
 Lori;117;Pokémon Breeder?;;;;
-Lou;58;Police Officer;M;M;31;49
+Lou;58;Police Officer;M;M;31;69
 Luke;66;Aether Foundation;Both;M;31;699
 Mallow;136;Captain;Both;;;
 Mardea;20;Youth Athlete;Both;F;2;17
-Marianne;106;Rising Star;Both;F;52;52
+Marianne;106;Rising Star;Both;F;52;74
 Marsha;23;Rising Star;Both;M;4;18
 Max;0;Youngster;M;M;1;9
-Mechabob;111;Gentleman?;;;;
+Mechabob;111;Gentleman;M;M;72;72
 Mercy;5;Preschooler;Both;F;1;9
 Moe;115;Golfer;Both;M;53;53
 Munin;78;Ace Trainer;Both;M;41;46
 Myrna;16;Punk Girl;F;F;1;19
-Napoleon;89;Youngster?;;;;
+Napoleon;89;Youngster;M;M;51;51
 Naya;94;Preschooler?;;;;
 Nedry;45;Pokémon Breeder;Both;M;25;39
-Niara;93;Preschooler;Both;;;
-Noah;55;Cook;M;M;23;36
+Niara;93;Preschooler;Both;M;59;59
+Noah;55;Cook;M;M;23;37
 Nobunaga;39;Collector;M;M;11;29
 Odessa;27;Sightseer;Both;F;13;29
 Omar;110;Worker?;;;;
@@ -152,49 +152,49 @@ Paulo;109;Janitor?;;;;
 Percy;12;Office Worker;Both;M;2;7
 Perri;123;Pokémon Center Lady;F;F;51;51
 Placido;84;Veteran;Both;M;41;41
-Plumeria;133;Pokémon Trainer;Both;F;10;40
+Plumeria;133;Pokémon Trainer;Both;F;10;70
 Poppy;79;Ace Trainer;Both;F;43;43
-Presta;119;Firefighter?;;;;
+Presta;119;Firefighter;M;M;65;65
 Priya;88;Veteran;Both;F;42;47
 Prudence;13;Office Worker;Both;F;1;8
 Rachel;1;Lass;F;F;1;9
 Rada;49;Pokémon Breeder;Both;F;21;36
-Raz;67;Ace Trainer;Both;M;32;42
+Raz;67;Ace Trainer;Both;M;32;82
 Red;139;Battle Legend;M;M;20;20
 Red (Super);126;Battle Legend;M;M;50;50
 Reese;7;Backpacker;F;F;1;5
 Reina;93;Preschooler?;;;;
-Rendor;57;Police Officer;M;M;33;51
+Rendor;57;Police Officer;M;M;32;77
 Rico;2;Preschooler;Both;M;1;9
 Robin;0;Youngster;M;M;1;9
-Robyn;60;Scientist;Both;M;44;44
+Robyn;60;Scientist;Both;M;35;44
 Rocky;3;Preschooler;Both;M;1;9
 Ryder;21;Rising Star;Both;M;2;20
-Sam;121;Collector;M;M;;
+Sam;121;Collector;M;M;68;68
 Samantha;91;Lass;F;F;;
 Savir;97;Office Worker;Both;;;
 Scoop;14;Punk Guy;M;M;1;18
-Shanta;1;Lass;F;F;1;8
+Shanta;1;Lass;F;F;1;9
 Sheridan;46;Pokémon Breeder;Both;M;23;38
 Sika;109;Janitor;M;M;;
-Sina;137;Pokémon Trainer;Both;F;10;40
+Sina;137;Pokémon Trainer;Both;F;10;60
 Skip;32;Worker;M;M;11;29
 Sly;54;Cook;M;M;25;38
 Sophia;1;Lass;F;F;1;9
 Sorley;23;Rising Star;Both;M;1;19
 Stein;71;Scientist?;;;;
 Stellan;96;Hiker?;;;;
-Susanna;116;Golfer?;;;;
-Sylvia;70;Ace Trainer;Both;F;31;31
-Tamah;80;Ace Trainer;Both;F;43;43
+Susanna;116;Golfer;Both;F;83;83
+Sylvia;70;Ace Trainer;Both;F;31;84
+Tamah;80;Ace Trainer;Both;F;41;49
 Tammy;7;Backpacker;F;F;1;5
-Tasanee;75;Dancer;F;F;47;47
+Tasanee;75;Dancer;F;F;47;53
 Thamina;104;Youth Athlete?;;;;
-Tivon;60;Scientist;Both;M;36;36
+Tivon;60;Scientist;Both;M;36;57
 Tony;120;;;;;
-Variel;64;Dancer;F;F;31;44
+Variel;64;Dancer;F;F;31;56
 Verna;38;Madame;F;F;13;28
-Victor;94;Preschooler?;;;;
+Victor;94;Preschooler;Both;M;66;86
 Vivek;96;Hiker?;;;;
 Wally;130;Pokémon Trainer;Both;M;10;30
 Winnie;13;Office Worker;Both;F;2;9
