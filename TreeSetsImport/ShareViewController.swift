@@ -67,8 +67,9 @@ class ShareViewController: SLComposeServiceViewController {
       for line in lines {
         let values = line.components(separatedBy: ";")
         if let trainer = trainers.filter({$0.name == values[ExternalTrainerCSV.name.rawValue]}).first {
-          trainer.start = values[ExternalTrainerCSV.start.rawValue]
-          trainer.end = values[ExternalTrainerCSV.end.rawValue]
+          trainer.start = values[ExternalTrainerCSV.start.rawValue] != "" ? values[ExternalTrainerCSV.start.rawValue] : nil
+          trainer.end = values[ExternalTrainerCSV.end.rawValue] != "" ? values[ExternalTrainerCSV.end.rawValue] : nil
+          //print("\(values[ExternalTrainerCSV.name.rawValue]);\(values[ExternalTrainerCSV.category.rawValue]);\(values[ExternalTrainerCSV.sex.rawValue]);\(values[ExternalTrainerCSV.start.rawValue]);\(values[ExternalTrainerCSV.end.rawValue])")
           trainer.trainerClass = tClasses.filter({$0.name == values[ExternalTrainerCSV.category.rawValue]}).first
           trainer.sex = values[ExternalTrainerCSV.sex.rawValue]
           //print("Boo")

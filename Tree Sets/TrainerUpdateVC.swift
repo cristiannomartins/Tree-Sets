@@ -61,10 +61,11 @@ class TrainerUpdateVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     var text = "name;class;sex;start;end"
     
     let fetchTrainers = NSFetchRequest<Trainer>(entityName: "Trainer")
+    fetchTrainers.sortDescriptors = [NSSortDescriptor.init(key: "name", ascending: true)]
     
     do {
-      let trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainers)
-      
+      var trainers = try PopulateDB.CDWrapper.managedObjectContext.fetch(fetchTrainers)
+      trainers.sort() {$0.name! < $1.name!}
       for t in trainers {
         text = text + "\n\(t.name!);\(t.trainerClass!.name!);\(t.sex!);\(t.start ?? "");\(t.end ?? "")"
       }
