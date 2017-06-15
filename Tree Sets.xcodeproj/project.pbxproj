@@ -19,7 +19,6 @@
 		F9462B541E146F7E00A63F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9462B531E146F7E00A63F9E /* AppDelegate.swift */; };
 		F9462B591E146F7E00A63F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9462B571E146F7E00A63F9E /* Main.storyboard */; };
 		F9462B5C1E146F7F00A63F9E /* Tree_Sets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9462B5A1E146F7E00A63F9E /* Tree_Sets.xcdatamodeld */; };
-		F9462B5E1E146F7F00A63F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9462B5D1E146F7F00A63F9E /* Assets.xcassets */; };
 		F9462B611E146F7F00A63F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9462B5F1E146F7F00A63F9E /* LaunchScreen.storyboard */; };
 		F94A9BA81E14A6A70072F5AA /* PopulateDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A9BA71E14A6A70072F5AA /* PopulateDB.swift */; };
 		F954BA861E3505FA0052E459 /* PokemonSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954BA851E3505FA0052E459 /* PokemonSet+Extension.swift */; };
@@ -32,6 +31,7 @@
 		F954BA971E38019E0052E459 /* PokemonSetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954BA961E38019E0052E459 /* PokemonSetsVC.swift */; };
 		F954BA991E3803A30052E459 /* PokemonSetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954BA981E3803A30052E459 /* PokemonSetsCell.swift */; };
 		F954BAA41E3975670052E459 /* TrainerUpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */; };
+		F990EB521EF2359A00085553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F990EB511EF2359A00085553 /* Assets.xcassets */; };
 		F9DD85E01E4412C3003D61E8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85DF1E4412C3003D61E8 /* Image.swift */; };
 		F9DD85E41E4413A6003D61E8 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */; };
 		F9DD86011E4D1BA1003D61E8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD86001E4D1BA1003D61E8 /* UIViewController+Extensions.swift */; };
@@ -82,7 +82,6 @@
 		F9462B531E146F7E00A63F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9462B581E146F7E00A63F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9462B5B1E146F7E00A63F9E /* Tree_Sets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tree_Sets.xcdatamodel; sourceTree = "<group>"; };
-		F9462B5D1E146F7F00A63F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9462B601E146F7F00A63F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9462B621E146F7F00A63F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94A9BA71E14A6A70072F5AA /* PopulateDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulateDB.swift; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		F954BA961E38019E0052E459 /* PokemonSetsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSetsVC.swift; sourceTree = "<group>"; };
 		F954BA981E3803A30052E459 /* PokemonSetsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSetsCell.swift; sourceTree = "<group>"; };
 		F954BAA31E3975670052E459 /* TrainerUpdateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerUpdateVC.swift; sourceTree = "<group>"; };
+		F990EB511EF2359A00085553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9DD85DF1E4412C3003D61E8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F9DD85E91E4501BE003D61E8 /* items_images-Table 1-1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "items_images-Table 1-1.csv"; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 		F94A9BAA1E14A7020072F5AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9462B5D1E146F7F00A63F9E /* Assets.xcassets */,
+				F990EB511EF2359A00085553 /* Assets.xcassets */,
 				F9DD85DF1E4412C3003D61E8 /* Image.swift */,
 				F9DD85E21E4413A6003D61E8 /* Image+CoreDataProperties.swift */,
 				F9462B621E146F7F00A63F9E /* Info.plist */,
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9462B611E146F7F00A63F9E /* LaunchScreen.storyboard in Resources */,
-				F9462B5E1E146F7F00A63F9E /* Assets.xcassets in Resources */,
+				F990EB521EF2359A00085553 /* Assets.xcassets in Resources */,
 				F9462B591E146F7E00A63F9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,6 +629,7 @@
 				F902D4771E4F51CD00252B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9462B4B1E146F7E00A63F9E /* Build configuration list for PBXProject "Tree Sets" */ = {
 			isa = XCConfigurationList;
