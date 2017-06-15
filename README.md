@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/cristiannomartins/Tree-Sets.svg?branch=master)](https://travis-ci.org/cristiannomartins/Tree-Sets)
+[![GitHub issues](https://img.shields.io/github/issues/cristiannomartins/Tree-Sets.svg)](https://github.com/cristiannomartins/Tree-Sets/issues)
+[![GitHub forks](https://img.shields.io/github/forks/cristiannomartins/Tree-Sets.svg)](https://github.com/cristiannomartins/Tree-Sets/network)
+[![GitHub stars](https://img.shields.io/github/stars/cristiannomartins/Tree-Sets.svg)](https://github.com/cristiannomartins/Tree-Sets/stargazers) <!---[![Code Climate](https://codeclimate.com/github/cristiannomartins/Tree-Sets/badges/gpa.svg)](https://codeclimate.com/github/cristiannomartins/Tree-Sets)-->
+[![Issue Count](https://codeclimate.com/github/cristiannomartins/Tree-Sets/badges/issue_count.svg)](https://codeclimate.com/github/cristiannomartins/Tree-Sets)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-[![License](https://img.shields.io/badge/license-GPL%20License-brightgreen.svg)](https://opensource.org/licenses/GPL-3.0)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cristiannomartins/Tree-Sets/master/License.md)
 
 # Tree-Sets
 Tree sets is an iOS app written in Swift 3.0. It serves as a catalogue for information about all trainers and Pokémon on the Battle Tree facility, on Pokémon Sun and Moon versions.
@@ -11,6 +15,8 @@ Tree sets is an iOS app written in Swift 3.0. It serves as a catalogue for infor
 
 - [The Battle Tree](#the-battle-tree)
 - [The Tree Sets App](#the-tree-sets-app)
+    - [The Trainers and Pkmn Lists](#the-trainers-and-pkmn-lists)
+    - [The Details View](#the-details-view)
 - [License](#license)
 
 ## The Battle Tree
@@ -23,12 +29,27 @@ That being said, this app aspires to be a catalogue of trainers and Pokémon the
 ## The Tree Sets App
 The main view of this app is a TabBar, which gives the options of listing the database by trainers (where all Pokémon Sets available to that trainer could be displayed), or by Pokémon (where all sets for each Pokémon are displayed). The last tab has a form for updating the trainers' data.
 
-<img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/TreeSetsShot.png?raw=true" width="400"/> <img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/PokemonSets.png?raw=true" width="400"/>
+### The Trainers and Pkmn Lists
+<img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/TreeSetsShot.png?raw=true" width="400"/> <img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/PkmnSelected.png?raw=true" width="400"/>
 
-There are around 250 different Pokémon species available to the NPC trainers on the Tree, and each of these species have up to 4 distinct sets for the NPC to own, and each set can differ in EVs distribution, held item, nature, and movesets. Since some items can interfere on Pokémons stats, it is possible to consider the effect of the item being used/lost by simply touching the held item icon on the Details view of Pokémon Sets, and the stats for that set will be updated accordingly.
+The left image above shows the Trainers list. There is a search bar hidden above the list to help find a specific trainer, and it is accessible if the user pull down the list. It is possible to see the trainer category, and the verified minimum and maximum streak size when that trainer is known to appear. It is important to notice that this last information is still being collected, thus some trainers might appear out of their respective [min-max] streak interval.
 
-<img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/TreeSetsShot.png?raw=true" width="400"/> > <img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/PokemonSets.png?raw=true" width="400"/>
-<img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/Details.png?raw=true" width="400"/> <img src="https://github.com/cristiannomartins/Tree-Sets/blob/master/Tree%20Sets/Assets.xcassets/Screenshots/Screenshots.imageset/DetailsWPUsed.png?raw=true" width="400"/>
+Only one trainer can be selected at a time. After selecting one of them, the list of Pokémon available to them is displayed. This list is similar to the one showed at the right side of the image above. On this view, multiple Pokémon can be selected and it is possible to see the name of the chosen trainer at the top of the screen, along with two buttons: left, you can deselect all previously selected lines, and right, you can go to the Details view, where information about the selected Pokémon will be displayed.
+
+There are around 250 different Pokémon species available to the NPC trainers on the Tree, and each of these species have up to 4 distinct sets for the NPC to own, and each set can differ in EVs distribution, held item, nature, and movesets; abilities are random, and any Pokémon have access to any of their abilities -- even unreleased ones.
+
+As the trainers list, the Pokémon list has a hidden search bar accessed by pulling down the list. At the right of the Pokémon species name, all available sets for that species are show on a comma-separated list of ids (a number between 1 and 4 that serves as unique identification for each Pokémon Set); in case all sets for a specific Pokémon are available, "All" is displayed instead.
+
+The Pokémon list have swipe capabilities too: swiping right will bring the Details View for the selected Pokémon, and swiping left will bring back the Trainers list.
+
+### The Details View
+There is a lot of information available on the Details view: 
+
+![details gif](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/details.gif?raw=true)
+
+Since some items can interfere on Pokémons stats, it is possible to consider the effect of the item being used/lost by simply touching the held item icon on the Details view of Pokémon Sets, and the stats for that set will be updated accordingly, as shown at the image below:
+
+![item lost](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/itemLost.png?raw=true)
 
 ## License
-The Tree Sets app is licensed under the terms of the GPL Open Source license and is available for free.
+The Tree Sets app is licensed under the terms of the MIT license and is available for free.
