@@ -2,4 +2,4 @@ language: swift
 swift:
     - "3.0"
 
-script: echo "TODO"
+script: echo "Done"
