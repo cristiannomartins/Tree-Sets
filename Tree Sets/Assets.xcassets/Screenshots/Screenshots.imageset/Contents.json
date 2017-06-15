@@ -14,6 +14,11 @@
       "idiom" : "universal",
       "filename" : "Details.png",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "tv",
+      "filename" : "DetailsWPUsed.png",
+      "scale" : "1x"
     }
   ],
   "info" : {
