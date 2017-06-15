@@ -23,7 +23,7 @@ class LoadingVC: UIViewController {
     
     let CDWrapper = PopulateDB.CDWrapper
     let defaults = UserDefaults.standard
-    // Start of Database copy from Bundle to App Document Directory
+    // Start of Database copy from Bundle to App Document Directory 
     let fileManager = FileManager.default
     //let appSupportPath = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)[0])
     let appSupportPath = CDWrapper.applicationDocumentsDirectory
