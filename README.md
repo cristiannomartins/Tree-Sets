@@ -61,4 +61,5 @@ When ready to save the modifications, touch the _Done_ button and the new inform
 ![app extension](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/appExtension.png?raw=true)
 
 ## License
-The Tree Sets app is licensed under the terms of the MIT license and is available for free.
+The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc.
+Everything else is licensed under the terms of the MIT license.
