@@ -17,6 +17,7 @@ Tree sets is an iOS app written in Swift 3.0. It serves as a fast, lightweight a
 - [The Tree Sets App](#the-tree-sets-app)
     - [The Trainers and Pkmn Lists](#the-trainers-and-pkmn-lists)
     - [The Details View](#the-details-view)
+    - [The Update View](#the-update-view)
 - [License](#license)
 
 ## The Battle Tree
