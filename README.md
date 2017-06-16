@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cristiannomartins/Tree-Sets/master/License.md)
 
 # Tree-Sets
-Tree sets is an iOS app written in Swift 3.0. It serves as a catalogue for information about all trainers and Pokémon on the Battle Tree facility, on Pokémon Sun and Moon versions.
+Tree sets is an iOS app written in Swift 3.0. It serves as a fast, lightweight and offline catalogue for information about all trainers and Pokémon on the Battle Tree facility, on Pokémon Sun and Moon versions.
 
 ![battletree image](https://www.serebii.net/sunmoon/battletree.jpg)
 
@@ -50,6 +50,15 @@ There is a lot of information available on the Details view:
 Since some items can interfere on Pokémons stats, it is possible to consider the effect of the item being used/lost by simply touching the held item icon on the Details view of Pokémon Sets, and the stats for that set will be updated accordingly, as shown at the image below:
 
 ![item lost](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/itemLost.png?raw=true)
+
+### The Update View
+The Update tab has a very simple form-like interface and is used for incrementing the data about trainers, such as their sex, category, and earlier or later streak count you've found them. The search can be performed by touching the _Search_ button or by pressing _enter_.
+
+![update view](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/update.png?raw=true)
+
+When ready to save the modifications, touch the _Done_ button and the new information will be saved, and the app will go back to the trainers list. There is also the option to export the data collected by the app to a csv file, which can be imported back to Tree Sets via an App Extension.
+
+![app extension](https://github.com/cristiannomartins/Tree-Sets/blob/master/Screenshots/appExtension.png?raw=true)
 
 ## License
 The Tree Sets app is licensed under the terms of the MIT license and is available for free.
