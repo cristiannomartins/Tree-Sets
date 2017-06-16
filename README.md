@@ -62,4 +62,5 @@ When ready to save the modifications, touch the _Done_ button and the new inform
 
 ## License
 The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc.
+
 Everything else is licensed under the terms of the MIT license.
